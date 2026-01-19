@@ -652,38 +652,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
-    ],
-    [
-      "6acef61e-7510-483b-91c5-9d8a2c58f50a",
-      "OVERVIEW"
-    ],
-    [
-      "d8ac4871-c245-42c6-924a-c09cb895b08b",
-      "BLOCK_DIAGRAM"
-    ],
-    [
-      "c582aa5b-bceb-43c7-823e-4bc027bffba3",
-      "MCU"
-    ],
-    [
-      "4a69dce2-d5c3-4afc-9f40-a99df22bff30",
-      "MOSFET_DRIVER"
-    ],
-    [
-      "ec8aa407-63fb-4479-a06c-7583509c2e96",
-      "MOSFET"
-    ],
-    [
-      "4b3fa387-87ed-4757-a85e-cf275a3b7618",
-      "CAN"
-    ],
-    [
-      "e7a64f0b-8c12-48e4-bfcc-b340889fa772",
-      "FILTERS"
-    ],
-    [
-      "6569bcff-12b2-4a10-a6fe-47180228aeb4",
-      "MECHANICAL"
     ]
   ],
   "text_variables": {}
