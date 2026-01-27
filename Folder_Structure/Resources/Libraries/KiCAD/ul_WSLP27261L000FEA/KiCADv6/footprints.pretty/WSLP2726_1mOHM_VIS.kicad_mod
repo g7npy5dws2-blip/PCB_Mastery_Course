@@ -1,0 +1,256 @@
+(footprint "WSLP2726_1mOHM_VIS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "WSLP27261L000FEA ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2d82450-da92-4f32-9f54-f8127393a308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WSLP2726_1mOHM_VIS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f44764b5-388d-4bd6-b7d3-57ecce7cce91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d9c3f57-38c5-46dc-803e-9ab80bfd4276")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecf92089-f929-42a3-80c3-05c444d45c0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.683 -2.46126)
+		(end -3.683 -2.23774)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e589591-8eed-4b7c-a40f-900284811215")
+	)
+	(fp_line
+		(start -0.91186 3.5814)
+		(end 0.91186 3.5814)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "009f9764-bca7-4fbf-a9d0-f0c3a13a3896")
+	)
+	(fp_line
+		(start 0.91186 -3.5814)
+		(end -0.91186 -3.5814)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f1725a2-1b4e-4a8b-80e2-920ed5cb7430")
+	)
+	(fp_line
+		(start 3.683 -2.23774)
+		(end 3.683 -2.46126)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0beef5c5-2fee-45da-b404-55e78a6ba638")
+	)
+	(fp_line
+		(start -3.937 -3.937)
+		(end 3.937 -3.937)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4bf6e2c-2612-4594-9252-a79246bae225")
+	)
+	(fp_line
+		(start -3.937 3.937)
+		(end -3.937 -3.937)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c044102-44db-4b21-83a3-f8705a2402d1")
+	)
+	(fp_line
+		(start 3.937 -3.937)
+		(end 3.937 3.937)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9950966-93f7-410f-a999-ed357d179eaa")
+	)
+	(fp_line
+		(start 3.937 3.937)
+		(end -3.937 3.937)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41e1fad6-c435-44e5-94c2-3c152f184520")
+	)
+	(fp_line
+		(start -3.556 -3.4544)
+		(end -3.556 3.4544)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73817853-d62b-442d-9e67-68f23b9c21f4")
+	)
+	(fp_line
+		(start -3.556 3.4544)
+		(end 3.556 3.4544)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37704c03-ca39-4779-ad12-d1e5688825ef")
+	)
+	(fp_line
+		(start 3.556 -3.4544)
+		(end -3.556 -3.4544)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3576bbd-dbed-4a1e-88a8-de4e9004f125")
+	)
+	(fp_line
+		(start 3.556 3.4544)
+		(end 3.556 -3.4544)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d18147c6-3d28-4fd7-8c6c-cbfdfba8ebe8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ecf9ecae-eaa8-45d2-a4ad-1d64a8b5660c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.48 0.89)
+		(size 2.44 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13426140-e07f-4d82-bea5-b4ae8ac3f523")
+	)
+	(pad "2" smd rect
+		(at 2.48 0.89)
+		(size 2.44 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "21dd02c7-33fe-4ea5-9671-aeac7e7eb51b")
+	)
+	(pad "3" smd rect
+		(at -2.48 -3.245)
+		(size 2.44 0.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f71e4d3-64e5-4ae0-a498-9fbd0bd7064e")
+	)
+	(pad "4" smd rect
+		(at 2.48 -3.245)
+		(size 2.44 0.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6bb4403d-00db-49c4-94b1-fcca458eadc3")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "7ed4ca07-47cc-4141-adb1-bb299723c9fc")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.1938 -3.4036) (xy 1.1938 -3.4036) (xy 1.1938 3.4036) (xy -1.1938 3.4036)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/WSLP27261L000FEA/WSLP27261L000FEA.step"
+		(offset
+			(xyz 0 0.225 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

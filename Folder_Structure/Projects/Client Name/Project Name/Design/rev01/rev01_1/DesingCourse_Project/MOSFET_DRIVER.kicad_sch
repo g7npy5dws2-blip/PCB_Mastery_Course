@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55")
 	(paper "A4")
+	(title_block
+		(title "PCB Mastery Project")
+		(date "2026-01-27")
+		(rev "001")
+		(company "Integro Consulting AB")
+		(comment 1 "TBD")
+		(comment 2 "TBD")
+		(comment 3 "TBD")
+		(comment 4 "Josue Godinez")
+	)
 	(lib_symbols
 		(symbol "DRV8302DCA:DRV8302DCA"
 			(pin_names
@@ -1266,168 +1276,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -1960,6 +1808,330 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SDR0805-220ML:SDR0805-220ML"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L1"
+				(at 5.08 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22u"
+				(at 4.826 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IND_BOURNS_SDR0805"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SDR0805-220ML"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FIXED IND 22uH 1.5A 110mΩ SMD,7.8x7.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SDR0805-220ML"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SDR0805-220ML"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IND_BOURNS_SDR0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SDR0805-220ML_0_1"
+				(arc
+					(start 2.54 0)
+					(mid 3.175 0.6323)
+					(end 3.81 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 4.445 0.6323)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 5.715 0.6323)
+					(end 6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 6.985 0.6323)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SDR0805-220ML_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SDR0805-220ML_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2570,7 +2742,7 @@
 		)
 		(uuid "6c2e2263-a9cd-4c91-b053-03f74f7bd0c3")
 	)
-	(text "MOSFER DRIVER\n"
+	(text "MOSFET DRIVER\n"
 		(exclude_from_sim no)
 		(at 144.78 20.066 0)
 		(effects
@@ -2794,10 +2966,10 @@
 		(uuid "852cea2d-1b11-4491-a9b0-9dd282a1528b")
 	)
 	(junction
-		(at 198.12 62.23)
+		(at 125.73 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b7cc020-26b4-4450-a54a-0db95e8b33a8")
+		(uuid "8df15b53-5c66-4281-9c0b-eeb7c14a7a47")
 	)
 	(junction
 		(at 199.39 35.56)
@@ -2824,22 +2996,28 @@
 		(uuid "aba27a41-3032-480b-b6c7-c7db28308ce9")
 	)
 	(junction
+		(at 177.8 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c0f451-f51e-4f65-8379-e7a40770f55b")
+	)
+	(junction
 		(at 160.02 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb326830-8eea-4bab-9db0-1b51476e6a43")
 	)
 	(junction
+		(at 198.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d206b33b-a62a-4c17-8671-24b725ee419d")
+	)
+	(junction
 		(at 55.88 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d747e056-26ad-41c8-b153-c0542033126d")
-	)
-	(junction
-		(at 177.8 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d799386a-9e6a-4033-a8b0-ede9d73909b0")
 	)
 	(junction
 		(at 55.88 76.2)
@@ -3229,16 +3407,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 62.23) (xy 198.12 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dfc9e3e-337d-4e28-a3ce-7e1db22ccfd4")
-	)
-	(wire
-		(pts
 			(xy 83.82 86.36) (xy 100.33 86.36)
 		)
 		(stroke
@@ -3266,6 +3434,16 @@
 			(type default)
 		)
 		(uuid "2f318f7d-7f2c-4fb7-9c1e-3ca95e5affcc")
+	)
+	(wire
+		(pts
+			(xy 125.73 135.89) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc61de1-fdd0-4034-919d-1753982d2e34")
 	)
 	(wire
 		(pts
@@ -3326,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "35884d85-d75e-405e-9634-58c7aa67f5f0")
+	)
+	(wire
+		(pts
+			(xy 193.04 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b6f4bc-501b-4e6e-87b7-b223bd03f0f1")
 	)
 	(wire
 		(pts
@@ -4549,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 138.43) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64ce15c-c18b-4a23-965b-10aeb8d81a4e")
+	)
+	(wire
+		(pts
 			(xy 259.08 35.56) (xy 271.78 35.56)
 		)
 		(stroke
@@ -4709,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 62.23) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e752710d-ba0f-46bc-a767-5c3abf91463b")
+	)
+	(wire
+		(pts
 			(xy 204.47 46.99) (xy 209.55 46.99)
 		)
 		(stroke
@@ -4776,16 +4984,6 @@
 			(type default)
 		)
 		(uuid "f1200844-167f-4df4-b68b-9a9d7196a632")
-	)
-	(wire
-		(pts
-			(xy 177.8 62.23) (xy 184.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d4f3bc-0e9e-4713-9e2c-b60130719673")
 	)
 	(wire
 		(pts
@@ -6698,6 +6896,12 @@
 			(uuid "a9d2a34f-f1bb-476f-935f-4330f93305e2")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR040")
@@ -6768,6 +6972,12 @@
 			(uuid "92c11f68-f018-4fd9-97e8-198aa1207480")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R21")
@@ -6835,6 +7045,12 @@
 			(uuid "d3fe11f6-c86a-431e-9916-3409f467ef16")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR049")
@@ -6904,6 +7120,12 @@
 			(uuid "b0eae2d0-ae2a-4e0c-accb-fa71d7630fa4")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C20")
@@ -6971,6 +7193,12 @@
 			(uuid "02b75105-040c-4db4-8459-e535a5ad67e4")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR039")
@@ -7040,6 +7268,12 @@
 			(uuid "2d855796-d56b-4034-825f-fb93f4b438d4")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C41")
@@ -7107,6 +7341,12 @@
 			(uuid "da7d6469-f538-4c3a-8ba7-c59bcc5e0711")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR044")
@@ -7177,6 +7417,12 @@
 			(uuid "115902df-b2ab-46a3-95ea-2d622e52c00d")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R19")
@@ -7247,9 +7493,82 @@
 			(uuid "8f6650df-12de-47da-8759-e559e6ec0fca")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.73 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bae4cfa-c97d-4373-b00b-a5da104dfdad")
+		(property "Reference" "#FLG03"
+			(at 123.825 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff87291a-b247-40c2-b6ee-31065fb80a2a")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7316,6 +7635,12 @@
 			(uuid "fd641234-4a63-4ce2-a598-2381f9251e3d")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C40")
@@ -7384,6 +7709,12 @@
 			(uuid "f61003ba-2051-4b18-969c-867854abf384")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR032")
@@ -7454,6 +7785,12 @@
 			(uuid "943bb5b5-6fb8-42e9-abb4-383bb1ea8b8d")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R22")
@@ -7523,6 +7860,12 @@
 			(uuid "96ee1a73-4f3c-4ce5-a167-dcbf0cedca00")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C39")
@@ -7591,9 +7934,109 @@
 			(uuid "541cdb27-082a-4d8a-97a0-8b2c27427805")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SDR0805-220ML:SDR0805-220ML")
+		(at 182.88 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a40924-009b-471c-b67e-129108d7565d")
+		(property "Reference" "L?"
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IND_BOURNS_SDR0805"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SDR0805-220ML"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 22uH 1.5A 110mΩ SMD,7.8x7.8mm"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SDR0805-220ML"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7771f03c-5216-463d-92e3-15092b9c1d3c")
+		)
+		(pin "1"
+			(uuid "42d38896-06a7-4071-824f-ea6fa7d15523")
+		)
+		(instances
+			(project ""
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "L?")
+					(unit 1)
+				)
+			)
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "L?")
 					(unit 1)
 				)
 			)
@@ -7658,6 +8101,12 @@
 			(uuid "82e0faa1-fd88-4b35-814b-1c0658c302c9")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R13")
@@ -7725,6 +8174,12 @@
 			(uuid "56188dd2-9dd4-4bad-87ff-95e14a543f3f")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR050")
@@ -7791,76 +8246,15 @@
 			(uuid "0a1c5937-d543-4938-a767-5c9d5cdf23eb")
 		)
 		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "#PWR027")
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 187.96 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a36f1d9-51ff-4d5a-868c-44dd38d4c93b")
-		(property "Reference" "L1"
-			(at 183.388 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 192.278 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 187.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "683864fe-41b3-43ab-a6c4-0096bef0e4d6")
-		)
-		(pin "1"
-			(uuid "cac1d0ea-2848-427c-a50e-cce6a5338627")
-		)
-		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "L1")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7927,6 +8321,12 @@
 			(uuid "53ad6a7c-dcbf-4042-9f54-239ecb7e754f")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C35")
@@ -7996,6 +8396,12 @@
 			(uuid "797d631a-22f8-4d45-8651-dfd85c00a5e1")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C30")
@@ -8063,6 +8469,12 @@
 			(uuid "314bd7cf-b5b2-4ce1-808a-5f13d5f919a3")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R15")
@@ -8130,6 +8542,12 @@
 			(uuid "cd5bb166-260f-4ea6-9cec-8fcfc3829d31")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "NT?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "NT1")
@@ -8199,6 +8617,12 @@
 			(uuid "89dd1017-5c39-485f-9f37-2651e36d25a2")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C36")
@@ -8268,6 +8692,12 @@
 			(uuid "b0310fe0-9056-46b6-b0b7-ac03dd21d0a9")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C38")
@@ -8337,6 +8767,12 @@
 			(uuid "fac65d9e-592f-43cc-8d0d-11448b894a3f")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C19")
@@ -8406,6 +8842,12 @@
 			(uuid "fa28deaf-6c13-4339-b716-143d63f38c28")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C34")
@@ -8475,6 +8917,12 @@
 			(uuid "fc62519b-e362-4563-acec-e7bd454576c7")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C31")
@@ -8542,6 +8990,12 @@
 			(uuid "e062a683-3ec4-4fcc-b019-46552319a438")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR045")
@@ -8608,6 +9062,12 @@
 			(uuid "c64c8182-9e25-437d-85ca-872c8dc31d9f")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#FLG02")
@@ -8677,6 +9137,12 @@
 			(uuid "e57fa789-bbba-4f00-be77-0a38458187cf")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C18")
@@ -8746,6 +9212,12 @@
 			(uuid "f277dd87-aaf0-42f1-8dd0-7b3131cf0da7")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C21")
@@ -8813,6 +9285,12 @@
 			(uuid "26ea0803-ce30-42b3-a589-762cd11e23aa")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR048")
@@ -8883,6 +9361,12 @@
 			(uuid "1b3d1d73-9a55-4913-9913-8ffc1e015e80")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R16")
@@ -8950,6 +9434,12 @@
 			(uuid "80cc06cc-5e1f-4123-8905-3b7a570adbb5")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR029")
@@ -9017,6 +9507,12 @@
 			(uuid "a9334bc9-9061-4cbc-9c0a-a234efa02cbe")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR035")
@@ -9086,6 +9582,12 @@
 			(uuid "d52303ec-15d2-4e4d-a7e9-1050d64ee65a")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C32")
@@ -9155,6 +9657,12 @@
 			(uuid "525796a9-2d8e-470b-b30c-4fd5de744167")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C22")
@@ -9225,6 +9733,12 @@
 			(uuid "a4b58b19-a8cd-4b44-b1cb-bb268585c86a")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R17")
@@ -9292,6 +9806,12 @@
 			(uuid "ecc4d103-c2f0-417d-849f-5e93482f4dd1")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR033")
@@ -9362,6 +9882,12 @@
 			(uuid "afbe8f07-0f48-4923-8a0a-92793b4ddbe1")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C23")
@@ -9432,6 +9958,12 @@
 			(uuid "4982f07a-5e30-444f-8791-582a6026ddd1")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C26")
@@ -9500,6 +10032,12 @@
 			(uuid "53ddacf1-7b9a-40fc-9b36-6ce712ada394")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR031")
@@ -9570,6 +10108,12 @@
 			(uuid "12f9b9af-e8aa-420d-b2f0-812df926db63")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R20")
@@ -9640,6 +10184,12 @@
 			(uuid "cd16f148-754c-4d0b-a297-b9ea01b79876")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C27")
@@ -9706,6 +10256,12 @@
 			(uuid "0a1dc5c7-c71b-4dd6-9d46-8a742a337d03")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR037")
@@ -9773,6 +10329,12 @@
 			(uuid "41f6ad70-48bb-49f4-b790-173e0783ea44")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R11")
@@ -9840,6 +10402,12 @@
 			(uuid "73d8e6d3-1850-4ccb-bbb7-7e0721006d80")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R12")
@@ -9907,6 +10475,12 @@
 			(uuid "c87bd23a-19af-4c7e-8369-89abef865c01")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R14")
@@ -9970,6 +10544,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PMEG6020AELR"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuere" "Nexperia"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8750033a-a009-4d88-9644-940acf797569")
 		)
@@ -9977,6 +10569,12 @@
 			(uuid "8e6b5827-b7f4-484e-a5ff-8589b218e407")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "D4")
@@ -10046,6 +10644,12 @@
 			(uuid "87d0e979-1fe9-46a4-b705-2138e04484fc")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C29")
@@ -10113,6 +10717,12 @@
 			(uuid "43cd98fe-f395-478e-9d91-5b901052d4da")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR047")
@@ -10180,6 +10790,12 @@
 			(uuid "71182d88-f932-422c-a380-cb4613dc7397")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR036")
@@ -10247,6 +10863,12 @@
 			(uuid "1cff18d3-d667-4330-909f-163203de343a")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR046")
@@ -10314,6 +10936,12 @@
 			(uuid "2c6421ac-8762-45b2-9f8e-93b9cfa8d15a")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR041")
@@ -10380,6 +11008,12 @@
 			(uuid "f4babff1-d02c-4cd3-9bf9-44a496b2bf40")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR043")
@@ -10447,6 +11081,12 @@
 			(uuid "792c7854-b643-431d-80e5-f011b76aeb37")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR030")
@@ -10457,7 +11097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 134.62 0)
+		(at 125.73 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10467,7 +11107,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfdc864e-b56f-47b8-aed3-2e4d6202d47a")
 		(property "Reference" "#PWR028"
-			(at 125.73 140.97 0)
+			(at 125.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +11116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 139.7 0)
+			(at 125.73 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +11124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 134.62 0)
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +11133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 134.62 0)
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +11142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 134.62 0)
+			(at 125.73 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,6 +11154,12 @@
 			(uuid "6a39b6fa-8400-4d3b-954c-22982f1039d0")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR028")
@@ -10581,6 +11227,12 @@
 			(uuid "ec9161ee-1b78-460b-ac37-97f5c36269b8")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR034")
@@ -10650,6 +11302,12 @@
 			(uuid "47d71304-85e4-4251-89bb-7a2678c6aef9")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C37")
@@ -10720,6 +11378,12 @@
 			(uuid "db8c7436-9fb8-48bb-a1dd-e7081b0a0636")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R23")
@@ -10790,6 +11454,12 @@
 			(uuid "17ea0132-74fc-46e7-9716-a4f6d024f82a")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R18")
@@ -10859,6 +11529,12 @@
 			(uuid "b5b7e404-daa5-47c3-af35-518c2f4123fe")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C33")
@@ -10914,6 +11590,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV8302DCA"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 125.73 86.36 0)
 			(effects
 				(font
@@ -11094,6 +11788,12 @@
 			(uuid "b35b96c9-a785-4904-89b4-1aee4ad33127")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "U2")
@@ -11164,6 +11864,12 @@
 			(uuid "53ecc0cc-1d00-411b-9c93-c4cd298badd8")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C25")
@@ -11225,6 +11931,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BAT60A"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inineon"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63e07deb-4aea-4b65-bb14-3c24a552b883")
 		)
@@ -11232,6 +11956,12 @@
 			(uuid "af9db08d-6eef-4a1d-b6da-cb2706e6e207")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "D5")
@@ -11299,6 +12029,12 @@
 			(uuid "17f08153-43b8-4fbb-b510-1c4501b4b886")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR038")
@@ -11368,12 +12104,303 @@
 			(uuid "9b5a3978-7c64-4ef7-9e20-d391872a785d")
 		)
 		(instances
+			(project "MOSFET_DRIVER"
+				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C28")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "JGB template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDVW93gAb6pRBwOHdBIIvkoz/9chfy55v5yDNpXWcNNhOphlO6GgeUFOw4EDgcObSR6cGwR
+				XLDEyG6wXGhcFS2/9Lnhn0sG9LVcJG5oDXbOIqf6uiujv2cuvhm8GvY1bxf1JucbuAmtxg8qmuv2
+				ntYUb9RyCY5WLKvLoq6bwUpLY9HDW84EaYcKo9fpXFuK3I7TZDngMkyFmDi0FFlBSriroboF1b6s
+				DALu7m+obirKjZWSepE87GwhRe4LhJjtxZFcvSdLDyN7QDCoG563so1iEbf+9bn+KDG3CeT61zmF
+				wM/3n2z85ajrk/LPYFuiqjFHNXagjJrLqKHGmnjjp/rNc1zFX2G7ltviPUMkt7nMXdyFwT5ZbI5+
+				7vv3fGUdt3KJeoyZGGCsIfcTG+BjpXUbgHpkrGsfujrU92swRzfhxUW5khU1cw2X8/hkGmf6YqI7
+				0sCycD6jkfHL8/l3+N5VL+eSiqMJMkuSUaW3mjRfOwaTPRXKs1CX9y0G1HDH3qceD9gX9iE1Vgon
+				thfWeb7xszaegLljfRoGgQ4PHx0k4IaTKryN7B1Btg2zKGuH60UPD5j6gxDnnURXQyuCq6x5GNT3
+				Y8Q4QFrqDOOHVfAUZ/ZDfExR0aAYxEGIOoIfPCQNhWHdftSnGrm6bWtBEDkBBXXgYJPMhd6VdbVp
+				hmjLZw5yYgoOoy6HqPtvL2uXPM0dpFAqk4qWuBHeBbXQwYOMNoLPcTvafnzIaEOtHsfWldhtwOKI
+				nZ/QKsDdkCVsI8QUJvUngbSWjYWgMDJDToWMQvnho4QnOgahNtde5vrY8xNw/lPC7TTen6YId8b0
+				1jsZCe2OWb3DfP++g7fy/L2/Ju/WYtbEzYS4ry9q66/rOWHiG55IVpzpM5qkKbsUPxsF2B97YF60
+				13mu7uQk3mh19bF1+3bIxbCarET6OupJhhfV46KB3vfIyGLzu0PMsjj0paOGONi3AU5EUogIRO0r
+				t6qrGDnTZn1HlZSzCrP1oQPfNlS08w2raZm9f7GiGM8xBtYAkX+5CcX2/7/jXOtUo0FyF6Cu5ugC
+				q9cRXkKTdABLSm3Y8c/TxhPM+LdAFttCwYAhXLKDYu5oeM6RR/2TBhiHC+D93PjIGGDeSTuWeGZD
+				9Uz/9mEE25bSMppQ4Vj1CNYcB7xIdLsg1NLrCYerhvU/57yC3+Wfu4WrN6Q9qXd52tIckfNyf+dg
+				NkDY17TvU48CZbF1QdnzYIMiWnft6xYBXgIDCprAr/sPNZnDAB8FV0RVoseHYxjKz3cbNj2tfXs7
+				od5V8dttYxgOqjbDeB9QI1+m6FLNSG1PTh8wI/p2M0YIFoEGdV+Exob8h1iOLpw+EyiwJWtUNtV4
+				YbR90ReBFDa/eIXJxYDsR8iFs1D9armMt9WzzNWN882IkXsi1etCjy5ynNj0w4NWa/NmAXcB6USh
+				uIo4ITP7PSYEvgj7CLOK4BJBrJYQUifWVhXVWnyzFP/pwgZBvwUsLmj+o7DVAw365weaMWM3eZG1
+				eH2jSRagpr9wzvitZKnCmXgCPuXUaVstgVZAemBy463P1c9pKlqXAm7mTtUG92nAIBJlYFtHfz94
+				jm1VRl812sMywh6kz4Gd9gqJ1oAI0JEL/9qJQdbPreD0RzSfA3xj/49R6zJyVmp50RSwiI+CU2Dh
+				26DsVtE8IOM+E63EezGKiJTvn8vE28nZAoGJDAfvX/faD75qbXXsTYn9xwFxMQSuGvsJP6foUIsJ
+				odz+nsLsW25Wca/V0+5ALH8JUaVLUK+vOU1+Ct0TO5ov7Dgg1syIjBC+BPNE+mz4uCyJbSj6XbnH
+				5qsJi+Al5tqIOY5kAipNZOLKc2jK0K7gqyNlmEpLBVIlKkbBinuIwHknjpVdmbJTGsdXkqfn3naq
+				S8WpEZ2/SKLw/qDFPY13qpTFxjDQqeNjzsvccqYSzKANPM+GyuQkO0WjxtSsmNFfjDoL1+wNLz3o
+				SJ9f533+yJzNhDTEu69sYKqDfW9xhhA6XmlFm2/L3pk8xsGF59oLMIfYVzqcWcHYY5TUIfFhHuFN
+				ekjElzLZRch91tDTq48FV1KIcU2XnK6kd/Hje+9SVJhjwyeUw/yth+hI7pxa2ZWmw8lDPZhhF3l4
+				Eg2U+DpPh/pQ2a+hmxoz+B4YHORuduywmwNx9D5GXK1dKHZ6vq6DQtiCPXJEYt/g18nLCRyezEn/
+				6+D0JidAPcLlCgv2g2BrReO+FDfmc//GGhPbFQ9vDLQYA8NVDXUktdq74ASRFPsubxGS7G5QO731
+				UtO7rF8yJvM3YWL/z8Qi6SaS65dt4r2cva6erMdG+qbAj9tOVPqP/W3tU/y/f6lqM9t9k8tS2hP+
+				FZ0IgSqZcmea0YkTNOzW8EtDIg09BZZJT5F7ixlS9xEjPLfpW+sofcYmRzb7DVtQb6jKBu1m22gm
+				Gy9z5X+f7O1VVqExIelWV5zsbvjzWa7GGF+bQBQ5krv2oRC8WSm2a5xOEQW5WTbWeA4PJ2LVETlC
+				mot0/HaH1PtN8xi3FAOv7uzSK93FQNBUjjM2Y2HgQEJZA7b+/xU/qLmcdU5TqetDFaxkYGOGbe5f
+				KoD/Aaq4BZpFSsKxnBi5krCzrFziRUDi6wxHzuL7mj/bAUbe9bX/UTDwXf+Glrhs2jGS6MwW0rOS
+				QPrVaaHXbKH3eU7QalrS/EWTqX9Hwf4QhxLUjxN6ByXjvtHDpgCFRPTfZ+p2ZbCEMRnGzP0jWw1g
+				jALxYU27czJKIs/6534XcHqVCUQlO5bVcG3kZ+CtuBDschD8mjo9C+tdzKuS/sULlxc004pvLjkm
+				WaYjbehR8vFUyDmpzlFtFNnrGyjja5jOXrhp/BUnnxjS+EaDnZvtWIIbHLqBUKP3q7KZmbWeRJqD
+				itOGZVY0kXBVSEoT8tIuzPsE0696ux0cGgyuNCjQ3O13Lf29It+NeX4hKd8/Lcv4MVn8sYmAfJIi
+				FEuY/N+HCgdk75Tx1EG21h2BEZyjaeLWBSaTbkskOi5TGig0RTyCycCqAIv8K0VU3ki8nygDI2B9
+				3PWxjEumFZDyf+wb981fMy2ZfEGqUSQlaaxAhgmOlkCej2p5lpSKTFoRvB2NzGFyaOYgcntJGc3F
+				gzR4KOPOBEue+n4SX63cIkL1Ba+t+Yad52cRYjpD38291mInCx7t7QZK0D9wR6tZz53LtlyhKu5y
+				702ZSM6qX7+YAJ9+tPwGOPJ5r6YHm38N/Aqs6AZiiIAmspjOUB7f3ATkE83BXjjt8jU7BXjya0W5
+				CrQICiB9PlsUa6YHg8XsaCBULCri4kuMLUawN+gcZI1Gt2OPfjhIJKEVUsBWCtNsxbPAs9GmODSr
+				KlwehH8ZB8L9FJK3M0c8Yo1/A/PHC5K4553sg/OTJ0/eSNARC44Xqn/oylH9R+GnPTQmJA+Z7gU4
+				6gtbgpDy+dHNdsbBZ39MvoECrhnnPPOgc2TqZaiUJKNFv93csvk3UIbDqu5u1LI1sDBm8GnMcL+3
+				l/W+gkhLUIA74epZiwiD4MksYNOyArzw6PSj2BUYqJp5GXo8+SvDX0l72PcUdVXF0iOqOQRiMnnN
+				RKILg9lwqonDavSRU0gq0LzdJiFmY5nQjb+aZJ0pLmcVGTk73xPbfCUedAJGGpObNIIt2cEppDWd
+				qkH/szB/1B4XRQUKkm4Eh48f/X4wu1q4wW0nN2CTTnDx94PmYvtCga69DqI7Wm0XotZR7IP33/Zf
+				24teqsdS0zBp3P4ZDuo0q3RUYQ3H3LmAPF78leBu0KHn5HiA7xowR1zr5UYb2fVDO0kOvUBDNzv6
+				Bmy8USmWkvjn4ZSSUDvcY2/p4Bnm9KwAObTOZJoy92PCc1r89yx+I36N2XlxVx8l+09H0mhlM4ut
+				FEbilPANdJhkvote2o9/SBdFx3XS0cwXTzXaxf7w4V6Be0Y9zlFrkOfVh5QbNcBuEDs9ymDIWKNN
+				zQ4d6CwmnM2SH5kNDUQ2/yZA1fDYaCNkx9cE5j0HvAG5JfyhF9xDHkfz6jiI4u6a8MlknQe26MXf
+				2Ws6rmYJG5lqMIrNHNZug76uh4YTHs53yKNWn66DLF20rAet+RS6+GZd7O3FMXxvCpPdIt52jsIh
+				qaa211QYpMpo4LHRqgbem6RsoOnvVuGhz+bS6YfjrlVgQO1XECQ/FqRNW5lYg99Ii3Qui1ThUz9V
+				UH0WDiWwC0VxZEz5PRZMvtzTRp5nSRAZIHe3civR6xyH68PqPq5Yc4Ib9qSBJsEqhAbqiiJOrFo2
+				kJZKxqQDAACcl9av/YYwryHaI2la6MXRhVwUw0dBoRwUks1TPrzHglELellDs9M18J3mhO4ADjBz
+				MyUOUGMTTWpTzt0z2em7rpvBiF1TjhiFQQBhzLx5QwWzHAhIgH8ekKq86hZJgTBGYRwFYxBJMRjE
+				l0UBfzZrmX6KYRgQMBQHIAg4GDJrtoD2KNTXbF8UUd6yGAg4Ak0WYZXkSqgbm7l7wAGKAwoFAQMR
+				YV/1xbn7FURBpO4Buaq2HgGEBhAgrQZwQG7KN70ecKu1uXXR1mzq73ppTJ8HHEUVRt2udssygAMu
+				AgHHAcxAZFrldVG4AKh5qosBBUAQgDAISA5QlgZEXwMtIAI9r2JAAQ5IgJqb0H3f/q3ms4oe4K9u
+				jusv0fgFcsBwnudAGAYAQD7TK3EAUhyA0/UAiAEccObIYCDFAQPi9zc6u7mp1uoBw63ON43m8QHD
+				AcMAYJSOzwPUOHfzA9Q2PyCddfo2DxjAAfmsyjKNFgcUB6SzehgHDARxQH6bOT6AARygyuaco+pt
+				AJnOc/qs6bxl3XsgDphd9jblBeSrGh8AIRAwHNDmqcursxsfAEEAcYD6u3jeq7kBAFDruYoPCGAG
+				sIABuKm6gLgewAE3nZu3OqvsARaCIIxiKA6YaRe/1d0AAAiAAHCYX0Bqoi5sgJz/p6w8ef+DugXk
+				8BP+Z4OAE1Y2EWJCy1L5taPCNtVbyLM+t2iItU3Rt2/vGN19Uujqf5KOQAE0mK/8PXMCdZkYZgIK
+				SSPmKqaXyhV3iN/5AUPOkB+P6kGG3sUuJArsxv8ARE8Qssz0Bd+if/xcfhzwOvacgY14gsHWRVNg
+				4yEmrodFxEiy7QhjK41cK91e6KmEn9UGI1ixvznJ0ubZNjnqODOwQLJ2P27sqNUnVYkHcoh07dBC
+				bMfH6J9kMmp+Lzcq94Y707/JPo2LxWYCqRIw7TDzO80RZ0/QNvX/uthJoQ9LM+KCPeY/Jn9uncGv
+				ZPD1ZXAdmiAxXSwobJSKzXC727JTj9rDj9055n98gZwgn26HX3U7BWvQg/7WLmFojol+8aCVvyID
+				fLw77yJMDQarGhKajkoUVm6oMyKC7l53psWmIe6rbtv2tjeicfmhqzKJHCEKcj3C7QdU+sfuMif3
+				fYxhk37cz3bEwaxGh28bkbOEIzwvv5o/+2VeMd7ikjCQr/7+UGAzlxr+p+Aq2KX4NMhXK2MDYlxE
+				wyUmKforjvNGQ/naU2IHBN4mnL7CfRLIEmQJjlCQDUrjE3SvQ/P7ZVt8Kto6qn4nVUlXySqQK2GW
+				Dku0ZbOM1ZDvqJGanOHXhUZO1mubfW77kwIYbW6d764EE3BBmtlNkKQGfxDf4+L6XkwcrXV3tEtt
+				ItkTP99ouKYGv/axVBKEeA+d1z4rBL92zBuvP6KvmKzQLI0Lh9Hqe7fNcy0Og/3xmaQigwGpPJva
+				Hz4c0bBRfGpi+hrx/dKyiHX9fcu7xjkRvZLEZwoR1jMqd0G9KihyZY+1p4SJ6nQBBdjX7XApxe1m
+				81dyC41rz1iI7QQSmSSrB8iu1js9LhqSThbV6YFQ01ATkFE4Tz1IDm1vG83R5hg2oXZdLSyCy41/
+				OieybtGTqW+udyFvDdcQyWibcFXMS3e053NS6y4GQ8R2WBuqDT4P8r/mpXwf1VcyfwUfVtV3shbh
+				Z5PSQoJPj5S2g3z1TdPwN6g/HtWQvUvX4gq3Wit+djGbNx+cG8Rqusrb9M05HeDH5ANQPbKfylEJ
+				l1JJQXpGVu/Ksvyhy2ObZp51aLXHR20DRiBM/OAzRZmxhwRlZ8u4HOCBqFVbi4zeCemdWEsUb6Ix
+				wmyj3MbQr7Hp5REJfSoOIXYtihgYewqfHgrqHQ38/fKUIzSUlBzXD8j++iygLV1SSEnMxOms2y6y
+				DNkXrMRyDkQSOrVV8CQYybDi1KwFWxArybGUmm/jqwIjxw679oiJ2DRxlVE6u5OOkgh22yBHTxKw
+				tdlYv8o6dKLxQ2WCK5F7chJvPQwZ1ABK7vmTociiYfdibPIfMMqH7h0WtemB+heinIh+qOvOO3d9
+				guGXZU9K7sO8Ln/1DmwToN+qJqC2zHP8wPzhMEu+3wY5zwKpkYGOQrVyx5sb7RXBwjULppe2mxWo
+				l6Del1YWi1VIsuaR3rJaGlb8SK3OcaGZkiNjwR3z+vYAJcgITS+V0ZrwfyVd14V6aqnZPCdhz5XC
+				nEVtHK90p0phzEJCBej8SyCq2KfYgRKIFxSNYeZ7aZSiXDVEkKBPH8ctQ/BejDwqXpmnl5xlFwoW
+				7HPR7eL385xSSUVkzSERbq4U3jjunMqe/06oqm3mfgVnA0vfMP4fYoSgo1IrxIXdrMSlCpigq+5+
+				+0MxTEP+hOZggRIRQzLmpZ4WHss/L54RNMavsQuStMh8Pcb7w++B+g97nnBwDbdtSFN8Lf4l4NuH
+				6KiSqIVgPXvqlxbbHI4fEwWoVb5y/Mp0CzFtBRYEv38EwWJW7artZHAJWbzCw/Ia5JFGsH2yfcGq
+				oTkKGgoMiOTTkqliZelk+DmSYVMRQbp46ycqt4Xlnw7Bo5pvkNDWJvga/2CvBbbNE/EpeMRl0lBn
+				LaUuVdfqBkGSaETVs/M/XbFOWJi3A1FVYnCVxKZVPrkR3pcctx6u46pwWdq9QWaxBVWlI2PXZl3R
+				s+xsrVYfFpTpIqzd7eethzrTBYXq3smaZdp2CJtqiss8aJYr1v7f/+gbi2cbuFh6pRilWMJC6E0Q
+				JIDQwogX5Pt4bN1/3htwsg31WkhK0jS6rXQZ5WhKyGJsgfdgbHhrLgsSoRsVko0FbT0Uc1NAQlZQ
+				5M8MlgrT/+8ly63kObmUe+aeD2z/ytLfAqS6UgIklL9oxbj9WivYJYnfgnSGFYF6jAKE3m4WwGwa
+				ibzwy1URubMI+grPhNYXM8Oz7RCyBt9JiauKRwqUJKVKUonGKcd/QZwMiVeHkVCG3Z1bDgSByud3
+				5L6vW/4pCqLb9W/1htKCBs6mqwZtx3NMNnSl8Fx3OOeBVRpxAUOS2b/GXS/r4LJpzdy1zpTxHatV
+				+sFyml+ikyvI0b/gSDpMFIWPBx55y2o0c1Xf27PwNPer8KbBB/G912n/gbRjk7qj6pi6+WiOow9I
+				nZJ6dYLzP1X7DW2pHu/o/vWOWppYxj2iAbIHYcrJ9q2f2mnU+LheCX3ruh/ukg57mhOkfBaSFtHY
+				7Lwo8jIoZlNoj6V/PvgHRRu91ZzWSEOj/uMpPEe7aJfV15P9D64pVW5/k7iDYJ0dlUwFEme3rQOz
+				/VTokPFx9+OFs6X4ZSRyxy7ZWlQt5kbyrBAuR4sdZGHxeV2Jk2VBuEmuzR7+AZ038xRypb8RiqwU
+				goqpJkuT5XgOJEnCwxNqaTNgRY6SUx73KqIx2J04ugmsKGRj8tnaF4weWMXh53Y0BM87882qHRDt
+				JLUfPjvanIwk5esRDj1AvZAAl8OD01e0i8Lee8HRLJmfapaj3ndUX5T686UwtxfFVKn529htYcKJ
+				rJZXjY7C4MDIWaZpmgYW5jiC9rBNJ1kxSEObpA3vcCTnYvO6GmmC5WqXmz+efSRddMs12+oxcrzl
+				NdTXs+uRrJ3tPuk8iGaDwUWvOZL8j+Z5N+L7eY1DRQd+2mSAVKQF9TN2dL2yR0/bCstxKvG0ZG9p
+				nFwTVk2EWrR++KtYWA7zRJ8KypxCeJjqly0rny3xjT06hMHpu12LuNI4og6ZHG+YDMEThgdwfNYW
+				0dEGIXqQ098I60T+PihCx/8TRvux2ZXUou3aFvwKQXORoEd1MFMqoGVIfNAnYnbzAg8ENjsB16k4
+				K2g114ALhJXd2cbDA4HPnnFQiqxtrJw7U0CorTMCyRSBI5OxgVOdVdMcomDonItKibGrOQp5K2aY
+				Ki/d9cQk2d45edClhatR2sO9lhaBnGbwsMkrR1TodlgyZSFVJTjBx5M86dm2LU7tMkYOT709phQT
+				OcwG3Wh3WvANjGrGW+XoAiFjj6SFNP7uiXYlY1Yx2WFHedSu83bZVXkW1Lod0iIdKEwwlpw5iz0o
+				wU1XhG1h09P+uP37uy3e8bcrO0yUdJdVjX+nCxQOD66HFCZDNvKI3tr+pcw3X6DdK+09OtqOWYXD
+				n8asHOYNFZWb7Ewf357IfjD5/MKPAOGDB/cwuqHFCmCJsrrryLRbjT3L8/NwmHxIJKvebvKUBYuv
+				1/pA9pJMKc8hHcfRN4YO+21Wu7BOYPqQ97YsGrYHhopblZR3XTuZsIIKsVN3gX9QSWfnAQsLi3Uc
+				7mH1Ei5yVaFh6Ct4v8iHncIURbvTWH4BGxcUij3Y1NCf0o7sMZ55Ti0EBqMEuAWlD2rg8cKpFxXF
+				Kz3ML5V66tJKmIz29aDMGUnlisARtDeN+l0mU9NWJ9hPKA5g/wH5NpQQ61OGkZ0SStabFjskjcG2
+				xEGDHVOW9y9Jg3DMCcqIt1TVab1r9dXqnXlXu58GqGVWerZBPdKwdIvDysw3Qp8RJ2Ff7QAjaZGQ
+				34h8jwNpR+6BA+tuo1DNhaGUs+Xj8JBqd83dq7BcMx5pmxiiEw+pQQp32UPdMrpj0kRtC3xqtfi0
+				HWVq2WXAVdfRduk8w5/VxpC/vMpcTDMXtqQ9sZ46xuQdact6/hTqyjqp6aWkLGXg4/QoaxzFSK5p
+				3CwZ4OZYR/ZglCwyGtUH27/pYvMQBqg4BG41VLjbq82ZiCDp5y1tvoaStLnfSQgvt4QIj6TUqrLW
+				93h7DNhRGnLEpFlbsgYGne9UAv5XvRV3aX/DibxZegkuSVZbeaatHzGpfsL8yyqRV76OmA4m1XkJ
+				hA1TtCMo5pFf3YIpCQ8m157/CF5Hkdk0qrTBNo3+6Nm6yh4JGTtukFXgDIJ1p3+wJz/eEjWv4qGO
+				/TPsBSpNrXaoS8Sww3uF+2szVe8dYZid63mECsqTp1+bP8veXVl0/Hb0zp5wRQWBKeDWSbcFssDj
+				FQjCjtvxKc9vfl/SKcZOuiLlcz6l2H9tO85kQeMD8xqzYOPxEysKCcO+YjFSph5uUlXHSn3H4GI6
+				2sHJ/RbM8VpCPS5ujUbof0Lya9wBDzSyrjDIrkvVLE472Jzk7oyvu+Z+Tv6qxSxQIi+pWKGCU8fP
+				B8zTWfYlH1y/wzLJoWq9EayK0MJhIizHR1S7gv1RRJ4tOrJG9T2pCaDKRzU42hcK8QRDy/n1D9pP
+				Sxr4mXg+n8+ZRx80bxLPXUc6wp1o0lrkvOEA9NFG+/RUyFgwWUd0YeslYeMBTu+sLpu/jewTr2rQ
+				9LrhiJiCbr27aRmjSyoDO59mtVt7j+mtAw0gocGHmc40pyyrSVmrzJxp/B+7LY/y6Lb5nigqsMMV
+				dd1QRpBQGLUbpT2l1JwzbmWaaeS0RZMWHZ7o36rErmiyp6Cs6bNzlvQjQX1AqJNslC235yMCTm0n
+				WwIK/q9R0FEGXfIvGlxoF6OQmBObieUb7B+qMtLyE3OQlB8dn6OblNLyAdHtDU2vPeTutAFPlJVi
+				EYWq0G+lBSM6oZU1EBISA7HiWx7wwnc6oTtT9FUtKR55okZM+0lG8WpmMlRjksMQ4r6urikUJgeM
+				kJE0Vji6gHE+VeTT2dHAWZY2oUw8/TWgHLKQsYUH0gppAhJC4yFi9id70w4UKCJN3r5qT68uflgV
+				mkW/Z605XmoozGgbswqbRaAfD+o1oaQ74O2YceciNbT0a55z5SMOk34XlxMjmhzBfF+lxxl9baO2
+				181JP3TPuCrndrPWeaj6R8SreR7+fwRmRLn66dVXi/4aW+ZGLTr3OyY60FjRWsycfKbacTjRqv+N
+				PjzySMrRbRfgmDNh5qDTVBbDUifwvUghdzSXiXaZKXpDZVWibQhXc1oy9xQqpehhB5fOM7ET7Q2k
+				yXWoQOmGFJpGzXD55B3bd93+Uy0g7tOFH1/d1+bGyouJlZlCzDK71y78lxyq6YYb9z+7z1N40FB/
+				lkzJwp1lyRFPsilj6qIeb66ctalkcSnZRcmFHHMU8tcNYjK4rU2z+b017jM51x6Rn9wC903zvYhH
+				p1DWRTI3KT0D5JtDs976aw4XbmC45PibHy7x6Hge4flqQYyGd3ontU0HUF5EV4jNea9drgox10cw
+				XgEfXejvlKfMOjgXUkciOAYmxvEm9dgL/Doqg2q13351oPKI4wHXFqZz0GAEbFPNWtuXhSfCnGO5
+				ikDynqx6makhYySn/ypSqR4jxRdFBCyHm/gRCdBdm4H2Sx5lCixHXyxNdCaR++Ifmt8wIH8QkOS9
+				X0lgy2uXBGzie+o2kOg9whyjJtu/Nt/fLWlJxoL/qqB77jquoMwBodRZmk7F94LML7TklTp9dwVy
+				xxRdX3Z1UYc2p3iwMpZ+Ff4W/jXwdua3XUVd8Ay49JJLBI8pmGMu2pNIKG1W0KN3oIixyeEutMqQ
+				5P3F2hwMv5/R5aXxxOoZyxG3+cCbVdf6Egpg3aTx750+yPwQUyNFhNqFR3WBivNL3nDAk/XahGos
+				8wikn45NMoVkq++8IeerPWUpMg0vZg5FtN3v0IKGrzr50t+pcBryhF5xWN254clB6eh8rbtQ7K3K
+				geLGwnNR9YrgWu2uXEfSavCXFCqxBNB0wfjOdaXEOjy6XV1VAs7QWbahX9CDJO/hkBMUTv2d5EPf
+				UOV9ERADWf1VBaroU23CHQ0vSWK0KhbMDsBnu7luBgUBD1RWMfAbRiLAbO+jVTtolOWYwNq/oZCA
+				yRTti7gGaMpwP2KhTNZ3Wrjii+Qo/tVZVNg4yERApc1IZnl9+MBszIvZO/mnezt0RRqYa0xc6Qkj
+				fzYVjJ1eRUxPkmzic+pw91Z1z0i1zXi+sDMjs46G5fgVrytpQ1Z8l1YU2vPd8wthRcznGcEzcTqz
+				/bFkKlobN5wV3OCNKUkKrVb3LOMrs7Lojb0r13dt109mgXrXBwxclcYiPVEb5v+UHGz1ckO6PgPp
+				5KbrWJ0NMyHi/rkoVEB7pYrfAh1SW55+XQmTUzSa527MZbwaSsANogbQd4Wv7OVcVaNZlUyb3zs3
+				rUNWRy9Z1GJ+t9E7tbRSvvtxFPmJW7DgDsaDkWA2mng9p9owS3KERvSnIzR4+Wc1Q0UOJNaZk0No
+				YlbSOwtLXtgqfugtUuY/T1rpE80O2dYWq2F0DQeEJ23+jBCTq3+LQHcV5iWFAIWEszD4Pknd0lmC
+				g0vkGR6iaig8w48Gc7CJc47ud0tFcboawzFajeuCc8NIRTFg0OcwDup5gKJzc5gpZjSjOInuWVX7
+				Q9uBGRpHAiZOmH/LDXbrDGsqek3G6gjsrhJtx2rNntN3YGW2oUbYwFhsaVhJTIKT10cO8GhGAQap
+				RlJ/DJzTaCaK26nhT7bRwv/7PDDnxDWm8NnjaRvjLQhuH+IRRUnoLuGcuSzCCSWIA/J5GvwiOUuI
+				VxzJoWBpHQrfvbfIMq0y8OEwq6PtS9DBfPwnJU4P+UmTUbkFRmaMyOpy0OmmFR8QkfoLNbcPfKVx
+				KVPdSjn4oILtLe0jI35AYG3l/WumhZOmydX9hAatBjQC084TfRyKXTei2yULkxTsD1VJmM7uLTH+
+				Y/gY9onIpYdZdBICDMJxPrTRGCsdbMHCh57eYNuFM3ndZHdWUMP0j/wGpWQkPy2xyhKdZ2PQBqlS
+				B+tYRu0V4oQZqmy07HDzuhByki35sppEEvxRZR5xqvwWvzZEWDJClWgS6lXBbLDqCk52gPWw9rpA
+				Dts3fMC8L4ku1DAMCo9kXUoMLqKa2Glu+FXnWXO0Pnvoe0vC1W4skq0uNlANJFicww6OsFIRznnR
+				Z5zMt26zkrqcv4FIhB94K+2OeEUME4YJsmau6YKTQmiznOY/rDVLEs19rTZbTQeGkXPHT0jjAxTC
+				Gi3L7n951fED1fTnTbpBhX7h02RqWKe3JZpOcwD18DKfitvP/ln0ls6dNRurnEZVklA4Ak3aMZNd
+				3LMQj3QiLLudS9Ex74GF6oEIjCCmRtOTDVV5Tpp9VQwpFVVfQbtexKW1xt5baZ72O4e6KI5mCe0F
+				NhgzQtaWUI3MXvRh9FPmhfWMPiZP0cx+C8YunvXJCdNETNY4onm3VVTdXfc0VHDR+vy60+kvq1zQ
+				xwFmQ+0ZlwyHKA/+GI3DO8X/aiu/+3d4vOjYAviuqE4Yo6tiVzvM+Xr3hO4JtyzqnzyFVHNiBwgG
+				C8+v2lUv571A4ODbE1BTrqjjKhN/6QVwQ3aZN+J+ZdhjdXAXPKlNhTDqo2tm8cEZI+y9HYGCi4dT
+				7Oi0hcGExKyO1FBBlCc6p5K5SSIIOnlLe8ghP1PpCI6i8KJeUqGhyXuQbKl9c8HkCwzlqjKehMma
+				PKCljsZdOExWSPCqD/pMG2LP8hVlKANP7YA527BYlr58jU2u6UMukKFRTj321l5JmDE1T5w+Oghd
+				44nekN9ESoWnSn8kyL2Ysb2fVTXlbbv/D14WOuWLHsc8BxUZYf421HhvAfegszsGwfpgJjGizfXo
+				8FYgRHQL3Mj58sy+DQV80thSdeH/ov7SgZWFdLXEBX70Nkf1l3wCigTUEvCaBdyX+D0GpGh1iHoJ
+				pCCmlCJGvnTU7pqDoyvm+Qy/S5m/PyYokhI+YLwt+SUul1J1rMXUqzMsfVryS8I3+9kuWVIRR8+W
+				utmqkYCXnZiYO9a46KuF9DvhCkmwkiQg0m3MFp/QSqF+9ICFGLCKi3752sHTQn1itfLy0pzuGjVs
+				kVF7c4buAPrcanpTlljOu6qzPCMrQTUrdMDSi80Wr7u4HiP17l/s3C9QPItpH+56jW4YOD3ci6eq
+				gIVDwLRaPRjorNOBTuLr7ZbQruBb+hvUf5JgTE9Zil6aabACbc3cDdGJNE3xgXyv9Mhj8DKBiOEO
+				dlhXFaQEFmI7JC2Pw6EA/HM/FhnIOCjJOoNwolwr6/RCAOx+b1mXkjIWD+kwyO1Fl1IxlWBQXKJz
+				19bb7kPgwDS+8tsDYFl1GIJcC4SEeNbBcJBZgQE8V5vt2V/4YruZPVCbBOg/kCqEkSiw9cN+b8mE
+				SvsyDFZ3R8IMpp1aldRb+VMBnczUIsaaeIM22TT2Dx08pYAtjbBix/bicDoC3wlk0gPr3Lf89ipE
+				mwSmsrAtB5z6+szKHS2IY9YeIxQkzvIqRbMUG+TbhbxePbSmMAzvVFZGnVlwb7k2W13aC/8lIOLk
+				xwiuveWpZvygwFQ1NMDXZd7bMy5jFysS6SuOf7dbG2aB2f8lHEdRBH2FtDBMUYtjtt+ZpU8VXqft
+				zYI68H9zdUUEceaWr8Z7gPe3II43dD68uJO3aCF0D6keY+YVnVfjBncofDfnLuBAX+owi1tTdP6S
+				OYInoRFIqt/NQORbvitk33K3/iNqaP3KbvC3oHxzStB8IKVTLsH/aaGk2oxu0O6xBL99CuoLKEfQ
+				LzSqspcr469LXVcZwlaq3nY0LiT86xBbtuTcT4WbYyeFNm9uonbasN0kOgmunHJINw8e+sD4wAVT
+				UZ2/xr4NB06E69xhpRL14GvKjPXTXBYS9TG1hzLYlACZY2QV0I8EAd9arbpidW9tsFuMP8Y7nyzA
+				6BgVWtCgPqaE1ZirlOmXMVVqVyKtsVg9Gg8W5c7Fh4m2kP1EjPkLq0LgLFcRLLOS4pj7cC+0Y+8p
+				DFgwVOlI12PJu34x3SoZ2hNDqdMIVM0++AQVDmRJvj7T/HsotV96iDHV0N9nzyEBWSA+JQDbUVu8
+				ec8uD35lnBrvLYVeEya0ge1vVfq/HBUVB3ea8EIQgq9pqVd671FE4E+3dXQ/tZ5Wu4TG62PDx20w
+				0rtLvQubDWz/5jvNcBgoZ7DKapOyU53NYuHl3JFgLNIKpTsgBDy8E1Q/SBYUpJ/1CPa7CNDNbHT2
+				hZg1RkCGnTg9FZKfI0pg6CAaK3lXF57/r92cO6wQPhpcaBjGKFQGtH/DzGUsiHp9ABcDfwqfu0ms
+				f0jDOoHeuNViz7Ex9xSou7xAbDgZb2rZ+oR0k16wPVpC0jiRqkIrBeMkaWOyK/i3A4mhyN02ke8Y
+				KqIJdLBMh1mbMnsL0KtYrEmQ4mziYgaLt97w0etudswyiQgfiB9fCDyooYtumttzvq53p+71LZob
+				+xV9BOvVpFkq65LjQgTcdmPbG9wNPBSG1ppjtTRdW9UFsYqRwDblQ56XzlPm2dIJRurgHf7U0Cv+
+				oCmwIv0GI5lHl2G+7pD2ajYYOjorWNPlSCNw86wHONyjlQoNTB7Xr02f+KitV+VzmvgRlbnWuS+Y
+				y6WInqqG7YSTZ+lY2T0J6tKP584lJY35UMwDx1sx01CCib+ZoK6UXDLhRAEQwAEUoACWZS34jhCw
+				s5wGR7H7UV7crYMtiD05W+Lh+UEh+OS9mi6H/5dAV+0d/vKlRXeEG8JngLv6acHBT6tE0JM+03ol
+				VYaysujrSiCLaHKI5QWl25yr3SLtKcogCp85Lr5s8MRtN8RoHPZblhsTHrWHhrBzcqFHsdwi2WsO
+				cwmgCoyK7q2+xmtup9uQA+JIJIv52e3VII9KQWa3eAHHjsc3UIA7I7KnvCcroiwPU/iKQNYprEE2
+				2eDzlutWNM0iGJdQ245PX1CfD1lUyENCR4HmmLsbznHRIs9uyjJ6vtMNCUW9zSK4fyn4MBTznvEg
+				hzkIy9VSBl31rdXBsS6EpM+zEU4TESbaLanDkF0tR0IJlu4PAt4fUGt9DW4V45YAfeLhqbBiug5E
+				Jqa2eXgLOIzJJ5j0fZrb+HTGKj1/zwbdQlJ4wKI8PBnDNPSSFzQneyjFW+GtKdZGqnv7P+wE1AuP
+				Bd2GcndwqNURjbTIQWC6ijnySVokDbGFR5t37HuN54yM7emzSHTD2uS2wIXEb2FZQ2DLKoRgTZ9H
+				0wxqRQWGkFGw61HC+pkEb1iXqIFdBQEWokOsTp4ImJtLimEKiA18r9wKQvy+iUILP91mTuu1Q7Xa
+				oy59o4ScbZlrbhkW88QqRKSA3S7mvQB6+EilEOYCM0s65ye1wBhq62QWZT+1xe7JhCkzVRHPLabO
+				WZsgdH7rwkRSKJd8ozwu05DGr/nwEo0hDLclCXLusvFOo9AUOcYkozaZ1/Mkw38OjT0Xq/ui0y4I
+				fMLN9aupSdgu84IJ7j5mC5CCEgPei5zZc9DZE6JaXSkI+J0n5uPdqbYxQEpFi8Yc0E6DWKSPCOCB
+				j8R2Xh5swUfvmnd7zkBC9iKQIlV5GDm+plfVRiflAintGvUYjOYIDCZRuou8VAiGndofccMosciv
+				z6fR1blwuXDl10pzMzvceP4Pj6vxt33ZX/ecfB4KHs/KOr8QrMl78kT04eKvHRVJA/X2dlEY+8el
+				mrNZ77CyhuKBF7NqGy5Z83hojTAz+QuR/YU+fzZiC3wGX44eFLz/i9ccSsKGpzX9h/lyYYAq1qnU
+				/iDPSuTKfE9Si+eneNXHKn2MgUaaMrxGa0YKkY+xRQljgCYtNMUC6zZ6279WeGX/PyzH/a4WP52k
+				+70iZjGpzYsEqlW0pz1tMBxQSJt4Xj6Qcmm79Wgj9DDrMZacTdTML4fJwV86J+OUpSuSX3he2Wnb
+				J5hqGsZoFJ9RtUqBi5WUB1Plx7ahiwXHvaksX1hVJdNzttV8ekVx8GLgaLbyjLZUlcPNfpN16Yxo
+				wQbwuVItgng8aP1czdv9YOgfHbLazhxqPlLtFkxDyzLHtEbCT23VvP0XbpVeDSHi355IaFmfYPBc
+				K5R9F5T26xaKLv4CHRXuwHnx+ZhgBxV/+KxiS0go2jRnhmINOeVXCG4siF5XUOnBFLkusOe/Y+7k
+				qOjSuz6GWZLezMVP3DMGUvuWFsgiqNtELULwvhgYv2YTtQtYknMjOamWLHgaTLL9C/PlFu0b53bI
+				mKoAYZ+4dX7ZM0rsw/QBLVaUtVgDUSj+aoP/Ru0oVf14dKvJXj96HlbXQH261qyfmwqmx8va3A3w
+				vIB4c1uXB4zIX0azFyymeEs2TlS+/Avg6lMY7IQEMb0uHFTjyJ2dx838fXzSPzqJogoZy+0C2y3r
+				UKuasFsf4BDCdLUdbyz1Uqd5H7FnWEljAeUck9n+lZK4B9XQ8aAKy+TjKoiQNGeUzFNXMedy/kKE
+				6/YC2/Wyl8zQl+Re3/+T5o8wtRZHmAq1VTr7IAZ1pAQrKzS1DeIkKJcE36LLEAH58KnDsc3M59q0
+				xz5UAm3Sr84N13It2yoylZiyovdORV9epcgXCBQ2j1c2+DDcdq84dvXvdqiweL0XNWzBeLV18PbF
+				QtNwLlhdriBMa7JJKMi65TpWinKC0iJJ5T904V+bUlPNHodEYJ8ZrASON+XUGAbWPy6RTsJ3gOtl
+				2j4fq6kV2w88psCXWhjyeiRSYhrLy9/aQsTV/l7retQhYFTEGYS1tZriN1/3+4dMCdIkfsVPBvkI
+				aY0htSeotdm2tjkv4BYsYpQgbCAr5FciZ5Kpw/pKGxxfjDAKj17bOYL0vho+KOZ6mfrS12LJ1uLJ
+				to1d4RawmdlFP1tl52FPnSAKoiN8QbtyQszA1VDd4gqBkjgQMfVI7E892Hnh2HJuXBBH0kkl1x+V
+				uyHt5VK42ewUp5uAEbXVSL93EpjUPS09NPZ88Gw3Pl+Q5gfYq37hj235KT9ZiZeNBKwLjjqlCpJ5
+				FZL1r7Hdm8twn2Fby7yWfzTLQVAnq8RA1hE1Oct5O9yVmxP/ncH26H3kx9VncICL/YRjuzGn7TAF
+				vnlE/Z297glgDaJpHCd2kr9KCa4yGlCVk8Fwz7iSGm6XnSJAcodNMHqpMjzM82Kisw5cYavEESxg
+				ZjLyXOBqBTSKIvmSGs1jpv6WEJ3hTU2Z6tTHMe/u9zad9+o8OXEE6bWpRHh/UVF5xpcuiFR0dl9H
+				tnOwWFEqjrDvXbDvaZsdasoeAzGZGZXYfpdkAoV09mtlRxmvjiRsc3axf4RjkXCbnJJSHSmFpz5W
+				DR9txZ67yfZAmidhC6A78sVsr/llkeucTn1qWzgoOLSn17OGZnL2knyfxQac/50O4zlkDLus56OZ
+				WlTok3C1KnSLH2v22LmmOnIQDhwpjjJD8PgBxXxBLDYNZ06Zx54UQMeWnwibEz90LDI8KoKd07R+
+				fnDuMuTGQXa3dq5w2G0PvjDvNWP52XGF7fANmqRgcnXWFhiK2C01Nckza1Edl7X0S6lWMqJdhOzT
+				9vcIjcQTRrMHylsx4P8LfxBFvlZuoavCncVfW9AWRgseto3xmCt6tSOB9rCH9bnITq9OcJ1X5rn7
+				RMd81TBE003qxqCqy0hApbNMyDMCQS+w7fMXi6c41bjJhH5RDvZY5/7Ipwc6Jc7+XZcFddBT8S8c
+				u5y/URyQlXIlvLAfXJgmg8z7JJ8Gb3ftvMK7bSowpgrngknziLs8pQrr6J9pc7gqLrn+huMKnz8P
+				1Gnys+ua4ChAcBzpkdkvHdRKQgt3iQ56yjy32hkRXFyXGtLvWTTZ43j+s8kcyE/6R/M/8sASb7AQ
+				DOcbRunRkwyrQhtJIpzhuGEsrwf+wSTjcqzciw7nXjOA+2c89aZ15b/wxD97M5+1SX//MPdsBGYm
+				husz2IeraS3xjlLAw6xrUmw1ZtXwk5hDtjt0FKJAH3W0FZDWUjRLUDYZBcve2PbOVaVVdvmFYZO0
+				K277OAk1l5yGPXsizA6Zz6eYbda8FvJg8EFAlfQOkSuwI4hCge8rTTQSCmUvvFDDqhfYDoeuVGJB
+				263JMrelX1yr8EDT79BeKca5+wzZIWOY+izpcsV+7XzlK6/6MioqCParS6r9d0tfbNfaj9JNuogD
+				WEeGe6909fTm5bcSFPPSs2E/fPkGSsiUKuJGhbIqxVQoZ3tSLf2FSbZ7qxp1W3JHXpKilSh1+U/g
+				KXhTvEu5M87ZZ/vFuVZFf4D/nJYFQlZ1mQmi3AVqFEiG0YLlfrnzP/q7Lw/1MikfOUE0yyAUL6ba
+				/c8FmXunwIeC/ZaDVxOPGM8gZ1XKa08LTopz9rFBzuRz4a8aEdrNjFCqCEEvtL1E2KQkwxoMnLKW
+				Lsn/lWXaptssFWPfTsy5dybTJsf6dw/sbOURkdeDNDtCUyNiL6+Emef1MnnnwzrBOFb2sikdHw/E
+				0hSyykDdj3J1P+R9E+VNQAfbXYpdCS9+o7CsiPEJ07TP3lpZJASL+7VdY1V7vhLa8qKSiQ1HLwQJ
+				Ngze5m/+4iFOLFfa/xl/ehWyBAtESwEmVbCWvUC1yvPNB6jxotbZltwZrcKoqiPfodgqwOPkOf2+
+				G/kUDVlQeLImFn6+BKdQ3cJq5JKsmeYhE8WkrDjZf7xBlipFgltDUthq66LKneTO79XLYFZ3uLtZ
+				pwVrn84Dk5oYlNgmc41eExhfx86Lcz8YjIbPbXzzEBXxP8iCZW9H9Pc9KtVJbWcyb51caSIk2sNR
+				R8fw6Y4mDq5J0ovpL24Jpa6rj2hHFe6/dmDV3mAWVtSFLV5t/LlI1TK5yGYuelHlpqev+7fk6RBq
+				AXK4I7mI/6Yt6u6LYb7UsFv0MSE2THLwu2xP8YWjeqxunIOujxDb8B71JUXJD0dxYLzqiA3oXRps
+				q/b8n+y1OmM5sZFadX8H+NAakKja9iKwheoHLi1n5d3qobHt/26Is2Chj4/jbO2no7/l4dwZeC5q
+				z3oWVqif7v5aPQhVYy1MfBQbm4kZho+ABZfhffGCx4Z4vhZzYhnd2TIVRn5AzHlnlK3d2bbtWgOk
+				k83eg4RJzMtVkYZNmpzaU85GcSJrWm96S3claxDfbIEbQReMBmuzeMo/B1GLjfMLHWRxeUH48Ss4
+				UrNWcx3xrp9uxO8IIaOkinHCs9z5qxl5os+qiuVsGUwrWDtM2c/nbuuDwf/7dO4u5LC+6imdcknV
+				ajp1l2Fn15DX7nDM02Zbd4uAR6BGGvtVKMdRVReXFfGbpnQMfo/W+K+w7ZjxRulRF819Bc3yIi9g
+				W9lgRgvD3I45ozoeX71kE5wudqcK28k2jNF0Fny9OWYgvDweR04uvEM2V8ZR3RhWVRBt2BI1xR4L
+				9DpeQNByICLLAQTdq0kCg3PZBoQrSp57gx/LmyOzgB7U9T/o756bh5ECwnmQkB9Ky+gFGuIed5YP
+				i6Hsg41EaKAnrmLqIL4yxybwuyJmKacGjaucSSfqUew7tl7+dxLGOCX3LoHQqGEcQ4whhhABIYQQ
+				QgghhhjkA9EdIcgcMk46AkkKAmeEEEIUIYaIiIiIyIhIkhQkyxiRUBWAbNaDqa337k1Q/zgKcXus
+				56d5jiAXd1Ex18KYZ8zsXAI4Oc+MGYaZZIq5ypsrSTBkBKNf9oQ+RTC+R/pzAcwzReA1qpxhRozV
+				rLYm42AUraiUZ5kzjyFD2CvyEaXQ1ATsz4RpDJlgbnwCnT7+RjBmgmFmmWLOBJOZM8fMl1iGmTLH
+				lAlMM2UuxxccNMhXNHKLDKs8kxoumjnTjFV8VxGGUYYMMssEbhWilfEFdBXyZEB1+sQ8M2Ft8MRk
+				vKPyN0bnxPEYZMyYNpVNtWfEGEMmMJkhQ4yZwPxgZ2N4xkxmvPpMEPYYxMCFb/z2zwDDvpARpplk
+				iikTzDPn8Rl8zYhZBpkj8RudzUyoYMOwYBDDhVHvT1H0jDId8VnlGkYZipQE5M18ZhlhnNHlmf0g
+				mp5xxgwwmUmGGDLCZOZMKaesUEZdx/7LIPOYZZAhI0xm/t3J6BrGTMn0uy2LzJhhMFPmc//tNxhk
+				hnmGTGKaEYZHPirxlAxnjCFjxWeN31DKaHFkYeZMxZARhplkjjkzTDPNFFNmmMyUOebMYJ45U8yp
+				8cLVWhIMMM6UyVvOBNPMfbzbvbey3C6xyHE/tw66AHfGKhV/H1w1MzcsGWIQxNOgCWUuJSg6+yr/
+				pdZLDGFeSjLOIFTEu0tsaeD6mBnUr1e6sxgABp9q0HvIWOaM6fapyRgex3IYC5ZbDH8v1EZo0tAc
+				rPmAx5a8rsVz4UIs0BWgwx+7wIGW8UJM/K82gSTG4N0MKt2KUDQ9vS+fuI2rgJK/MLi5EGV447Ps
+				tKNIOkjtj9Mgsd+c3kYohruen59vm3zZBwAEGhlZMoCYnkEbX5lvcO7gFD3j6UbcZ6ZdRvilyaP5
+				IJ/0+ZMgC7m8MnbPq15+BBOfMBJ7InyhKC9rh4Cg97lLSN69wJHZMx5Qhu0o+QL9t6ccYMIGQlNU
+				kPpYZTxNqbXzJQ394I7jGY7/zU8aFlKCFn76UBwGM6Zp9ADhGavwtP/aFpNHu+TVd3LlAH5whO5C
+				/l29FAHExZ8tPe091t5FB/xX3vS6lS1XwGSEISosZ85LVUKlS5kEbp0n0k83UE2hGteU7jZJnu02
+				KALkbN1xi2tLsA4gMMnBwIcEEcTFKJIt8NL4bjuQ3DRMsA/5ayfOvmwBtHZJEbHte4ZpP6PyFm9x
+				2g5AxwFjBw==|
+			)
+			(checksum "B8E48CB8DEBA149A4065927D26470B0F")
 		)
 	)
 )
