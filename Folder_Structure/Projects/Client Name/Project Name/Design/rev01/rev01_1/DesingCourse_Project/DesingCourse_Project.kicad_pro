@@ -654,12 +654,20 @@
       "Root"
     ],
     [
-      "6acef61e-7510-483b-91c5-9d8a2c58f50a",
-      "OVERVIEW"
-    ],
-    [
       "d8ac4871-c245-42c6-924a-c09cb895b08b",
       "BLOCK_DIAGRAM"
+    ],
+    [
+      "b071a88d-8f86-4cf2-bb66-295bf7cf91cc",
+      "INPUT"
+    ],
+    [
+      "e3a1114c-c195-4aae-8187-1e9a7003e7fb",
+      "USB-C"
+    ],
+    [
+      "8a1b1718-43cd-4989-a0f9-62c0bd99cf16",
+      "STEP_DOWN"
     ],
     [
       "c582aa5b-bceb-43c7-823e-4bc027bffba3",

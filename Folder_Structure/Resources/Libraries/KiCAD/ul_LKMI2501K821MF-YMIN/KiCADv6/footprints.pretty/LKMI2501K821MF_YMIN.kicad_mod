@@ -1,0 +1,238 @@
+(footprint "LKMI2501K821MF_YMIN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "LKMI2501K821MF_YMIN ")
+	(property "Reference" "REF**"
+		(at 4.0005 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4748f99f-f0bf-4fde-91f0-2bfb919797bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LKMI2501K821MF_YMIN"
+		(at 4.0005 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fffc918f-1236-4c6e-bb7c-bb338145a843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eda1204-8ed1-48c2-a148-33850b68e23a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ad25acb-9a01-4f4d-a16d-83fa7bf44612")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5245 0)
+		(end -4.2545 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4726069-05f5-4a39-a775-56f5edd8316b")
+	)
+	(fp_line
+		(start -4.8895 -0.635)
+		(end -4.8895 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84b87540-bd99-4d7d-a60e-09bc0980a5fb")
+	)
+	(fp_circle
+		(center 4.0005 0)
+		(end 12.1285 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b2afaa29-d37d-4122-af2b-78feba3786cd")
+	)
+	(fp_line
+		(start -4.2545 -3.399117)
+		(end 0.601383 -8.255)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7beb273-874d-4ae7-a1d7-64cbae1dce66")
+	)
+	(fp_line
+		(start -4.2545 3.399117)
+		(end -4.2545 -3.399117)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbc98cf4-6c13-4e89-9583-6dacb3c6f18f")
+	)
+	(fp_line
+		(start 0.601383 -8.255)
+		(end 7.399617 -8.255)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0280dacf-e31c-435b-96e1-e91fc67edcda")
+	)
+	(fp_line
+		(start 0.601383 8.255)
+		(end -4.2545 3.399117)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23a73e6f-7379-4e5e-b5f9-0acbc920bf91")
+	)
+	(fp_line
+		(start 7.399617 -8.255)
+		(end 12.2555 -3.399117)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "034b16cb-ce06-4d1b-a91c-0d5a4bb14471")
+	)
+	(fp_line
+		(start 7.399617 8.255)
+		(end 0.601383 8.255)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcdb2cee-f732-4e35-8f9d-acfe5b3350e8")
+	)
+	(fp_line
+		(start 12.2555 -3.399117)
+		(end 12.2555 3.399117)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53001245-9f47-4268-9de5-87feb47cf159")
+	)
+	(fp_line
+		(start 12.2555 3.399117)
+		(end 7.399617 8.255)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a673f24-c97e-4833-b565-486151283241")
+	)
+	(fp_line
+		(start -5.5245 0)
+		(end -4.2545 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30a43630-467d-489e-9001-a2f870f2571d")
+	)
+	(fp_line
+		(start -4.8895 -0.635)
+		(end -4.8895 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd4b9b94-6c63-41db-9747-d3b7b83bb2b6")
+	)
+	(fp_circle
+		(center 4.0005 0)
+		(end 12.0015 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eb77e2f9-2847-4947-ae38-122be5be6298")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.0005 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5cccfe39-d74d-4518-9b4d-f2db65dbbe7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bce151d8-2198-4c57-930c-a7abb61ab1f6")
+	)
+	(pad "2" thru_hole circle
+		(at 8.001 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a7ec5e8-b438-42e1-bee0-996074612ffd")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/ul_LKMI2501K821MF-YMIN/KiCADv6/LKMI2501K821MF_YMIN_YMN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
