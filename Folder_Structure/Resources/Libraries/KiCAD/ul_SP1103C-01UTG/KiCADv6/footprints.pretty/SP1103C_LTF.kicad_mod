@@ -1,0 +1,194 @@
+(footprint "SP1103C_LTF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "SP1103C-01UTG ")
+	(property "Reference" "REF**"
+		(at 0 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9460342d-7db8-41ba-b15a-1ca4804e206e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SP1103C_LTF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "281c448b-d962-4a84-9c7e-e1338cdf1ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4c15e6d-718e-4135-8a7f-3905700ca2cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e112075f-e99c-4322-ba88-390c8a75b162")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.3 0)
+		(end -1.3 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0c861781-051f-4dd4-a300-2a101f16df2d")
+	)
+	(fp_line
+		(start -1.0795 -0.7747)
+		(end 1.0795 -0.7747)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0596ee84-fce4-446a-a763-f60dd9643e21")
+	)
+	(fp_line
+		(start -1.0795 0.7747)
+		(end -1.0795 -0.7747)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a9e6dad-486f-4b30-913a-636f193897d0")
+	)
+	(fp_line
+		(start 1.0795 -0.7747)
+		(end 1.0795 0.7747)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d829f5b-a0b8-4134-b8d9-86112c3a1cec")
+	)
+	(fp_line
+		(start 1.0795 0.7747)
+		(end -1.0795 0.7747)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c916cc2-b0f1-4820-80ef-e961741868b7")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "807b3cbb-dbd1-41a8-8929-2f925f850652")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0559c1c7-2e04-47e4-b2fd-37d75b0ce1d2")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3480cc6-41df-46a4-a623-acb8711716b1")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94285b59-55c7-441c-afaf-c9f26315a932")
+	)
+	(fp_circle
+		(center -0.55 0)
+		(end -0.4738 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bbc667e1-dd03-4ff3-b856-6b425b624a28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2ec1596-a9cf-42f5-9e82-2a4e7143a40b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0)
+		(size 0.58 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fa224ca-e3ab-4029-b790-fc88f8d8df93")
+	)
+	(pad "2" smd rect
+		(at 0.55 0)
+		(size 0.58 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae4ac236-b381-4448-9760-8c4084046248")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/ul_SP1103C-01UTG/SP1103C_LTF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
