@@ -1840,7 +1840,7 @@
 	)
 	(text "MOSFETs\n"
 		(exclude_from_sim no)
-		(at 149.352 20.574 0)
+		(at 160.02 20.066 0)
 		(effects
 			(font
 				(face "Arial Black")

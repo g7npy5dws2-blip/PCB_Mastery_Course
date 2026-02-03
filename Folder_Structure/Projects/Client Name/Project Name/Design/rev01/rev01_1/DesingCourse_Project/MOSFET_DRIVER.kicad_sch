@@ -2744,7 +2744,7 @@
 	)
 	(text "MOSFET DRIVER\n"
 		(exclude_from_sim no)
-		(at 144.78 20.066 0)
+		(at 160.02 20.32 0)
 		(effects
 			(font
 				(face "Arial Black")
