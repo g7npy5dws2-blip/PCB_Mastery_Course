@@ -1,0 +1,150 @@
+(footprint "Project_ID"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -15.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9a885247-9958-4d0b-af2b-012fc0e2cd20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 -13.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "427a152d-d793-473c-97b2-2fb5a009aa3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a666ba26-f220-49fa-b70e-071587e6945a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Project_ID"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9676992-630a-4d34-b434-07a549bd11a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start 0 -10)
+		(end 20 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "687bf681-b4c2-4c94-a886-e307e8239e8e")
+	)
+	(fp_rect
+		(start 0 -3)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "83c82ac4-bd18-4cf8-87ab-fc9cb4859e31")
+	)
+	(fp_text user "Rev: ${REVISION}"
+		(at 0.5 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65961a96-a494-40a2-9ed7-cb5edd0a9a09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "# ID: ${COMMENT1}"
+		(at 0.5 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6e793918-6f63-4c4f-98a7-7c68a046ca8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Title:  ${TITLE}"
+		(at 0.5 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b01aaabc-95af-4137-b00d-0ab0cfb08b3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${COMMENT1}"
+		(at 0.5 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d451fc17-55bb-48c5-9d14-f580b6572df9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1ad99ae-a58d-4c2a-9523-8a8759a24e8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

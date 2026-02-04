@@ -9,7 +9,7 @@
 		(date "2026-01-27")
 		(rev "01_1")
 		(company "Integro Consulting AB")
-		(comment 1 "TBD")
+		(comment 1 "00000001")
 		(comment 2 "TBD")
 		(comment 3 "TBD")
 		(comment 4 "Josue Godinez")
@@ -1426,7 +1426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9797a4-488f-4a33-a1d0-acbf1a6b6c26")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 195.58 78.7399 0)
 			(effects
 				(font
@@ -1444,7 +1444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 80.01 90)
 			(effects
 				(font
@@ -1462,7 +1462,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -1480,7 +1525,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1497,7 +1542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f47c392-afac-4473-a896-bf0927f5b323")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR01"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -1547,7 +1592,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR062")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1564,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c0e752-02ca-43bf-864f-7c7f51e026da")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR04"
 			(at 163.83 96.52 0)
 			(effects
 				(font
@@ -1614,7 +1659,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR061")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1631,7 +1676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550b2d9a-623b-4cdf-a2a7-862f10a7b248")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -1681,7 +1726,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1697,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cebb17d-f161-4478-9d45-60f51238a7c4")
-		(property "Reference" "C45"
+		(property "Reference" "C2"
 			(at 167.64 79.8829 0)
 			(effects
 				(font
@@ -1798,7 +1843,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "C45")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1815,7 +1860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e999fa-fa63-40ac-a186-95079cc2afff")
-		(property "Reference" "J8"
+		(property "Reference" "J1"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -1924,7 +1969,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3a5871-4a1d-4d40-9b73-29c46df1f1ce")
-		(property "Reference" "C44"
+		(property "Reference" "C1"
 			(at 154.94 79.8829 0)
 			(effects
 				(font
@@ -2041,7 +2086,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "C44")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3eeed2c-1f31-4009-9362-e25f500bc212")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 128.27 77.4699 90)
 			(effects
 				(font
@@ -2102,6 +2147,33 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "DO-214AC"
+			(at 125.73 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "SMAJ60CA"
+			(at 125.73 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 125.73 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a686947-f914-466f-9ba6-2d67316696af")
 		)
@@ -2111,7 +2183,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2127,7 +2199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b676e34f-daec-4754-a0e9-d3ace6bb0a0b")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR05"
 			(at 193.04 72.39 0)
 			(effects
 				(font
@@ -2177,7 +2249,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR063")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2194,7 +2266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd571d09-cb7a-4ff6-9b4b-bbf87cd56d45")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 189.23 91.7574 90)
 			(effects
 				(font
@@ -2212,7 +2284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -2230,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED GREEN CLEAR 1206 SMD"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -2248,6 +2320,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Everlight"
+			(at 193.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "15-21/GHC-XS1T1/2T"
+			(at 193.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 193.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca6969f9-b453-4d77-9307-f536e9ac7143")
 		)
@@ -2257,7 +2356,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2274,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e245edb7-03a9-4d6b-837a-01ac7c4cd33f")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR06"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -2324,7 +2423,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR064")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2341,7 +2440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9a2be3-0166-4bd1-976e-fb6036f25d93")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR03"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -2391,7 +2490,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b071a88d-8f86-4cf2-bb66-295bf7cf91cc"
-					(reference "#PWR060")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
