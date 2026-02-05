@@ -1,0 +1,160 @@
+(footprint "BEADC1608X95N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "648995c4-5d71-4b0d-ac58-0d9bf98520c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BEADC1608X95N"
+		(at 1.76 1.07 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2c1a437-69f8-4447-9d9a-8cc8de7d5d83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e6735e-0168-4437-a5bc-71caa2f06021")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9758fcc-a9b9-48c0-8f1a-446e3330e355")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.485 -0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be45f1ea-9c1d-4b6d-afca-aa4426140b2d")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end -1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9d42735-b4d8-4393-82fb-f3398ca61d82")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end 1.485 0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaaf32cb-11dc-4534-916a-89b65c6992f1")
+	)
+	(fp_line
+		(start 1.485 0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22f5ec3b-01af-40a9-a9b0-0942c5bf7f6d")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76f82a69-7380-46e0-a842-fda4c7194413")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3ce68a5-7537-46de-beb2-0c3f96925d5f")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6796a383-2005-49fd-99bd-e6158080221e")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "005121f1-1626-4dac-967f-2ffe158c663c")
+	)
+	(pad "1" smd rect
+		(at -0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1c97f37c-5611-4253-83c1-5e6a3a1719c0")
+	)
+	(pad "2" smd rect
+		(at 0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7cf306f9-d063-4004-ad72-26bfb44bc6aa")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/BLM18PG121SN1D/BLM18PG121SN1D.step"
+		(offset
+			(xyz 0 -0.475 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

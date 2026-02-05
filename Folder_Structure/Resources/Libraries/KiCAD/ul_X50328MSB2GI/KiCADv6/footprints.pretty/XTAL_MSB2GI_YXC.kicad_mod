@@ -1,0 +1,340 @@
+(footprint "XTAL_MSB2GI_YXC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "X50328MSB2GI ")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6453031-5fa8-484d-a9e4-63fc56ae03d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_MSB2GI_YXC"
+		(at -0.2 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "692e1bd4-eeea-44c2-8f05-10303b7f355f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48694aef-73be-44c8-ad09-866369ed3e26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05535da3-9795-41dd-84cc-11b89ac610ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5781 -1.6764)
+		(end -2.5781 -1.33604)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17e6bb33-99b6-4364-a5b9-d106ece95140")
+	)
+	(fp_line
+		(start -2.5781 1.33604)
+		(end -2.5781 1.6764)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05e2e7bb-fd4f-477f-9dae-75a17e867f05")
+	)
+	(fp_line
+		(start -2.5781 1.6764)
+		(end 2.5781 1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04559b03-2daf-4bf1-be1a-69624a79a4e3")
+	)
+	(fp_line
+		(start 2.5781 -1.6764)
+		(end -2.5781 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f44efa5e-1b92-4953-a704-81f6ac2f9082")
+	)
+	(fp_line
+		(start 2.5781 -1.33604)
+		(end 2.5781 -1.6764)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "148cfd5e-a682-4f96-a4f5-e83f18c197ff")
+	)
+	(fp_line
+		(start 2.5781 1.6764)
+		(end 2.5781 1.33604)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f51363db-6c8a-4fd1-8c1d-bdb773af8f63")
+	)
+	(fp_line
+		(start -2.8321 -1.9304)
+		(end -2.8321 1.9304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c0b8e2e-4505-470f-a3b5-46d185049c3f")
+	)
+	(fp_line
+		(start -2.8321 -1.9304)
+		(end 2.8321 -1.9304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7e68e6f-b00a-4c22-b537-3ad841cf6c18")
+	)
+	(fp_line
+		(start 2.8321 1.9304)
+		(end -2.8321 1.9304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89e2be99-5c35-43b1-b5fc-470a5916b77f")
+	)
+	(fp_line
+		(start 2.8321 1.9304)
+		(end 2.8321 -1.9304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "309af22a-5672-489d-a07f-0295dd19d0c5")
+	)
+	(fp_line
+		(start -2.5781 -1.6764)
+		(end -2.5781 1.6764)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1541964a-36fd-41de-9b88-ce279d440737")
+	)
+	(fp_line
+		(start -2.5781 1.6764)
+		(end 2.5781 1.6764)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "358b06ac-9dae-43ac-a4bb-c70ae28b197d")
+	)
+	(fp_line
+		(start 2.5781 -1.6764)
+		(end -2.5781 -1.6764)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee7cf5a-3b3d-4503-9ec6-240c0ea28f5c")
+	)
+	(fp_line
+		(start 2.5781 1.6764)
+		(end 2.5781 -1.6764)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5ebacfd-f6c5-4208-976c-2b7953db0f06")
+	)
+	(fp_circle
+		(center -2.0701 0)
+		(end -2.0701 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b5513cf2-1458-4773-9f73-6535d91f2c33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78c10a96-eac2-4e6b-9815-80e89f4ef4e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7145 0 90)
+		(size 2.0066 2.032)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47ee207b-f02b-4d05-9a85-25c7fe6d13d5")
+	)
+	(pad "2" smd rect
+		(at 1.7145 0 90)
+		(size 2.0066 2.032)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23407190-cf48-4cb0-9b9a-4c077ee3f183")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "2afd53dd-8a22-46ed-958f-90ad885ff7f0")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -2.5273 -1.6256) (xy 2.5273 -1.6256) (xy 2.5273 -1.0541) (xy -2.5273 -1.0541)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "ca303cc5-284f-4d2d-b1ec-ddca8f6497d9")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -2.5273 1.0541) (xy 2.5273 1.0541) (xy 2.5273 1.6256) (xy -2.5273 1.6256)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "11229a0f-89f2-4566-960f-e1e318f209c1")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.6477 -1.0541) (xy 0.6477 -1.0541) (xy 0.6477 1.0541) (xy -0.6477 1.0541)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/ul_X50328MSB2GI/XTAL_MSB2GI_YXC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
