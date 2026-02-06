@@ -4937,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 55.88 76.2)
+			(xy 49.53 76.2) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 76.2) (xy 48.26 76.2)
+			(xy 38.1 76.2) (xy 44.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5962,7 +5962,7 @@
 		(uuid "d9db1e58-a7fe-4d42-8d49-b54416faff07")
 	)
 	(label "DVDD"
-		(at 41.91 76.2 0)
+		(at 38.1 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,6 +7254,245 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 219.71 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087723ab-00e0-47e8-9496-3c9622cac389")
+		(property "Reference" "R25"
+			(at 222.25 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 222.25 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.932 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 18k OHM 0603 ±1% 1/10W"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05805408-7c02-4b0a-8f17-c371af4499d5")
+		)
+		(pin "2"
+			(uuid "8fd39d1f-8bcc-4d0d-999e-ce0a9e81e173")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dda0b45-c28f-46ec-850d-bd2ba8f188f3")
+		(property "Reference" "C25"
+			(at 55.626 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 55.626 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.9148 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6db5649d-794f-4c86-97f4-a61a13e4fd80")
+		)
+		(pin "1"
+			(uuid "6866848b-996a-441f-8d4c-998cca2d1ab7")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 210.82 67.31 0)
 		(mirror y)
@@ -7372,6 +7611,120 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16d46a40-e212-46ac-abc2-749609140966")
+		(property "Reference" "R22"
+			(at 76.2 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.058 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75b9524-a02f-4681-a8cf-b27c0eaf1bd9")
+		)
+		(pin "2"
+			(uuid "649f2f6e-34d7-4e4c-93e3-c34f36495bae")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7693,6 +8046,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 62.23 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fefb4b8-3e2a-498b-83aa-6949431e4a69")
+		(property "Reference" "C29"
+			(at 61.976 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 61.976 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.2648 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5994df18-8397-4168-874a-dc2a291b1935")
+		)
+		(pin "1"
+			(uuid "d51a4774-73e2-4046-86fc-fd8c4d2ffab0")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 68.58 270)
 		(mirror x)
@@ -7761,6 +8238,130 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bb53a4f-edec-4757-93d4-aa70600801ed")
+		(property "Reference" "C24"
+			(at 50.546 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 50.546 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 49.8348 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10nF 50V X7R 0603"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X7R"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6dd7fc3-1b80-42fa-b831-3bd37542434a")
+		)
+		(pin "1"
+			(uuid "c9c1b833-b1f7-4b20-bbf5-16bacfbe4f17")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8174,79 +8775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 78.74 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31af0ded-12fc-41a4-a5d1-966aa37788a5")
-		(property "Reference" "R21"
-			(at 73.66 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "205k"
-			(at 84.582 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91073425-c0b6-4d61-8f5c-1f695a65d46f")
-		)
-		(pin "1"
-			(uuid "82e0faa1-fd88-4b35-814b-1c0658c302c9")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 156.21 0)
 		(mirror y)
@@ -8392,156 +8920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ede05aa-2931-4f11-9f0d-4c0c2012193e")
-		(property "Reference" "C29"
-			(at 63.754 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 62.992 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.1952 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4abaa9e-ddd6-488b-be0e-6c904efab968")
-		)
-		(pin "1"
-			(uuid "797d631a-22f8-4d45-8651-dfd85c00a5e1")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fb5656b-229f-4cbb-bb07-f36fbbefc53a")
-		(property "Reference" "R24"
-			(at 172.466 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 172.212 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.132 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0f5eee6-ef98-4d32-96af-31aeac8237a1")
-		)
-		(pin "1"
-			(uuid "314bd7cf-b5b2-4ce1-808a-5f13d5f919a3")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 50.8 76.2 0)
+		(at 46.99 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8549,7 +8929,7 @@
 		(dnp no)
 		(uuid "3fd3a5b2-c3fb-44fb-874f-1ee86e06bb11")
 		(property "Reference" "NT1"
-			(at 50.8 74.93 0)
+			(at 46.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,15 +8937,15 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 50.8 77.724 0)
+			(at 46.99 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.8 76.2 0)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 76.2 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8963,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 50.8 76.2 0)
+			(at 46.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,16 +8993,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 60.96 59.69 0)
+		(lib_id "Device:R")
+		(at 219.71 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "554d0dac-2b13-428c-94d7-0e8bfa52d423")
-		(property "Reference" "C27"
-			(at 62.484 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "4dfb6c17-0072-4a1c-9b06-39c6150af1e4")
+		(property "Reference" "R26"
+			(at 222.25 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,8 +9011,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120p"
-			(at 61.722 62.23 0)
+		(property "Value" "3k3"
+			(at 222.25 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,8 +9020,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 61.9252 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.932 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +9030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 59.69 0)
+			(at 219.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,8 +9038,263 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 59.69 0)
+		(property "Description" "RES 3k3 OHM 0603 ±1% 1/10W"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50188149-a6f4-401f-9bd6-fca196ca38b4")
+		)
+		(pin "2"
+			(uuid "29939c4e-dca8-4776-965c-7380d4cfac49")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eb938e5-4bce-48e7-b8db-bdbe14054163")
+		(property "Reference" "R24"
+			(at 171.45 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 171.45 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.132 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1M OHM 0603 ±1% 1/10W"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "524ca04b-3225-4d02-b665-2f63a14883d5")
+		)
+		(pin "2"
+			(uuid "99830059-c753-4e44-968b-288a63ac437f")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT60A")
+		(at 226.06 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4efc4b6f-d1e8-4d54-a635-a4d1822f43df")
+		(property "Reference" "D14"
+			(at 226.3775 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT60A"
+			(at 226.3775 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 226.06 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT60A"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 226.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,21 +9303,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbdb6e23-cde0-4d95-8788-dc18ed6fa195")
+			(uuid "14a4539c-f3ea-4e5b-931c-be534810cd29")
 		)
 		(pin "1"
-			(uuid "fa28deaf-6c13-4339-b716-143d63f38c28")
+			(uuid "e1cd4a88-be23-42fe-8799-8a4b99377594")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C27")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8689,15 +9319,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 81.28 0)
+		(at 78.74 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "59cc60dd-0ad0-48b0-bbfa-7a03c9e40ce2")
-		(property "Reference" "C25"
-			(at 57.404 78.74 0)
+		(uuid "5e47e8a3-844b-4c25-b0a6-09360f001e8c")
+		(property "Reference" "C30"
+			(at 78.486 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,8 +9336,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
-			(at 56.642 83.82 0)
+		(property "Value" "22n"
+			(at 78.486 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,8 +9345,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 56.8452 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.7748 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +9355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 81.28 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,8 +9363,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 81.28 0)
+		(property "Description" "CAP CER 22nF 100V X7R 0603"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X7R"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,21 +9427,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8cedac01-e3b8-40bc-9e15-6c75f1564bc0")
+			(uuid "978f32e5-eadc-479c-8ebf-633228dace6d")
 		)
 		(pin "1"
-			(uuid "fc62519b-e362-4563-acec-e7bd454576c7")
+			(uuid "5442d765-606a-48b3-8008-38cc8480f030")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C25")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8902,81 +9581,6 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "701a1820-2477-4dd3-9137-b268e05e0b15")
-		(property "Reference" "C31"
-			(at 90.424 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 89.662 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.8652 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86afdd77-6500-41db-a808-af74dc784f91")
-		)
-		(pin "1"
-			(uuid "f277dd87-aaf0-42f1-8dd0-7b3131cf0da7")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9304,82 +9908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 219.71 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b1cd2a7-a236-446e-9194-d4de8c024a22")
-		(property "Reference" "R25"
-			(at 222.25 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18K"
-			(at 222.25 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 219.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7dea30e4-6bb8-483a-aaf5-6079cdf99729")
-		)
-		(pin "1"
-			(uuid "1b3d1d73-9a55-4913-9913-8ffc1e015e80")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 86.36 71.12 90)
 		(unit 1)
@@ -9527,15 +10055,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 81.28 0)
+		(at 55.88 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "813db083-1ed4-4ac8-b0bf-1013fb2dddb4")
+		(uuid "81257157-d1a2-422a-9069-dd908136c790")
 		(property "Reference" "C28"
-			(at 63.754 78.74 0)
+			(at 55.626 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +10073,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 62.992 83.82 0)
+			(at 55.626 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,8 +10081,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.1952 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.9148 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +10091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 81.28 0)
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,8 +10099,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 81.28 0)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,18 +10163,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7df6c50-5f3d-4b14-ab39-698b4a5d402e")
+			(uuid "b4947027-6030-41e3-bb95-424fc64da98c")
 		)
 		(pin "1"
-			(uuid "d52303ec-15d2-4e4d-a7e9-1050d64ee65a")
+			(uuid "8801bf79-d932-4b27-a0c8-6783de55a059")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C28")
@@ -9726,16 +10303,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 78.74 0)
+		(at 78.74 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "896dac5e-54ad-436c-bd8d-7605e49c6e87")
-		(property "Reference" "R26"
-			(at 222.25 77.4699 0)
+		(uuid "8ba6fd08-21cb-426e-a9dd-4c70458e23f6")
+		(property "Reference" "R21"
+			(at 74.93 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,17 +10319,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K3"
-			(at 222.25 80.0099 0)
+		(property "Value" "205k"
+			(at 81.788 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.932 78.74 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +10338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 78.74 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,8 +10346,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 219.71 78.74 0)
+		(property "Description" "RES 205k OHM 0603 ±1% 1/10W"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,21 +10401,129 @@
 			)
 		)
 		(pin "1"
-			(uuid "633d7117-cbf6-4be8-906f-db566277fb4f")
+			(uuid "c8efe5e9-e8af-4c62-8791-4e62b018cb43")
 		)
 		(pin "2"
-			(uuid "a4b58b19-a8cd-4b44-b1cb-bb268585c86a")
+			(uuid "8b3e366c-61c4-4c0c-b1b8-9ea26666766c")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "R21")
 					(unit 1)
 				)
 			)
-			(project ""
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c437e24-0563-476f-9034-ae0f604d4d7e")
+		(property "Reference" "R23"
+			(at 76.2 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.058 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b88df8-5165-4955-bb8c-0fc7d10f6aba")
+		)
+		(pin "2"
+			(uuid "1094a1eb-ad3f-4b35-9f2d-29d5d1c7debe")
+		)
+		(instances
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9983,6 +10712,130 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "950fdd3a-14c2-4ec0-8c73-05cf1f48c530")
+		(property "Reference" "C31"
+			(at 88.646 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 88.646 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 87.9348 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1824ca7d-4de0-4243-8ee6-612cda067c51")
+		)
+		(pin "1"
+			(uuid "f1df44de-9b3d-47e0-8d54-d8199f92d9c0")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10374,79 +11227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a678423f-6d7e-4449-bf6f-061f5fe175d1")
-		(property "Reference" "R23"
-			(at 74.93 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 84.582 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b05017d8-8acc-42cc-9780-aa7db8481acb")
-		)
-		(pin "1"
-			(uuid "41f6ad70-48bb-49f4-b790-173e0783ea44")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 209.55 41.91 0)
 		(mirror y)
@@ -10695,32 +11475,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 53.34 90)
+		(lib_id "Device:C")
+		(at 62.23 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1c3b47a-14e5-4ff3-b205-17ff6ff9045e")
-		(property "Reference" "R20"
-			(at 50.8 52.07 90)
+		(uuid "af16e769-28b6-4e37-8aa7-b418c73ed279")
+		(property "Reference" "C26"
+			(at 61.976 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "16k"
-			(at 60.452 52.07 90)
+		(property "Value" "2u2"
+			(at 61.976 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 55.88 55.118 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.2648 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +11512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 53.34 0)
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,8 +11520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 55.88 53.34 0)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,54 +11529,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "08946f14-290d-4e02-9877-6f57f32b12dd")
-		)
-		(pin "1"
-			(uuid "73d8e6d3-1850-4ccb-bbb7-7e0721006d80")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b77abd7f-cd29-4bcf-b4a6-85b42295bbb3")
-		(property "Reference" "R22"
-			(at 74.93 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 84.582 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 65.278 90)
+		(property "Manufacturer" ""
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,8 +11538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 80.01 63.5 0)
+		(property "MPN" ""
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,8 +11547,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 80.01 63.5 0)
+		(property "Package" "0603"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 62.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,21 +11584,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2ad96729-6681-4fc4-b0c4-100a023bad1d")
+			(uuid "70e1ca79-eaa0-496b-a4f1-8400894a5b0b")
 		)
 		(pin "1"
-			(uuid "c87bd23a-19af-4c7e-8369-89abef865c01")
+			(uuid "b4bfc64a-fd88-42bf-89fb-d89f2b296e80")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10904,7 +11662,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuere" "Nexperia"
+		(property "Manufacturer" "Nexperia"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123"
 			(at 177.8 67.31 90)
 			(effects
 				(font
@@ -10936,15 +11703,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 100.33 0)
+		(at 60.96 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc56db1a-1978-4f6c-888d-140d7b895371")
-		(property "Reference" "C26"
-			(at 57.404 97.79 0)
+		(uuid "bbee59dd-52bf-48bd-aac7-c0e3ca18d598")
+		(property "Reference" "C27"
+			(at 60.706 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,8 +11720,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
-			(at 56.642 102.87 0)
+		(property "Value" "120p"
+			(at 60.706 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,8 +11729,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 56.8452 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 59.9948 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,7 +11739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 100.33 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,8 +11747,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 100.33 0)
+		(property "Description" "CAP CER 120pF 50V X7R 0603"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X7R"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,21 +11811,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d0096d7-d6ba-4ebf-878d-a29e55c7e19e")
+			(uuid "273bdf20-9524-429a-a801-dee7d596c890")
 		)
 		(pin "1"
-			(uuid "87d0e979-1fe9-46a4-b705-2138e04484fc")
+			(uuid "b0a20686-5716-412e-bddc-3c6a85db8d75")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -12204,16 +13020,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 59.69 0)
+		(lib_id "Device:R")
+		(at 55.88 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ecc5e19a-3c8a-430a-9c56-62c711b8d58c")
-		(property "Reference" "C24"
-			(at 52.324 57.15 0)
+		(uuid "e2fcd30c-6659-46b0-912f-ea354930717b")
+		(property "Reference" "R20"
+			(at 52.07 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,17 +13037,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 51.562 62.23 0)
+		(property "Value" "16k"
+			(at 58.928 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.7652 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +13056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 59.69 0)
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,8 +13064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 59.69 0)
+		(property "Description" "RES 16k OHM 0603 ±1% 1/10W"
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,22 +13073,61 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "cbb15b1b-9e07-4fe3-a3b1-fbfa1ddcae4e")
+		(property "Package" "0603"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "1/10W"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "b5b7e404-daa5-47c3-af35-518c2f4123fe")
+			(uuid "13419d5a-6392-4303-8f6e-075e77853bf5")
+		)
+		(pin "2"
+			(uuid "466a8930-7f3d-4492-97c6-493ba2da1e5d")
 		)
 		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12653,98 +13508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 226.06 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f45675cd-e15d-4c79-8623-7604a81ce2d2")
-		(property "Reference" "D14"
-			(at 226.3775 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 226.3775 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 226.06 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BAT60A"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Inineon"
-			(at 226.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63e07deb-4aea-4b65-bb14-3c24a552b883")
-		)
-		(pin "2"
-			(uuid "af9db08d-6eef-4a1d-b6da-cb2706e6e207")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 68.58 0)
 		(mirror y)
@@ -12936,81 +13699,6 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdb0258e-0740-4d2b-9e11-6b826362fde9")
-		(property "Reference" "C30"
-			(at 80.264 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22n"
-			(at 79.502 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.7052 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd36507a-d389-41f8-83db-582ca23d3c4c")
-		)
-		(pin "1"
-			(uuid "9b5a3978-7c64-4ef7-9e20-d391872a785d")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C30")
 					(unit 1)
 				)
 			)

@@ -747,156 +747,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -1760,7 +1610,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JGB_Library:SMAJ5.0CA"
+		(symbol "Diode:SMAJ5.0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1779,7 +1629,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ5.0CA"
+			(property "Value" "SMAJ5.0A"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1787,8 +1637,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SMAJ5.0CA:DIOM4325X250N"
-				(at 0 0 0)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1797,6 +1647,15 @@
 				)
 			)
 			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1805,43 +1664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Littelfuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SMAj5.0CA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "DO-214AC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1859,13 +1682,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ5.0CA_0_1"
+			(symbol "SMAJ5.0A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1874,34 +1697,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1909,7 +1708,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ5.0CA_1_1"
+			(symbol "SMAJ5.0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3451,6 +3250,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Molex_87438:874380243"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "874380243"
+				(at -0.508 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "874380843:MOLEX_874380243"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Conn Shrouded Header HDR 2 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
+				(at 0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+				(at 0.254 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMT"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "874380243"
+				(at 0.254 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "874380243_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(hide yes)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "874380243_1_1"
+				(polyline
+					(pts
+						(xy 7.874 2.54) (xy 1.27 2.54) (xy 0.254 1.524) (xy 0.254 -4.064) (xy 1.27 -5.08) (xy 7.874 -5.08)
+						(xy 7.874 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Molex_87438:874380343"
 			(pin_names
 				(offset 1.016)
@@ -4212,6 +4244,223 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PESD3V3U1UA_115_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "PESD3V3U1UA,115"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PESD3V3U1UA_115:DIO_PESD3V3U1UA_115"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS DIODE 3.3VWM SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOD323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PESD3V3U1UA,115"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PESD3V3U1UA_115_1_0_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
 				)
 			)
@@ -5159,8 +5408,8 @@
 		)
 	)
 	(rectangle
-		(start 14.605 64.77)
-		(end 52.07 78.74)
+		(start 14.605 57.15)
+		(end 52.07 71.12)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -5195,6 +5444,18 @@
 		)
 		(uuid c5e0e011-017d-4caf-aa9e-f70b8239353f)
 	)
+	(text "CAN BE USED AS\nSENSOR ON THE\nBOARD OR SENSOR\nON THE MOTOR."
+		(exclude_from_sim no)
+		(at 14.732 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "139038f8-555b-4575-9296-5ee1ee11e877")
+	)
 	(text "PROGRAMMING / DEBUG"
 		(exclude_from_sim no)
 		(at 251.968 88.138 0)
@@ -5221,7 +5482,7 @@
 	)
 	(text "USB\n\n"
 		(exclude_from_sim no)
-		(at 17.272 70.866 0)
+		(at 17.272 63.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,7 +5521,7 @@
 	)
 	(text "NTC THERMISTOR"
 		(exclude_from_sim no)
-		(at 23.114 83.312 0)
+		(at 22.86 75.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5300,7 +5561,7 @@
 	)
 	(text "ROUTE AS DIFF PAIR\n"
 		(exclude_from_sim no)
-		(at 30.48 76.454 0)
+		(at 30.48 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5381,6 +5642,12 @@
 		(uuid "08cfeb0e-ab03-4c48-a838-9d445e3b38f5")
 	)
 	(junction
+		(at 35.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c375df0-69b0-4f6c-aa07-eea166d5b41c")
+	)
+	(junction
 		(at 67.31 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5441,16 +5708,16 @@
 		(uuid "692089a2-14da-46a9-b4b9-f39728dcad7e")
 	)
 	(junction
-		(at 66.04 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6baa5081-9128-4d25-8257-94d89a5ac303")
-	)
-	(junction
-		(at 31.75 91.44)
+		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7872b2f4-6895-4ae4-a790-1332317879ce")
+	)
+	(junction
+		(at 35.56 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be4837c-1004-41c9-aa9b-3aea2cbaf57f")
 	)
 	(junction
 		(at 133.35 134.62)
@@ -5513,12 +5780,6 @@
 		(uuid "97113ff3-3af9-4957-9b78-45b28c3f0fca")
 	)
 	(junction
-		(at 31.75 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "984329bc-2fd4-40e0-bf3e-17c00925c6f9")
-	)
-	(junction
 		(at 54.61 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5553,6 +5814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6bd4d53-5734-40a1-9b6e-d138835ea975")
+	)
+	(junction
+		(at 66.04 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0396d9-120c-4781-ab12-2580c7078b84")
 	)
 	(junction
 		(at 73.66 55.88)
@@ -5664,13 +5931,23 @@
 	)
 	(polyline
 		(pts
-			(xy 14.605 81.28) (xy 52.07 81.28)
+			(xy 13.97 73.025) (xy 51.435 73.025)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "02ae9edb-477b-4287-8f5d-37f6110da047")
+	)
+	(wire
+		(pts
+			(xy 35.56 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b7dbe7-6ec6-4b3b-bd33-9e53da4c2b39")
 	)
 	(wire
 		(pts
@@ -5844,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 90.17) (xy 31.75 91.44)
+			(xy 35.56 82.55) (xy 35.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5934,6 +6211,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 179.07) (xy 73.66 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2196f67f-ec9b-4b03-bce2-47a6abd11278")
+	)
+	(wire
+		(pts
 			(xy 30.48 27.94) (xy 44.45 27.94)
 		)
 		(stroke
@@ -5974,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 179.07) (xy 73.66 179.07)
+			(xy 29.21 179.07) (xy 66.04 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6134,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 31.75 92.71)
+			(xy 35.56 83.82) (xy 35.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6161,6 +6448,16 @@
 			(type default)
 		)
 		(uuid "3e2a6233-ce8e-4248-8a33-770163ea7a93")
+	)
+	(wire
+		(pts
+			(xy 29.21 105.41) (xy 29.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e51c0a2-4348-46c0-944c-17e99c8ab9b3")
 	)
 	(wire
 		(pts
@@ -6194,6 +6491,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 107.95) (xy 29.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d9ac4d-f41e-45bd-804d-59d09b82ba61")
+	)
+	(wire
+		(pts
 			(xy 67.31 41.91) (xy 54.61 41.91)
 		)
 		(stroke
@@ -6214,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 31.75 102.87)
+			(xy 35.56 92.71) (xy 35.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +6821,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 110.49) (xy 31.75 111.76)
+			(xy 35.56 110.49) (xy 35.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6571,6 +6878,16 @@
 			(type default)
 		)
 		(uuid "69eddb5b-97bd-44ab-af31-d88168b061cb")
+	)
+	(wire
+		(pts
+			(xy 35.56 101.6) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5a9a18-b3b0-435d-8487-462a3d10a9b0")
 	)
 	(wire
 		(pts
@@ -6731,16 +7048,6 @@
 			(type default)
 		)
 		(uuid "80576f79-2d19-47ce-8229-5ac7f23e637a")
-	)
-	(wire
-		(pts
-			(xy 31.75 100.33) (xy 31.75 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8064d776-a78a-42a6-802d-fb9be70f9308")
 	)
 	(wire
 		(pts
@@ -6964,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 91.44) (xy 31.75 91.44)
+			(xy 48.26 83.82) (xy 35.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7334,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 96.52) (xy 44.45 91.44)
+			(xy 48.26 85.09) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7534,6 +7841,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 111.76) (xy 35.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34a98ad-593e-482d-a674-b2109bb9591a")
+	)
+	(wire
+		(pts
 			(xy 242.57 102.87) (xy 245.11 102.87)
 		)
 		(stroke
@@ -7554,16 +7871,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 104.14) (xy 44.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f381ec-b13a-4085-aa12-b68a969e9568")
-	)
-	(wire
-		(pts
 			(xy 163.83 146.05) (xy 163.83 144.78)
 		)
 		(stroke
@@ -7571,16 +7878,6 @@
 			(type default)
 		)
 		(uuid "d52abbd2-98b3-4c49-b8f9-3f260e1f7b66")
-	)
-	(wire
-		(pts
-			(xy 16.51 101.6) (xy 31.75 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f0be52-d2ac-4c58-99c6-875bada4d1e1")
 	)
 	(wire
 		(pts
@@ -7624,6 +7921,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 179.07) (xy 66.04 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2875de-1892-4201-8002-730f36af5328")
+	)
+	(wire
+		(pts
 			(xy 161.29 41.91) (xy 158.75 41.91)
 		)
 		(stroke
@@ -7651,16 +7958,6 @@
 			(type dash)
 		)
 		(uuid "ddfa98d0-271e-4674-a8e5-b1a62e5dc72c")
-	)
-	(wire
-		(pts
-			(xy 29.21 179.07) (xy 66.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec6a846-f05d-4c3b-98c3-d796e33cbff8")
 	)
 	(wire
 		(pts
@@ -7844,7 +8141,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 72.39) (xy 48.26 72.39)
+			(xy 35.56 64.77) (xy 48.26 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7872,16 +8169,6 @@
 		)
 		(uuid "f4945f99-25f4-497a-8095-9db29686b6bc")
 	)
-	(wire
-		(pts
-			(xy 66.04 179.07) (xy 66.04 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4aabad0-99de-4309-8829-14806987d22b")
-	)
 	(polyline
 		(pts
 			(xy 52.07 119.38) (xy 14.605 119.38)
@@ -7904,6 +8191,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a92856-1df2-4a49-b6b8-895200961f3b")
+	)
+	(wire
+		(pts
 			(xy 184.15 54.61) (xy 196.85 54.61)
 		)
 		(stroke
@@ -7914,7 +8211,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 69.85) (xy 48.26 69.85)
+			(xy 35.56 62.23) (xy 48.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7974,7 +8271,7 @@
 	)
 	(polyline
 		(pts
-			(xy 14.605 81.28) (xy 14.605 119.38)
+			(xy 13.97 73.025) (xy 13.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7994,7 +8291,7 @@
 	)
 	(polyline
 		(pts
-			(xy 52.07 81.28) (xy 52.07 119.38)
+			(xy 51.435 73.025) (xy 51.435 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8226,18 +8523,6 @@
 		)
 		(uuid "332b9242-53c1-4312-9b45-0f4cd91eafc4")
 	)
-	(label "ADC_TEMP"
-		(at 19.05 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "344022c9-43f4-49fb-bf6d-417cd36285c3")
-	)
 	(label "SERVO"
 		(at 184.15 110.49 0)
 		(effects
@@ -8275,7 +8560,7 @@
 		(uuid "4265a420-5c18-4d50-a2cf-f16e666e3ae9")
 	)
 	(label "USB_N"
-		(at 38.1 69.85 0)
+		(at 38.1 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8831,7 +9116,7 @@
 		(uuid "dd4cbfcd-2991-41e2-b782-b1c7ab14032b")
 	)
 	(label "USB_P"
-		(at 38.1 72.39 0)
+		(at 38.1 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8851,6 +9136,18 @@
 			(justify left bottom)
 		)
 		(uuid "dfadfda4-245b-42a4-8639-68ee5b00c4af")
+	)
+	(label "ADC_TEMP"
+		(at 38.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e054acb2-48b8-4458-867a-e978de501348")
 	)
 	(label "H3"
 		(at 184.15 74.93 0)
@@ -9004,7 +9301,7 @@
 	)
 	(global_label "USB_N"
 		(shape bidirectional)
-		(at 35.56 69.85 180)
+		(at 35.56 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9014,7 +9311,7 @@
 		)
 		(uuid "0b8cd7d8-084b-4c95-a458-c89e78d402a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3556 69.85 0)
+			(at 25.3556 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9433,7 @@
 	)
 	(global_label "USB_P"
 		(shape bidirectional)
-		(at 35.56 72.39 180)
+		(at 35.56 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9146,7 +9443,7 @@
 		)
 		(uuid "4c380528-196f-4cfd-ba4f-54f65738c082")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4161 72.39 0)
+			(at 25.4161 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,6 +10351,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Molex_87438:874380243")
+		(at 24.13 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105c9b3f-ad5f-42d7-85c1-e69eef04f248")
+		(property "Reference" "J11"
+			(at 20.2565 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "874380243"
+			(at 20.2565 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "874380843:MOLEX_874380243"
+			(at 23.876 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Shrouded Header HDR 2 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
+			(at 23.876 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 23.876 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+			(at 23.876 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMT"
+			(at 24.13 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "874380243"
+			(at 23.876 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
+			(uuid "97629aae-5b31-4547-94c5-8f3f4019c85b")
+		)
+		(pin "2_2"
+			(uuid "290b0c3b-8644-4b74-ad7b-7fd887b934ad")
+		)
+		(pin "1_1"
+			(uuid "33e4a74b-3624-488b-bf61-c9a9072337ae")
+		)
+		(pin "2_1"
+			(uuid "8c49dd76-e836-4fcc-9247-2162cee684cb")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 118.11 107.95 90)
 		(unit 1)
@@ -10417,74 +10830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 248.92 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a48cfa0-0ab9-42a0-9a94-261e5c3dfe9f")
-		(property "Reference" "D12"
-			(at 248.6025 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 248.6025 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 248.92 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 248.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 248.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34b9a02a-41bb-4cca-bfaa-694e02a968aa")
-		)
-		(pin "1"
-			(uuid "ff221417-5112-44c8-a51d-bdd4beeb5935")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 60.96 0)
 		(unit 1)
@@ -10788,76 +11133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 125.73 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23abfdd4-850b-445d-a31d-0f75dfd05a31")
-		(property "Reference" "C19"
-			(at 129.54 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 129.54 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.6952 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e214f1d8-5de9-4df3-9597-9de87eaf4ad9")
-		)
-		(pin "1"
-			(uuid "9635052f-1747-4633-9015-84fed59d7c2e")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 207.01 31.75 0)
 		(unit 1)
@@ -11043,75 +11318,6 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 86.36 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b0aa816-8124-4eeb-834d-f6967844fdde")
-		(property "Reference" "C14"
-			(at 84.328 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10p"
-			(at 84.582 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 70.8152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3714d05a-8071-41b7-9f8b-a9c9cb04a504")
-		)
-		(pin "1"
-			(uuid "eb860bb8-4bd8-4ab9-afdc-a8e4058bd76b")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11531,7 +11737,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 31.75 96.52 0)
+		(at 35.56 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11540,7 +11746,7 @@
 		(fields_autoplaced yes)
 		(uuid "3860b173-6f5d-4d94-9079-e95ddd89f5f8")
 		(property "Reference" "TH1"
-			(at 34.29 95.5674 0)
+			(at 38.1 105.7274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,7 +11755,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 34.29 98.1074 0)
+			(at 38.1 108.2674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,8 +11763,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 31.75 95.25 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 95.25 0)
+			(at 35.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11575,8 +11781,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 31.75 96.52 0)
+		(property "Description" "THERMISTOR NTC 10KOHM 3380K 0603"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCP18XH103F03RB "
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 35.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +11833,7 @@
 			(uuid "e39e99a0-eccc-41ab-92af-b101d0d499e6")
 		)
 		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "TH1")
 					(unit 1)
@@ -11601,7 +11843,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 31.75 90.17 0)
+		(at 35.56 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11611,7 +11853,7 @@
 		(fields_autoplaced yes)
 		(uuid "41ec0e01-c7d9-4ba9-9fcc-62623a374e0a")
 		(property "Reference" "#PWR021"
-			(at 31.75 93.98 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11862,7 @@
 			)
 		)
 		(property "Value" "P3V3"
-			(at 31.75 85.09 0)
+			(at 35.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 90.17 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +11879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 90.17 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +11888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 31.75 90.17 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,6 +12232,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 69.85 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50c696c4-2f8a-4937-899b-7ee34bd22670")
+		(property "Reference" "C14"
+			(at 84.582 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 85.09 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "C0G/NP0"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18fee72c-1685-4a24-a637-94d510ea1360")
+		)
+		(pin "1"
+			(uuid "7275ae22-e0ea-4337-ad08-9b9528a8d2e6")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 54.61 40.64 0)
 		(unit 1)
@@ -12175,6 +12541,130 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc5b056-7344-4271-b48d-3c5c4e9d472d")
+		(property "Reference" "C19"
+			(at 125.476 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 125.476 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.7648 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da708d17-0349-42ff-b501-6a5cd40da5cc")
+		)
+		(pin "1"
+			(uuid "5679cf30-535a-4640-b526-408ebb92f7df")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12484,44 +12974,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 243.84 152.4 0)
+		(lib_id "Diode:BAT60A")
+		(at 95.25 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66317b0d-f8a1-4286-a50f-f7095d9edba8")
-		(property "Reference" "C23"
-			(at 247.65 151.1299 0)
+		(uuid "644d29bf-845f-4276-be94-700b830d4685")
+		(property "Reference" "D7"
+			(at 95.25 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 247.65 153.6699 0)
+		(property "Value" "BAT60A"
+			(at 95.25 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 244.8052 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 152.4 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 95.25 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,8 +13007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 152.4 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
+			(at 95.25 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,16 +13016,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "43dfd4e6-4ea6-4252-91ee-120ef9d0552b")
+		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT60A"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "8acc48f7-7e76-411d-8095-cebe530bd42b")
+			(uuid "d03a1cb1-5d2f-40b1-82f1-8c61c304da4b")
+		)
+		(pin "1"
+			(uuid "2c928c2a-b92b-47f0-953f-8eb2c0970215")
 		)
 		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "C23")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12615,6 +13129,100 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT60A")
+		(at 77.47 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dcb014d-6d31-4ea7-a67f-7a2976e5f0b5")
+		(property "Reference" "D9"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT60A"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 77.47 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT60A"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d45860c-ca64-45c2-a05d-a3238a5f0efa")
+		)
+		(pin "1"
+			(uuid "9a39714f-fe59-4a95-9236-f2c7789b7da7")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12928,6 +13536,130 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 135.89 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86bf52dc-d7ad-44f8-ad6e-d0e7ea7622d0")
+		(property "Reference" "C20"
+			(at 135.636 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 135.636 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.9248 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X5R"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc0ab625-d1a7-470f-b131-f0ff7a3f2fee")
+		)
+		(pin "1"
+			(uuid "c7a7febf-e852-423b-b74a-721ab2cdc057")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 73.66 48.26 0)
 		(mirror y)
 		(unit 1)
@@ -13053,7 +13785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 106.68 0)
+		(at 48.26 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13063,7 +13795,7 @@
 		(fields_autoplaced yes)
 		(uuid "88de9a74-50c1-449d-ab6b-3c32bcde32a4")
 		(property "Reference" "#PWR025"
-			(at 44.45 113.03 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +13804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 111.76 0)
+			(at 48.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 106.68 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13089,7 +13821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 106.68 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 106.68 0)
+			(at 48.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,17 +13851,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 135.89 128.27 0)
+		(lib_id "Diode:SMAJ5.0A")
+		(at 88.9 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ca68f80-42aa-4b16-a977-3336a7ba594f")
-		(property "Reference" "C20"
-			(at 139.7 126.9999 0)
+		(uuid "8a3d1826-7a66-4f6f-bd6b-ae0abb4a0147")
+		(property "Reference" "D8"
+			(at 91.44 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,8 +13869,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
-			(at 139.7 129.5399 0)
+		(property "Value" "SMAJ5.0A"
+			(at 91.44 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,8 +13878,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 136.8552 132.08 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,8 +13887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 135.89 128.27 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 88.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,8 +13896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 128.27 0)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 88.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,15 +13906,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ddf365b0-8c18-4cbb-aa5d-12f5c2c6e19d")
+			(uuid "97bb4d93-4dbb-4281-8f9f-bc2ba26be587")
 		)
 		(pin "1"
-			(uuid "f0a1513d-0cda-453f-8379-fa3e22a758c2")
+			(uuid "540a55ac-3c68-4520-8b35-368e018d4721")
 		)
 		(instances
-			(project "DesingCourse_Project"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "C20")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13190,7 +13922,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 106.68 0)
+		(at 35.56 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13199,7 +13931,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d125f30-f0af-4701-ad13-60d4e1e0ddc3")
 		(property "Reference" "R12"
-			(at 34.29 105.4099 0)
+			(at 38.1 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13940,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 34.29 107.9499 0)
+			(at 38.1 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.972 106.68 90)
+			(at 33.782 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13967,7 @@
 			)
 		)
 		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13244,7 +13976,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13985,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13994,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +14003,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +14012,7 @@
 			)
 		)
 		(property "Power Rating" "1/10W"
-			(at 31.75 106.68 0)
+			(at 35.56 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,6 +14211,130 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 90.17 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9822a0c3-2610-4b18-8d04-5616f3c0b84a")
+		(property "Reference" "C15"
+			(at 84.582 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 85.09 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.55 89.2048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "C0G/NP0"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19e2abf0-792f-45dd-8160-6b09daec16a0")
+		)
+		(pin "1"
+			(uuid "07f7a318-b6f1-45b6-93ab-cf703e32dca0")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13902,6 +14758,118 @@
 		)
 	)
 	(symbol
+		(lib_name "PESD3V3U1UA_115_1")
+		(lib_id "PESD3V3U1UA_115:PESD3V3U1UA_115")
+		(at 66.04 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f13309-2144-40a8-a722-5414223ce0b4")
+		(property "Reference" "D6"
+			(at 68.58 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD3V3U1UA,115"
+			(at 68.58 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PESD3V3U1UA_115:DIO_PESD3V3U1UA_115"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM SOD323"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD323"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PESD3V3U1UA,115"
+			(at 66.04 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "371b2ad5-b2e3-4856-8868-94958a8a579a")
+		)
+		(pin "1"
+			(uuid "ca16e091-929c-4253-8b85-be8078e37481")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 134.62 0)
 		(unit 1)
@@ -13962,74 +14930,6 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT60A")
-		(at 77.47 179.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9e0a7eb-539d-436e-ac53-29628f39a495")
-		(property "Reference" "D7"
-			(at 77.47 176.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT60A"
-			(at 77.47 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 77.47 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 77.47 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 77.47 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53ce33c4-fc8a-4f44-b742-92d7925d7bf4")
-		)
-		(pin "1"
-			(uuid "89be23fa-6858-4dc4-b7c9-3181f1405069")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14154,6 +15054,130 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bda10ddc-9f2f-470c-aaf9-97ea262c0f37")
+		(property "Reference" "C23"
+			(at 243.586 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 243.586 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 242.8748 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coeff" "X7R"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "519ce6aa-6171-4c47-8e79-4edccd79e61c")
+		)
+		(pin "1"
+			(uuid "369ccf41-3341-4ae8-89cd-6cb32ed75445")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14286,76 +15310,6 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 66.04 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce6be12b-dc36-4bf9-8807-ddb033f05f8f")
-		(property "Reference" "D6"
-			(at 68.58 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 68.58 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55f5e23f-bf0b-4e69-9e85-4ea68d70c0a5")
-		)
-		(pin "2"
-			(uuid "7864a129-4f60-4250-9d3d-7fb29b18dbcf")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -14551,7 +15505,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 111.76 0)
+		(at 35.56 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14561,7 +15515,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8b821b4-76fc-48d6-9321-3cf4d7f1b0f5")
 		(property "Reference" "#PWR022"
-			(at 31.75 118.11 0)
+			(at 35.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14570,7 +15524,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 116.84 0)
+			(at 35.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +15532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +15541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +15550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,16 +15679,16 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT60A")
-		(at 95.25 171.45 0)
-		(mirror y)
+		(at 248.92 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6b598f7-c30f-4d4a-883a-8bc3cd2e731b")
-		(property "Reference" "D9"
-			(at 95.25 168.402 0)
+		(fields_autoplaced yes)
+		(uuid "e2175bfc-936a-474d-b93e-f1485e4b2d4a")
+		(property "Reference" "D12"
+			(at 248.6025 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14742,7 +15696,7 @@
 			)
 		)
 		(property "Value" "BAT60A"
-			(at 95.25 174.752 0)
+			(at 248.6025 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14750,7 +15704,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 95.25 175.895 0)
+			(at 248.92 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14759,7 +15713,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9"
-			(at 95.25 171.45 0)
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14768,7 +15722,34 @@
 			)
 		)
 		(property "Description" "10V 3A High Current Recitifier Schottky Diode, SOD-323"
-			(at 95.25 171.45 0)
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT60A"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14777,15 +15758,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d9e81384-da32-47b2-b71a-4c2df6635b10")
+			(uuid "25e3bb34-5340-4053-b1f1-cce59e6debd8")
 		)
 		(pin "1"
-			(uuid "04e228aa-5eb7-4aa1-9924-2e1664d875aa")
+			(uuid "3f63e733-7ecb-43c0-a4fa-acb00344c76f")
 		)
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "D9")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15173,172 +16154,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f333536b-335a-458a-91b1-300d7c87ec3e")
-		(property "Reference" "C15"
-			(at 84.582 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10p"
-			(at 84.328 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 91.1352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "023a08c4-af72-4efe-830b-58d9c889b5ca")
-		)
-		(pin "1"
-			(uuid "c13accf6-c4d3-48e9-9312-b4e0e11c6728")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JGB_Library:SMAJ5.0CA")
-		(at 88.9 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f36c6d32-98b4-4e59-b835-278aab991d99")
-		(property "Reference" "D8"
-			(at 91.44 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ5.0CA"
-			(at 91.44 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMAJ5.0CA:DIOM4325X250N"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SMAj5.0CA"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "DO-214AC"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc9f153a-af3f-45c8-b929-2ad6aa73be75")
-		)
-		(pin "1"
-			(uuid "f5523082-e554-4f8f-9f24-e0adb6acc219")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 78.74 48.26 0)
 		(mirror y)
 		(unit 1)
@@ -15464,7 +16279,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 100.33 0)
+		(at 48.26 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15473,7 +16288,7 @@
 		(dnp no)
 		(uuid "f7c8ce8f-60ae-40b7-afde-d288a7efd14e")
 		(property "Reference" "C8"
-			(at 44.196 98.298 0)
+			(at 48.006 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,7 +16297,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 44.196 102.616 0)
+			(at 48.006 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +16306,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.4848 104.14 0)
+			(at 47.2948 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15500,7 +16315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15509,7 +16324,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15518,7 +16333,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,7 +16342,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15536,7 +16351,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15545,7 +16360,7 @@
 			)
 		)
 		(property "Voltage Rating" "10V"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,7 +16369,7 @@
 			)
 		)
 		(property "Temp Coeff" "X7R"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +16378,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
