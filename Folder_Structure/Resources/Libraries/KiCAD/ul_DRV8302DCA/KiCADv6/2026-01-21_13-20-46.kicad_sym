@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCA56_6P35X3P61"
+		(property "Footprint" "DRV8302DCA:SOP50P810X120-57N"
 			(at -4.572 1.524 90)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MOTOR DRIVER 8V-60V 56HTSSOP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,12 +54,31 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV8302DCA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "56pin-HTSSOP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "DRV8302DCA"

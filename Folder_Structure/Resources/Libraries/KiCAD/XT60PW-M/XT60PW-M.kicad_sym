@@ -55,16 +55,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "AMASS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
 			(at 0 0 0)
 			(effects

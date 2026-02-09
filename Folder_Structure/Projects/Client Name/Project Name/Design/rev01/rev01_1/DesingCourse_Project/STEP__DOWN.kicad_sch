@@ -1146,16 +1146,16 @@
 		(uuid "38d3d685-7ce7-4cc5-add9-999e08a6d026")
 	)
 	(junction
+		(at 105.41 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b9d8042-cc8e-4d35-b65f-3cde4b24eac3")
+	)
+	(junction
 		(at 92.71 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7651fa33-e369-4ad8-8333-b82509d69c12")
-	)
-	(junction
-		(at 105.41 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8774afca-2643-4ed4-ac46-bf0f2f230987")
 	)
 	(junction
 		(at 111.76 68.58)
@@ -1217,6 +1217,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 66.04) (xy 105.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2118d9ae-3293-4846-859b-8d7b47d398f3")
+	)
+	(wire
+		(pts
 			(xy 115.57 81.28) (xy 119.38 81.28)
 		)
 		(stroke
@@ -1254,6 +1264,16 @@
 			(type default)
 		)
 		(uuid "2d24a44f-0828-43b6-84d6-97d47a47dd1f")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c2a558-f0c4-43ef-af12-8a20a603ad1b")
 	)
 	(wire
 		(pts
@@ -1297,16 +1317,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 105.41 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2c951a-aa5d-4953-bc58-ac29f556a482")
-	)
-	(wire
-		(pts
 			(xy 132.08 81.28) (xy 132.08 76.2)
 		)
 		(stroke
@@ -1344,16 +1354,6 @@
 			(type default)
 		)
 		(uuid "85d5c392-7805-4e6c-878c-b3ac065669d6")
-	)
-	(wire
-		(pts
-			(xy 105.41 67.31) (xy 105.41 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4b0370-e315-436a-a0e8-cdca364f7735")
 	)
 	(wire
 		(pts
@@ -1427,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 111.76 68.58)
+			(xy 92.71 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1671,6 +1671,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72b4fc86-a85f-4418-8ced-79168c53e91e")
 		)
@@ -1787,6 +1805,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -2036,6 +2072,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 92.71 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 92.71 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1d80e37-d469-43aa-9889-8225e9370b3c")
 		)
@@ -2218,6 +2272,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e074f11-dd8d-4b40-a8f7-7fd769fefb89")
 		)
@@ -2302,7 +2374,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 105.41 67.31 0)
+		(at 105.41 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2311,7 +2383,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3b266fb-7577-4dd0-bb83-090d9a96905d")
 		(property "Reference" "#FLG01"
-			(at 105.41 65.405 0)
+			(at 105.41 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2392,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 105.41 62.23 0)
+			(at 105.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 67.31 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 67.31 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 105.41 67.31 0)
+			(at 105.41 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,6 +2522,24 @@
 			)
 		)
 		(property "Package" "1206"
+			(at 184.15 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 184.15 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 184.15 86.36 90)
 			(effects
 				(font
@@ -2573,6 +2663,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d60eaee9-22bd-4576-a0b3-65009e8bd496")
 		)
@@ -2660,6 +2768,15 @@
 			)
 		)
 		(property "Package" "SOD-323"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -2896,6 +3013,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adfe1782-a13c-46ca-9d0d-0b8c8413c1a0")
 		)
@@ -3090,6 +3225,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c97f0d24-0fda-4c3e-a815-49233b363b56")
 		)
@@ -3206,6 +3359,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 111.76 74.93 0)
 			(effects
 				(font

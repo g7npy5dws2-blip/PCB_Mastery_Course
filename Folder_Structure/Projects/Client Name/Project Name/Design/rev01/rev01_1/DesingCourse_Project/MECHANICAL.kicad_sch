@@ -669,7 +669,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad_MP"
+		(symbol "MountingHole_Pad_MP_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -680,23 +680,25 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "MH1"
+				(at 2.54 2.5401 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
+			(property "Value" "M4.5"
+				(at 2.54 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_Via"
 				(at 0 0 0)
 				(effects
 					(font
@@ -714,7 +716,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
+			(property "Description" "Mounting Hole for a 4.5mm screw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MNP" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -741,7 +761,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_MP_0_1"
+			(symbol "MountingHole_Pad_MP_1_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -754,18 +774,18 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_MP_1_1"
+			(symbol "MountingHole_Pad_MP_1_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
-					(name "MP"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1131,6 +1151,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 25.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
@@ -1195,77 +1233,28 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
 					(reference "ID5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 49.53 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2532786b-b685-47ad-8f39-11057b1934f5")
-		(property "Reference" "MH4"
-			(at 52.07 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M4.5"
-			(at 52.07 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_Via"
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole for a 4.5mm screw"
-			(at 49.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "831d0975-7532-45d6-93e1-4199f21eaf97")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -1326,6 +1315,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
@@ -1336,6 +1343,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 24.13 69.85 0)
 		(unit 1)
@@ -1354,7 +1362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M4.5"
+		(property "Value" "M3"
 			(at 26.67 69.8499 0)
 			(effects
 				(font
@@ -1363,7 +1371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
 			(at 24.13 69.85 0)
 			(effects
 				(font
@@ -1381,7 +1389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole for a 4.5mm screw"
+		(property "Description" "Mounting Hole for a 3mm screw"
 			(at 24.13 69.85 0)
 			(effects
 				(font
@@ -1390,13 +1398,117 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(property "MNP" ""
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "b8d58855-e3b0-4fa2-b887-7967ed103bbf")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
 					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_MP_1")
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 24.13 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cdc0864-838b-42d3-b403-a3d94b5eb391")
+		(property "Reference" "MH3"
+			(at 26.67 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 26.67 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole for a 3mm screw"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89bae6c8-5d5d-4530-944d-f12cdf61268f")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
+					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -1524,77 +1636,28 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
 					(reference "ID6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 49.53 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "700accdb-0a89-4471-a239-f59d7af3c953")
-		(property "Reference" "MH3"
-			(at 52.07 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M4.5"
-			(at 52.07 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_Via"
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole for a 4.5mm screw"
-			(at 49.53 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "2d9effae-af68-4b2a-9fcf-5aede232d97f")
-		)
-		(instances
-			(project "DesingCourse_Project"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -1722,6 +1785,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 25.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
@@ -1741,7 +1822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9380d7-eb7a-4b72-ba49-34f34e05f79d")
-		(property "Reference" "R60"
+		(property "Reference" "R61"
 			(at 26.67 76.1999 0)
 			(effects
 				(font
@@ -1831,6 +1912,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 24.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45ed436d-5434-4324-9211-83f677e3efb3")
 		)
@@ -1840,7 +1939,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "R60")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -1908,6 +2007,92 @@
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_MP_1")
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 49.53 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86646f11-6161-4462-8026-812e53bd857d")
+		(property "Reference" "MH4"
+			(at 52.07 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 52.07 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole for a 3mm screw"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1669353-0e10-48b0-889e-34261beaa33a")
+		)
+		(instances
+			(project "DesingCourse_Project"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
+					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -1990,7 +2175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cfd7b7-2cad-41b6-9e2e-ed2798dd8cd8")
-		(property "Reference" "R61"
+		(property "Reference" "R62"
 			(at 26.67 100.3299 0)
 			(effects
 				(font
@@ -2080,6 +2265,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d6fc706-e5be-4574-9a36-a3a5bff91adf")
 		)
@@ -2089,24 +2292,25 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "R61")
+					(reference "R62")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 24.13 93.98 0)
+		(at 49.53 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae25aac4-5df9-4584-905e-5843ceb21b63")
+		(uuid "b22dec1f-90c1-4e85-a596-cd2e9bcdb474")
 		(property "Reference" "MH2"
-			(at 26.67 91.4399 0)
+			(at 52.07 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,8 +2318,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M4.5"
-			(at 26.67 93.9799 0)
+		(property "Value" "M3"
+			(at 52.07 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,8 +2327,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_Via"
-			(at 24.13 93.98 0)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2337,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 93.98 0)
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,8 +2345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole for a 4.5mm screw"
-			(at 24.13 93.98 0)
+		(property "Description" "Mounting Hole for a 3mm screw"
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,8 +2354,26 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "ad1b03eb-6785-42d2-9aa8-a6d36a8ef0e6")
+		(property "MNP" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7415411a-ab1b-4d4c-b06a-fd80ad687cc9")
 		)
 		(instances
 			(project "DesingCourse_Project"
@@ -2217,6 +2439,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 24.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
@@ -2236,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ae6dee-a61d-4363-85b6-a00c8c75a89d")
-		(property "Reference" "R63"
+		(property "Reference" "R64"
 			(at 52.07 100.3299 0)
 			(effects
 				(font
@@ -2326,6 +2566,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 49.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 49.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a9b91ae-6057-44c4-aeb5-a9b4831cc8b2")
 		)
@@ -2335,7 +2593,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "R63")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -2396,6 +2654,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 24.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 24.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
@@ -2415,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc638a7c-f5ea-4000-a869-0a2f6344e9e7")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 52.07 76.1999 0)
 			(effects
 				(font
@@ -2505,6 +2781,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63d92f17-f04b-4f23-8d3d-c6f3029644b7")
 		)
@@ -2514,7 +2808,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6569bcff-12b2-4a10-a6fe-47180228aeb4"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -2567,6 +2861,24 @@
 			)
 		)
 		(property "Description" "ID_ESD susceptible, Do Not Touch symbol"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 25.4 160.02 0)
 			(effects
 				(font
@@ -2631,6 +2943,24 @@
 			)
 		)
 		(property "Description" "ID_Hot  surace symbol"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 25.4 144.78 0)
 			(effects
 				(font

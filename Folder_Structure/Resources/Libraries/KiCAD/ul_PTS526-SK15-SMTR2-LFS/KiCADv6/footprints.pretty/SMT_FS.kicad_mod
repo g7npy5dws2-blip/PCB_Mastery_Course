@@ -450,4 +450,15 @@
 		(uuid "ae13e088-9cb7-4c1d-b355-af2908c0e215")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/Integro1/Documents/PCB Mastery Course/PCB_Mastery_Course/Folder_Structure/Resources/Libraries/KiCAD/ul_PTS526-SK15-SMTR2-LFS/KiCADv6/PTS526SK15SMTR2LFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

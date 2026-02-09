@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DCA56_6P35X3P61"
+			(property "Footprint" "DRV8302DCA:SOP50P810X120-57N"
 				(at -4.572 1.524 90)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IC MOTOR DRIVER 8V-60V 56HTSSOP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,12 +67,31 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "DRV8302DCA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "56pin-HTSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "DRV8302DCA"
@@ -4087,6 +4106,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861cb5dc-b86e-47ea-a0f7-735025300507")
+	)
+	(wire
+		(pts
 			(xy 151.13 59.69) (xy 157.48 59.69)
 		)
 		(stroke
@@ -4224,16 +4253,6 @@
 			(type default)
 		)
 		(uuid "948114b5-f148-4f36-8665-f9a2c80b42c1")
-	)
-	(wire
-		(pts
-			(xy 87.63 106.68) (xy 100.33 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971cf221-3c69-4e22-9ec1-e51fdfe41fff")
 	)
 	(wire
 		(pts
@@ -5517,7 +5536,7 @@
 		)
 		(uuid "5861d43c-5ca2-4a18-8997-331da41df671")
 	)
-	(label "S2_P"
+	(label "S1_P"
 		(at 260.35 71.12 0)
 		(effects
 			(font
@@ -7092,6 +7111,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7ebd72f-0f2e-46de-9774-21da815d73e5")
 		)
@@ -7263,7 +7300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "087723ab-00e0-47e8-9496-3c9622cac389")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 222.25 67.3099 0)
 			(effects
 				(font
@@ -7353,6 +7390,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05805408-7c02-4b0a-8f17-c371af4499d5")
 		)
@@ -7362,7 +7417,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7469,6 +7524,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -7601,6 +7674,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcb41019-7f28-45aa-8679-dc0197f36540")
 		)
@@ -7625,7 +7716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16d46a40-e212-46ac-abc2-749609140966")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 76.2 62.23 90)
 			(effects
 				(font
@@ -7715,6 +7806,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 80.01 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 80.01 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d75b9524-a02f-4681-a8cf-b27c0eaf1bd9")
 		)
@@ -7724,7 +7833,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7832,6 +7941,24 @@
 		)
 		(property "Tolerance" "10%"
 			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 168.91 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 168.91 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,6 +8157,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 271.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 271.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e735e2b-5c20-4326-8651-c708fb13c398")
 		)
@@ -8146,6 +8291,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 62.23 100.33 0)
 			(effects
 				(font
@@ -8352,6 +8515,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6dd7fc3-1b80-42fa-b831-3bd37542434a")
 		)
@@ -8377,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dfc6614-2223-40a5-8671-9f9f0f716aa3")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 242.57 148.5899 0)
 			(effects
 				(font
@@ -8467,6 +8648,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58118330-1b17-43b3-9601-c302cc85b83f")
 		)
@@ -8476,7 +8675,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8583,6 +8782,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 166.37 135.89 0)
 			(effects
 				(font
@@ -8706,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_BOURNS_SDR0805"
+		(property "Footprint" "L_Bourns_SDR0805:IND_BOURNS_SDR0805"
 			(at 182.88 60.96 0)
 			(effects
 				(font
@@ -8745,6 +8962,24 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -8971,6 +9206,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70a5365d-565b-4aa8-81ba-804eb6757e54")
 		)
@@ -9002,7 +9255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dfb6c17-0072-4a1c-9b06-39c6150af1e4")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 222.25 77.4699 0)
 			(effects
 				(font
@@ -9092,6 +9345,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50188149-a6f4-401f-9bd6-fca196ca38b4")
 		)
@@ -9101,7 +9372,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb938e5-4bce-48e7-b8db-bdbe14054163")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 171.45 72.3899 0)
 			(effects
 				(font
@@ -9207,6 +9478,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "524ca04b-3225-4d02-b665-2f63a14883d5")
 		)
@@ -9216,7 +9505,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9294,6 +9583,15 @@
 			)
 		)
 		(property "Package" "SOD-323"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 226.06 62.23 0)
 			(effects
 				(font
@@ -9418,6 +9716,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -9695,6 +10011,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 184.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 184.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b562682-33dd-4620-82ae-bb183f65c599")
 		)
@@ -9892,6 +10226,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8c46b20-5fbe-4a37-826d-4fa746ecfeb1")
 		)
@@ -10063,7 +10415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81257157-d1a2-422a-9069-dd908136c790")
-		(property "Reference" "C28"
+		(property "Reference" "C26"
 			(at 55.626 98.298 0)
 			(effects
 				(font
@@ -10162,6 +10514,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4947027-6030-41e3-bb95-424fc64da98c")
 		)
@@ -10171,7 +10541,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10286,6 +10656,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1a9507a-0982-4359-865c-8a0179a58f0e")
 		)
@@ -10310,7 +10698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ba6fd08-21cb-426e-a9dd-4c70458e23f6")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 74.93 49.53 90)
 			(effects
 				(font
@@ -10400,6 +10788,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 78.74 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 78.74 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8efe5e9-e8af-4c62-8791-4e62b018cb43")
 		)
@@ -10409,7 +10815,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10424,7 +10830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c437e24-0563-476f-9034-ae0f604d4d7e")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 76.2 64.77 90)
 			(effects
 				(font
@@ -10514,6 +10920,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 80.01 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 80.01 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1b88df8-5165-4955-bb8c-0fc7d10f6aba")
 		)
@@ -10523,7 +10947,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10612,7 +11036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c28d5f-0301-46e0-8228-1798d14482bc")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 273.05 138.4299 0)
 			(effects
 				(font
@@ -10702,6 +11126,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 270.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4189c7a1-f121-4377-b12c-57af32be1161")
 		)
@@ -10711,7 +11153,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10818,6 +11260,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -10950,6 +11410,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f68c0e20-6309-4e41-b643-71f974c4449f")
 		)
@@ -11049,7 +11527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a33ebd83-f0e4-4c7a-bde1-96b8daf5df42")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 257.81 148.5899 0)
 			(effects
 				(font
@@ -11139,6 +11617,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed5d116c-a392-436d-9162-6bf9a10d7312")
 		)
@@ -11148,7 +11644,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -11335,6 +11831,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 209.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 209.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68e26637-37d9-4e6c-aed3-5804e8209e6b")
 		)
@@ -11459,6 +11973,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "14864189-e9ec-4255-81b5-ee11f435aeee")
 		)
@@ -11484,7 +12016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af16e769-28b6-4e37-8aa7-b418c73ed279")
-		(property "Reference" "C26"
+		(property "Reference" "C28"
 			(at 61.976 79.248 0)
 			(effects
 				(font
@@ -11583,6 +12115,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70e1ca79-eaa0-496b-a4f1-8400894a5b0b")
 		)
@@ -11592,7 +12142,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "C26")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11672,6 +12222,24 @@
 			)
 		)
 		(property "Package" "SOD-123"
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 177.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 177.8 67.31 90)
 			(effects
 				(font
@@ -11802,6 +12370,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -12190,6 +12776,286 @@
 		)
 	)
 	(symbol
+		(lib_id "DRV8302DCA:DRV8302DCA")
+		(at 125.73 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd79db6-bedc-448d-a523-93fbed3c9295")
+		(property "Reference" "U4"
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DRV8302DCA"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DRV8302DCA:SOP50P810X120-57N"
+			(at 121.158 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/drv8302"
+			(at 129.794 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC MOTOR DRIVER 8V-60V 56HTSSOP"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DRV8302DCA"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "56pin-HTSSOP"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "42"
+			(uuid "c1b7405e-b314-4b6c-9a75-bf8e39d870dd")
+		)
+		(pin "44"
+			(uuid "c102f8aa-ed91-4859-8d26-63aabdec3277")
+		)
+		(pin "43"
+			(uuid "4226f30c-684b-4b59-9302-d36cbec2625f")
+		)
+		(pin "41"
+			(uuid "800289ab-41da-45a6-b095-4abb0a0ac021")
+		)
+		(pin "40"
+			(uuid "749ac1a9-4500-4248-bbc6-598a2dadf734")
+		)
+		(pin "4"
+			(uuid "df599f51-2f81-40bb-a4bd-32339b0e5613")
+		)
+		(pin "10"
+			(uuid "84820a6a-c037-428c-8696-d03a5f6fa313")
+		)
+		(pin "5"
+			(uuid "91bdc5b1-d491-4352-960a-6624a0e535a7")
+		)
+		(pin "7"
+			(uuid "85cc2fe6-f3dd-4627-8a43-43e5f3de00a3")
+		)
+		(pin "13"
+			(uuid "7eab7312-d13e-4887-93e4-48cd462cb721")
+		)
+		(pin "1"
+			(uuid "631bb4b4-d360-4f5b-b765-7348f84319e1")
+		)
+		(pin "2"
+			(uuid "701238d4-dd78-4b05-81a3-0cf101f6762b")
+		)
+		(pin "3"
+			(uuid "81f623e0-bdfe-4adc-902a-33df2311f8c2")
+		)
+		(pin "6"
+			(uuid "a5ac88a3-1a6c-4cb8-a483-8c97ecae3861")
+		)
+		(pin "9"
+			(uuid "e7766637-cce3-40ab-9aaf-fce6f850c8cd")
+		)
+		(pin "8"
+			(uuid "a488c4c7-6725-44db-8d81-826651873ae9")
+		)
+		(pin "11"
+			(uuid "89b83da2-fde0-4da2-bb79-b1cd082d13a0")
+		)
+		(pin "12"
+			(uuid "db411513-daa8-422e-a145-2a82bf890cf4")
+		)
+		(pin "14"
+			(uuid "f892e63d-10d9-4ab3-9b54-6d1b1a34fb1b")
+		)
+		(pin "15"
+			(uuid "03c72436-8934-4891-b3ef-87e46d76fbd0")
+		)
+		(pin "16"
+			(uuid "709d386d-6437-412f-9373-1c23fe9797f7")
+		)
+		(pin "17"
+			(uuid "bb5f9c95-cf46-4d5a-bb71-d9e89d58e8fc")
+		)
+		(pin "18"
+			(uuid "463128dc-0d97-4e94-a7cd-32a9ed91a6aa")
+		)
+		(pin "19"
+			(uuid "492e07ea-85aa-4684-b131-83520955c4b9")
+		)
+		(pin "20"
+			(uuid "4b2b0797-61e8-42f0-8178-438dcc932468")
+		)
+		(pin "48"
+			(uuid "0aed4c9a-2496-4331-ab61-0ff3e90431f7")
+		)
+		(pin "45"
+			(uuid "174896b4-c78b-4684-af12-9ca55d438729")
+		)
+		(pin "22"
+			(uuid "0d0e7dda-8774-4e30-be08-a3c011a3cc38")
+		)
+		(pin "24"
+			(uuid "10a4cb45-f141-4a3d-88eb-2ec87ebeec6d")
+		)
+		(pin "27"
+			(uuid "1d349844-cc82-4f52-82dd-57ca4d73e35a")
+		)
+		(pin "28"
+			(uuid "6f40c1bf-5866-4879-b1ef-1a978db1337b")
+		)
+		(pin "55"
+			(uuid "8533dfcf-e004-47c3-a018-95ae647255d0")
+		)
+		(pin "21"
+			(uuid "b5ce72f7-13c2-4780-8f17-8334130df1e0")
+		)
+		(pin "51"
+			(uuid "c53b4544-9716-4145-ac3a-210dd1e37463")
+		)
+		(pin "25"
+			(uuid "d73e7df3-bcc5-4ce5-b1f3-7c715103090b")
+		)
+		(pin "54"
+			(uuid "f8466d1f-08a7-48d9-86a1-4da57e29e1c5")
+		)
+		(pin "53"
+			(uuid "5358f893-aaee-49ec-8d4b-9409db3392b2")
+		)
+		(pin "23"
+			(uuid "de3ee845-f8bc-4d23-b785-1d7067323ee7")
+		)
+		(pin "49"
+			(uuid "62b5fae3-1d85-4203-b9e4-231a877ca5eb")
+		)
+		(pin "52"
+			(uuid "14999b20-82dd-46f9-ac61-7e3181b2c1b9")
+		)
+		(pin "50"
+			(uuid "8d9e0168-fb9b-41de-a1a7-d883bc7cf8f7")
+		)
+		(pin "56"
+			(uuid "7736b305-4952-4139-a2ca-6e518a22a637")
+		)
+		(pin "47"
+			(uuid "7b6d479d-c388-4f4a-b429-3cb7014255f7")
+		)
+		(pin "46"
+			(uuid "b0260210-fd49-4e44-892c-188e55c314c3")
+		)
+		(pin "57"
+			(uuid "6798949f-dad5-49c7-9c32-d4b75d4086d0")
+		)
+		(pin "26"
+			(uuid "b3f01b30-de90-4078-b1b1-5d54cddbb7b1")
+		)
+		(pin "34"
+			(uuid "af0d2e8e-5758-4a22-a905-8d615fc433c0")
+		)
+		(pin "30"
+			(uuid "3607417b-fa90-4248-b790-566bcbdbe643")
+		)
+		(pin "29"
+			(uuid "29681027-03eb-40d6-9bbf-73d55e3a4ea7")
+		)
+		(pin "39"
+			(uuid "8e0299c6-ca36-4fde-85b2-afab8e5fb837")
+		)
+		(pin "32"
+			(uuid "9d55455f-e131-4082-a9fd-5bd9cfe90dfa")
+		)
+		(pin "38"
+			(uuid "09a5c0d5-239d-4255-9db9-a120ac450270")
+		)
+		(pin "33"
+			(uuid "6d4c9c37-86c2-437b-93da-af06573077bd")
+		)
+		(pin "36"
+			(uuid "d9a546bb-9e7d-419f-9ea1-9d2c74b4dd73")
+		)
+		(pin "31"
+			(uuid "93403a00-6b86-4c1a-baf3-ad6ee3fac87c")
+		)
+		(pin "35"
+			(uuid "ac96716d-8ddf-4537-a87b-d1960c727b07")
+		)
+		(pin "37"
+			(uuid "14c4de8d-01c6-49ff-826e-08cee414b698")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 67.31 0)
 		(mirror y)
@@ -12290,6 +13156,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 198.12 67.31 0)
 			(effects
 				(font
@@ -12422,6 +13306,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4770f04c-30ef-47be-8ebc-cbecef4fd422")
 		)
@@ -12520,7 +13422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d602b955-e16a-44d5-ba90-a2392223c8d4")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 273.05 148.5899 0)
 			(effects
 				(font
@@ -12610,6 +13512,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c3a3997-c75e-46d2-8e8b-32d1a203442b")
 		)
@@ -12619,7 +13539,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12726,6 +13646,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 241.3 102.87 0)
 			(effects
 				(font
@@ -12850,6 +13788,24 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" ""
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -13028,7 +13984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2fcd30c-6659-46b0-912f-ea354930717b")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 52.07 52.07 90)
 			(effects
 				(font
@@ -13118,6 +14074,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 55.88 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 55.88 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13419d5a-6392-4303-8f6e-075e77853bf5")
 		)
@@ -13127,266 +14101,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8302DCA:DRV8302DCA")
-		(at 125.73 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed11007f-4e4f-4c43-ac1b-9fd3b96f8ca5")
-		(property "Reference" "U4"
-			(at 125.73 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "DRV8302DCA"
-			(at 125.73 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DCA56_6P35X3P61"
-			(at 121.158 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/drv8302"
-			(at 129.794 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DRV8302DCA"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "261de463-4af8-472c-afad-8eb7d5bdf7ed")
-		)
-		(pin "5"
-			(uuid "87588709-3956-4c2b-8bb8-2234129e4d16")
-		)
-		(pin "2"
-			(uuid "c3fcb575-5796-4dba-b454-5033b0ea8cd7")
-		)
-		(pin "9"
-			(uuid "548be994-4e7d-4773-8dc5-43cbfafffb70")
-		)
-		(pin "17"
-			(uuid "8164fc24-519e-4714-b256-dd2af2c25406")
-		)
-		(pin "18"
-			(uuid "5b829f21-2596-497b-a056-bba16de24639")
-		)
-		(pin "19"
-			(uuid "1fb953d6-8681-4831-8c03-bc6af08fe879")
-		)
-		(pin "12"
-			(uuid "e457a882-77aa-42f0-8213-63629fc3faae")
-		)
-		(pin "20"
-			(uuid "64305c9e-9dc2-4fc0-a6e2-e1bc02056af9")
-		)
-		(pin "10"
-			(uuid "43198c1b-1841-4861-938a-7e2d460da285")
-		)
-		(pin "21"
-			(uuid "b644128b-baed-4a72-9742-c330c71ceeb3")
-		)
-		(pin "7"
-			(uuid "e74db279-cbb9-4fe5-b57e-65218f71388b")
-		)
-		(pin "8"
-			(uuid "13596739-7f19-4fda-bfa8-5140eca07ffd")
-		)
-		(pin "11"
-			(uuid "15bb3631-cb5b-4f9c-9403-5b36e86c7e70")
-		)
-		(pin "13"
-			(uuid "cdeb6e2c-6260-405d-a2aa-1209a53ea178")
-		)
-		(pin "14"
-			(uuid "b7e139fe-52af-440d-b1c5-a8926b9880b3")
-		)
-		(pin "1"
-			(uuid "2162edbe-d8e4-4a20-b229-0cabc1d32620")
-		)
-		(pin "4"
-			(uuid "2321ac80-edd4-4d5b-81ef-fa6c72c393c3")
-		)
-		(pin "6"
-			(uuid "c2f1690d-d2af-47de-a3d5-050c3577e699")
-		)
-		(pin "15"
-			(uuid "f7241229-2742-42a7-a002-d0c783d9cf6a")
-		)
-		(pin "16"
-			(uuid "9ae02cbb-60b6-4bc9-9dd4-c803756dde38")
-		)
-		(pin "28"
-			(uuid "d19ec2c9-818f-4aa8-8e34-6473c878cc3f")
-		)
-		(pin "52"
-			(uuid "8abd9b2f-5fb9-4945-adb2-e1c4aaf4680b")
-		)
-		(pin "49"
-			(uuid "0671960c-a3eb-4d60-9c77-ebbc105568f2")
-		)
-		(pin "40"
-			(uuid "5efa910e-5859-4cfd-8217-cb6fbacf9747")
-		)
-		(pin "53"
-			(uuid "27e78d83-9898-4275-a528-35baf1506a38")
-		)
-		(pin "32"
-			(uuid "7313b675-040e-42e9-b271-4a1a36631662")
-		)
-		(pin "46"
-			(uuid "16d74c8d-50cd-4ce7-b30f-ef5216270313")
-		)
-		(pin "26"
-			(uuid "8aaa21b5-8b6e-4c59-bb92-1cf44845103c")
-		)
-		(pin "38"
-			(uuid "c43ede34-6ece-407a-a4d6-443afd538016")
-		)
-		(pin "54"
-			(uuid "41efcf99-c975-4b91-8421-44248e84d7e9")
-		)
-		(pin "47"
-			(uuid "761a8251-d761-42d9-867a-c950855b8b7f")
-		)
-		(pin "41"
-			(uuid "b3f60785-7d7d-48e8-9c71-444545cfc50e")
-		)
-		(pin "39"
-			(uuid "e7f47e62-b435-4f58-a9ae-2c7b2e8d00b7")
-		)
-		(pin "37"
-			(uuid "6972ef6a-da27-4a66-a5cb-c34681429be6")
-		)
-		(pin "33"
-			(uuid "6e6a9d60-5ce6-4b1c-9209-34e124f52f50")
-		)
-		(pin "24"
-			(uuid "b0c96679-b8af-40fc-95cd-eef1a55271f2")
-		)
-		(pin "45"
-			(uuid "52392ba2-4982-4dde-aba8-2f2351afa736")
-		)
-		(pin "44"
-			(uuid "85e74425-79e2-4529-a2b9-0e6bb97ca11d")
-		)
-		(pin "34"
-			(uuid "9ca72d16-1ba9-440b-b594-ed3d0db86130")
-		)
-		(pin "30"
-			(uuid "c9919850-2ecb-4510-9532-8efe60510edd")
-		)
-		(pin "22"
-			(uuid "bfaa2d1a-992b-4286-8701-99f433388f3e")
-		)
-		(pin "25"
-			(uuid "505aaed8-e242-4d18-a905-3f0ac363da0f")
-		)
-		(pin "56"
-			(uuid "21195442-f675-42be-9e0a-be13ab60780b")
-		)
-		(pin "57"
-			(uuid "6806cc99-a568-4ce5-a5bf-a2af4c139370")
-		)
-		(pin "23"
-			(uuid "7ae487f7-4407-41c1-9a74-e47eadb02ee2")
-		)
-		(pin "27"
-			(uuid "9d4fa2a9-df79-4920-9204-047f224939f6")
-		)
-		(pin "55"
-			(uuid "dbb5ccdb-00c2-40c3-a1c3-e00fa042620c")
-		)
-		(pin "50"
-			(uuid "503f9bac-d420-4104-b3be-6b903bceb7f5")
-		)
-		(pin "48"
-			(uuid "f416bd19-30ae-43b8-9040-da79d25be9cb")
-		)
-		(pin "43"
-			(uuid "5d9081fc-8a18-43e0-8fd7-43ebb6b2ac1f")
-		)
-		(pin "51"
-			(uuid "d0fc1c3e-2484-4f9a-a739-67c69a0b4d58")
-		)
-		(pin "42"
-			(uuid "b2ad3b14-5b13-47ea-88fe-3556c3037e6f")
-		)
-		(pin "36"
-			(uuid "6a09a6e5-292d-48bb-8026-568f6713620b")
-		)
-		(pin "35"
-			(uuid "18435add-cca0-4bd1-bba9-d28af718976b")
-		)
-		(pin "31"
-			(uuid "424db4c0-aca9-46db-919a-5b63356d5bd7")
-		)
-		(pin "29"
-			(uuid "b35b96c9-a785-4904-89b4-1aee4ad33127")
-		)
-		(instances
-			(project "MOSFET_DRIVER"
-				(path "/a3f3d9c4-536a-49d4-bc54-ad3b3dc2bd55"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "U4")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13402,7 +14117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe90c4a-6cf9-4dcd-907e-15510d6c4498")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 257.81 138.4299 0)
 			(effects
 				(font
@@ -13492,6 +14207,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 255.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 255.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d0a0ac0-4563-4427-b117-c796fef55c89")
 		)
@@ -13501,7 +14234,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -13689,6 +14422,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9d2c6d5-5346-4319-a4a3-bb67d46a6973")
 		)
@@ -13714,7 +14465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feed9674-52e9-41a1-abba-e749d5ef7f32")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 242.57 138.4299 0)
 			(effects
 				(font
@@ -13804,6 +14555,24 @@
 				(hide yes)
 			)
 		)
+		(property "MNP" ""
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1e7a1c7-2105-46ad-acd2-ef8cc6c2b395")
 		)
@@ -13813,7 +14582,7 @@
 		(instances
 			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4a69dce2-d5c3-4afc-9f40-a99df22bff30"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
