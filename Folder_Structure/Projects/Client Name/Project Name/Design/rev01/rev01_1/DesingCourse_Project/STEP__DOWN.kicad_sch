@@ -1495,6 +1495,26 @@
 		)
 		(uuid "f5723914-b2f7-4da1-bd7f-91228e353bdb")
 	)
+	(label "Node3"
+		(at 184.15 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b310431-db4a-4d4a-afa1-31b8db512d39")
+	)
+	(label "Node2"
+		(at 92.71 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b83fa6ee-e916-4c8d-84b8-fe4754c9423e")
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 184.15 67.31 0)

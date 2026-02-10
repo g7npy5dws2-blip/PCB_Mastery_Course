@@ -1048,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 73.66) (xy 24.13 72.39)
+			(xy 24.13 73.66) (xy 24.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1095,6 +1095,46 @@
 			(type default)
 		)
 		(uuid "e607e8d5-6c3c-48e5-907e-765f958932e8")
+	)
+	(label "Node11"
+		(at 49.53 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da76fc0c-1651-4d90-a3bd-211c65b7c1fa")
+	)
+	(label "Node12"
+		(at 24.13 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df50e264-dca0-4943-8145-ec9ddabb8732")
+	)
+	(label "Node10"
+		(at 24.13 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4e9c94c-e0b1-4dec-b9a6-7d3f69211808")
+	)
+	(label "Node13"
+		(at 49.53 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8887c71-bc14-434f-8b88-5c0d57c1b423")
 	)
 	(symbol
 		(lib_id "JGB_Library:High_Voltage_logo")
@@ -1345,7 +1385,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 24.13 69.85 0)
+		(at 24.13 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1354,7 +1394,7 @@
 		(fields_autoplaced yes)
 		(uuid "3995ab4f-0e6c-46bb-96ca-e6d63c5e874e")
 		(property "Reference" "MH1"
-			(at 26.67 67.3099 0)
+			(at 26.67 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1403,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 26.67 69.8499 0)
+			(at 26.67 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
-			(at 24.13 69.85 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 69.85 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1430,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole for a 3mm screw"
-			(at 24.13 69.85 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1439,7 @@
 			)
 		)
 		(property "MNP" ""
-			(at 24.13 69.85 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1448,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 24.13 69.85 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

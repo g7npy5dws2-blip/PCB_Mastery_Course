@@ -8343,6 +8343,16 @@
 		)
 		(uuid "026b23df-2297-4d9b-aeb9-a62a9357a198")
 	)
+	(label "Node7"
+		(at 261.62 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06fc48d5-94b3-447b-992c-dcff88566039")
+	)
 	(label "RX_SDA_NSS"
 		(at 41.91 186.69 0)
 		(effects
@@ -8402,6 +8412,18 @@
 			(justify left bottom)
 		)
 		(uuid "15631ff5-2d54-46c1-aa9d-e1c1405f0c2e")
+	)
+	(label "SENS1"
+		(at 184.15 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1663f63f-3ce2-4da6-8819-9fef5e61110e")
 	)
 	(label "SWCLK"
 		(at 184.15 90.17 0)
@@ -8569,6 +8591,16 @@
 		)
 		(uuid "44629f48-e7ac-40d8-8d22-4318a6b8bb16")
 	)
+	(label "Node5"
+		(at 107.95 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4567f9b1-f870-4255-930b-c3cb4f4742e5")
+	)
 	(label "HALL2_OUT"
 		(at 184.15 115.57 0)
 		(effects
@@ -8592,18 +8624,6 @@
 			(justify left bottom)
 		)
 		(uuid "4784c5ca-35a0-4b44-be00-ad6819bf4247")
-	)
-	(label "SENS1"
-		(at 184.15 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "499aa5ed-d3bc-4595-b72c-9e8f4e0a8d9e")
 	)
 	(label "EN_GATE"
 		(at 130.81 102.87 0)
@@ -8640,18 +8660,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f518e83-fa2c-42aa-bffd-ca2509cfd3fe")
-	)
-	(label "SENS3"
-		(at 184.15 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f9deb86-cc06-4624-b586-c9561ed64364")
 	)
 	(label "BR_SD2"
 		(at 184.15 97.79 0)
@@ -8832,6 +8840,18 @@
 			(justify left bottom)
 		)
 		(uuid "7a52140e-54b4-4632-99b8-ad6b2da57b2d")
+	)
+	(label "SENS3"
+		(at 184.15 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5851fd-0c8b-41ba-bfb9-9ae31ce866c3")
 	)
 	(label "HALL_2_OUT"
 		(at 31.75 35.56 0)
@@ -9019,6 +9039,16 @@
 		)
 		(uuid "beed2ede-84da-4bf7-92ca-3bafb4fd6c05")
 	)
+	(label "Node6"
+		(at 118.11 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5ab0a25-86ee-479d-b60b-314e657d62f6")
+	)
 	(label "BR_SD1"
 		(at 184.15 100.33 0)
 		(effects
@@ -9066,6 +9096,16 @@
 			(justify left bottom)
 		)
 		(uuid "d369067e-6eac-4a25-a99b-f6b88bc2f5b9")
+	)
+	(label "Node4"
+		(at 99.06 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d483e999-8e26-4b9d-8f14-dac32cc2f382")
 	)
 	(label "H1"
 		(at 184.15 80.01 0)

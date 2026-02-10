@@ -2472,6 +2472,16 @@
 		)
 		(uuid "2bc90fc7-fbd3-43f0-8b63-c60bf7b54840")
 	)
+	(label "CAN_RS"
+		(at 224.79 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ebeae96-72e7-456e-984d-71bea680dfed")
+	)
 	(label "R_CAN_P"
 		(at 140.97 77.47 0)
 		(effects
@@ -2658,17 +2668,15 @@
 	)
 	(symbol
 		(lib_id "Molex_87438:874380443")
-		(at 78.74 85.09 0)
-		(mirror y)
+		(at 78.74 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "096e5c19-2172-4114-b329-2f5323c1ae90")
 		(property "Reference" "J10"
-			(at 74.8665 77.47 0)
+			(at 73.914 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2684,7 @@
 			)
 		)
 		(property "Value" "874380443"
-			(at 74.8665 80.01 0)
+			(at 74.422 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2692,7 @@
 			)
 		)
 		(property "Footprint" "874380843:MOLEX_874380443"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 85.09 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2711,7 @@
 			)
 		)
 		(property "Description" "Conn Shrouded Header HDR 4 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2720,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2730,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2740,7 @@
 			)
 		)
 		(property "Package" "SMT"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2750,7 @@
 			)
 		)
 		(property "MPN" "874380843"
-			(at 78.74 92.71 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2760,7 @@
 			)
 		)
 		(property "MNP" ""
-			(at 78.74 85.09 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2769,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 78.74 85.09 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2802,7 @@
 			(uuid "f7fceccc-655c-4ed7-96ea-1d3e095f2eaf")
 		)
 		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b3fa387-87ed-4757-a85e-cf275a3b7618"
 					(reference "J10")
 					(unit 1)
@@ -2936,15 +2944,15 @@
 	(symbol
 		(lib_id "WE-SL2:744227S")
 		(at 167.64 90.17 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39ef1aca-c617-4d4c-a0f2-f6bc38a3020c")
 		(property "Reference" "L2"
-			(at 167.48 82.55 0)
+			(at 167.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2960,7 @@
 			)
 		)
 		(property "Value" "744227S"
-			(at 167.48 85.09 0)
+			(at 167.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3056,7 @@
 			(uuid "0802ca48-7b77-4e68-a495-0df160474443")
 		)
 		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4b3fa387-87ed-4757-a85e-cf275a3b7618"
 					(reference "L2")
 					(unit 1)
@@ -4275,6 +4283,7 @@
 	(symbol
 		(lib_id "JGB_Library:ESDCAN24-2BLY")
 		(at 107.95 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4282,7 +4291,7 @@
 		(dnp no)
 		(uuid "f13010a4-7c45-4ebb-b69b-4ed5f2a223a6")
 		(property "Reference" "D15"
-			(at 114.808 85.344 0)
+			(at 113.792 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4300,7 @@
 			)
 		)
 		(property "Value" "ESDCAN24-2BLY"
-			(at 104.902 80.518 90)
+			(at 104.902 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1406,6 +1406,16 @@
 		)
 		(uuid "e4415273-a7e2-41e4-b5b2-d7ccbe5ce2d6")
 	)
+	(label "Node1"
+		(at 193.04 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b29b3790-c12b-4240-845c-42961aebc61c")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 193.04 80.01 0)

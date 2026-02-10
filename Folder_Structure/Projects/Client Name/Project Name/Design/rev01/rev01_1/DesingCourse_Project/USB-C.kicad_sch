@@ -1971,6 +1971,16 @@
 		)
 		(uuid "81412b9b-dea5-46e4-abbe-0415952b5e94")
 	)
+	(label "Shield_USB"
+		(at 87.63 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81b1452f-cb14-4556-906b-7e65848d6114")
+	)
 	(label "CC1"
 		(at 191.77 92.71 0)
 		(effects
