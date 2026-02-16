@@ -3116,6 +3116,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aade4c-a0d1-4cee-b887-35236fe240d0")
+	)
+	(wire
+		(pts
 			(xy 256.54 106.68) (xy 256.54 109.22)
 		)
 		(stroke
@@ -4153,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "8933d4da-34a8-4d9f-a859-af6587828dfa")
-	)
-	(wire
-		(pts
-			(xy 100.33 116.84) (xy 88.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895b6d1d-bb1d-4b8c-bb06-ae56de4709a3")
 	)
 	(wire
 		(pts
@@ -5211,16 +5211,6 @@
 			(justify left bottom)
 		)
 		(uuid "06fa979b-88ad-41c4-b1de-f4956c93b3c8")
-	)
-	(label ""
-		(at 90.17 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0878b02e-b974-4a13-bdd2-14ad41ce008b")
 	)
 	(label "H2_VS"
 		(at 256.54 109.22 0)
@@ -7224,7 +7214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 18k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -7357,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -7498,7 +7488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -7631,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 62.23 0)
 			(effects
 				(font
@@ -7840,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -7982,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 62.23 100.33 0)
 			(effects
 				(font
@@ -8198,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10nF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -8340,7 +8330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 240.03 149.86 0)
 			(effects
 				(font
@@ -8473,7 +8463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 166.37 135.89 0)
 			(effects
 				(font
@@ -9037,7 +9027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 3k3 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 219.71 78.74 0)
 			(effects
 				(font
@@ -9170,7 +9160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1M OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -9407,7 +9397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22nF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -9694,7 +9684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -9909,7 +9899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 256.54 102.87 0)
 			(effects
 				(font
@@ -10197,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -10339,7 +10329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X5R 1210"
+		(property "Description" "Unpolarized capacitor"
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -10481,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 160.02 135.89 0)
 			(effects
 				(font
@@ -10622,7 +10612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 205k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -10754,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -10960,7 +10950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 270.51 139.7 0)
 			(effects
 				(font
@@ -11093,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -11235,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 189.23 41.91 0)
 			(effects
 				(font
@@ -11377,7 +11367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X5R 1210"
+		(property "Description" "Unpolarized capacitor"
 			(at 210.82 67.31 0)
 			(effects
 				(font
@@ -11593,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 255.27 149.86 0)
 			(effects
 				(font
@@ -11798,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 209.55 41.91 0)
 			(effects
 				(font
@@ -11940,7 +11930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 194.31 41.91 0)
 			(effects
 				(font
@@ -12082,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 62.23 81.28 0)
 			(effects
 				(font
@@ -12345,7 +12335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 120pF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -13131,7 +13121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X5R 1210"
+		(property "Description" "Unpolarized capacitor"
 			(at 198.12 67.31 0)
 			(effects
 				(font
@@ -13273,7 +13263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 199.39 41.91 0)
 			(effects
 				(font
@@ -13488,7 +13478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 270.51 149.86 0)
 			(effects
 				(font
@@ -13621,7 +13611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 102.87 0)
 			(effects
 				(font
@@ -13763,7 +13753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -14050,7 +14040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 16k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -14183,7 +14173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 255.27 139.7 0)
 			(effects
 				(font
@@ -14389,7 +14379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 153.67 135.89 0)
 			(effects
 				(font
@@ -14531,7 +14521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 240.03 139.7 0)
 			(effects
 				(font

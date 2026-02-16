@@ -1495,6 +1495,16 @@
 		)
 		(uuid "f5723914-b2f7-4da1-bd7f-91228e353bdb")
 	)
+	(label "P3V3_I"
+		(at 146.05 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ec39db8-aa5f-4b3e-bdf5-51a3b22f04ab")
+	)
 	(label "Node3"
 		(at 184.15 81.28 0)
 		(effects
@@ -1628,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 74.93 0)
 			(effects
 				(font
@@ -1770,7 +1780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -2047,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 1206 SMD"
+		(property "Description" "Light emitting diode"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -2238,7 +2248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -2505,7 +2515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 1206 SMD"
+		(property "Description" "Light emitting diode"
 			(at 184.15 86.36 0)
 			(effects
 				(font
@@ -2629,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -3182,7 +3192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 119.38 74.93 0)
 			(effects
 				(font
@@ -3324,7 +3334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 74.93 0)
 			(effects
 				(font

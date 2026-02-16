@@ -78,7 +78,7 @@
 		(start -2.5781 1.6764)
 		(end 2.5781 1.6764)
 		(stroke
-			(width 0.1524)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -88,7 +88,7 @@
 		(start 2.5781 -1.6764)
 		(end -2.5781 -1.6764)
 		(stroke
-			(width 0.1524)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -258,38 +258,6 @@
 		(polygon
 			(pts
 				(xy -2.5273 -1.6256) (xy 2.5273 -1.6256) (xy 2.5273 -1.0541) (xy -2.5273 -1.0541)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "ca303cc5-284f-4d2d-b1ec-ddca8f6497d9")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -2.5273 1.0541) (xy 2.5273 1.0541) (xy 2.5273 1.6256) (xy -2.5273 1.6256)
 			)
 		)
 	)

@@ -1931,6 +1931,16 @@
 		)
 		(uuid "378ac813-890b-4c25-b7e7-f6dc6870447b")
 	)
+	(label "P5V-C"
+		(at 113.03 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c33885a-f2f8-4c91-99c1-17e4583d7f1f")
+	)
 	(label "USB-C_N"
 		(at 113.03 81.28 0)
 		(effects
@@ -2280,7 +2290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 80.01 110.49 0)
 			(effects
 				(font
@@ -2478,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5k1 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -2610,7 +2620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5k1 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2742,7 +2752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 138.43 81.28 0)
 			(effects
 				(font
@@ -3009,7 +3019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 120.65 53.34 0)
 			(effects
 				(font
@@ -3297,7 +3307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "7pin XSON7"
+		(property "Package" "XSON7-7"
 			(at 212.09 97.79 0)
 			(effects
 				(font
@@ -3411,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 87.63 110.49 0)
 			(effects
 				(font
@@ -3543,7 +3553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 138.43 83.82 0)
 			(effects
 				(font

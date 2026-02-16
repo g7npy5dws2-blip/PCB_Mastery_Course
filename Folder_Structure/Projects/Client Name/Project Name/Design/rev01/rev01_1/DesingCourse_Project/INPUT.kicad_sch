@@ -1462,7 +1462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -2373,7 +2373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 1206 SMD"
+		(property "Description" "Light emitting diode"
 			(at 193.04 91.44 0)
 			(effects
 				(font

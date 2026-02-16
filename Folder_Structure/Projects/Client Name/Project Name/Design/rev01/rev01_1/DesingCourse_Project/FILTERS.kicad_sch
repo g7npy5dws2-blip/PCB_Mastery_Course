@@ -1698,7 +1698,7 @@
 		)
 		(uuid "2cd4c25c-4a85-4937-b1c3-bb1a259dda15")
 	)
-	(label "HALL3_OUT"
+	(label "HALL_3_OUT"
 		(at 223.52 72.39 0)
 		(effects
 			(font
@@ -1720,7 +1720,7 @@
 		)
 		(uuid "50958db2-4bda-422c-8a5b-97adc48e34b2")
 	)
-	(label "HALL2_OUT"
+	(label "HALL_2_OUT"
 		(at 223.52 68.58 0)
 		(effects
 			(font
@@ -1731,7 +1731,7 @@
 		)
 		(uuid "72a26f32-d28e-4322-b560-91ab45e5aa05")
 	)
-	(label "HALL2_OUT"
+	(label "HALL_2_OUT"
 		(at 110.49 121.92 0)
 		(effects
 			(font
@@ -1764,7 +1764,7 @@
 		)
 		(uuid "8cf372d5-de15-4bd2-ae37-4dea939321e5")
 	)
-	(label "HALL3_OUT"
+	(label "HALL_3_OUT"
 		(at 110.49 175.26 0)
 		(effects
 			(font
@@ -1775,7 +1775,7 @@
 		)
 		(uuid "9a0a18c8-af8f-4710-87a8-8b0eb0f0fbbb")
 	)
-	(label "HALL1_OUT"
+	(label "HALL_1_OUT"
 		(at 223.52 64.77 0)
 		(effects
 			(font
@@ -1808,7 +1808,7 @@
 		)
 		(uuid "c1373179-5e23-4db5-afa9-6cb644701645")
 	)
-	(label "HALL1_OUT"
+	(label "HALL_1_OUT"
 		(at 110.49 68.58 0)
 		(effects
 			(font
@@ -1852,7 +1852,7 @@
 		)
 		(uuid "fcd23447-70b3-4bec-905b-3654a2ba113c")
 	)
-	(global_label "HALL3_OUT"
+	(global_label "HALL_3_OUT"
 		(shape output)
 		(at 240.03 72.39 0)
 		(fields_autoplaced yes)
@@ -1866,7 +1866,7 @@
 		)
 		(uuid "4eef7b47-0711-420d-907f-b3b775299c9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.8673 72.39 0)
+			(at 254.8349 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1876,7 @@
 			)
 		)
 	)
-	(global_label "HALL1_OUT"
+	(global_label "HALL_1_OUT"
 		(shape output)
 		(at 240.03 64.77 0)
 		(fields_autoplaced yes)
@@ -1890,7 +1890,7 @@
 		)
 		(uuid "60a8a5e4-49b7-412e-8a70-21ebf3d26ca9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.8673 64.77 0)
+			(at 254.8349 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 			)
 		)
 	)
-	(global_label "HALL2_OUT"
+	(global_label "HALL_2_OUT"
 		(shape output)
 		(at 240.03 68.58 0)
 		(fields_autoplaced yes)
@@ -1914,7 +1914,7 @@
 		)
 		(uuid "c4dca465-a967-4a79-a4bf-45c16641319b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.8673 68.58 0)
+			(at 254.8349 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 100.33 121.92 0)
 			(effects
 				(font
@@ -2390,7 +2390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -2655,7 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7nF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 92.71 182.88 0)
 			(effects
 				(font
@@ -2797,7 +2797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 92.71 55.88 0)
 			(effects
 				(font
@@ -2930,7 +2930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 92.71 162.56 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 100.33 68.58 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 105.41 55.88 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7nF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 157.48 68.58 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 100.33 175.26 0)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 105.41 162.56 0)
 			(effects
 				(font
@@ -4722,7 +4722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7nF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7nF 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 92.71 76.2 0)
 			(effects
 				(font

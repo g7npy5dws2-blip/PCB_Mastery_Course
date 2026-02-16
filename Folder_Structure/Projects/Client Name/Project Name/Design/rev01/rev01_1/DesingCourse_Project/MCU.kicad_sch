@@ -3491,7 +3491,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 6.35 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 				)
 			)
 			(property "Value" "874380343"
-				(at -0.508 -7.366 0)
+				(at -0.508 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 				)
 			)
 			(property "Footprint" "874380843:MOLEX_874380343"
-				(at 0.254 -0.762 0)
+				(at 0.254 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 				)
 			)
 			(property "Description" "Conn Shrouded Header HDR 3 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
-				(at 0.254 -0.762 0)
+				(at 0.254 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 				)
 			)
 			(property "Manufacturer" "Molex"
-				(at 0.254 -0.762 0)
+				(at 0.254 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-				(at 0.254 -0.508 0)
+				(at 0.254 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3557,7 +3557,7 @@
 				)
 			)
 			(property "Package" "SMT"
-				(at 0 -0.762 0)
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 				)
 			)
 			(property "MPN" "874380343"
-				(at 0.254 -0.508 0)
+				(at 0.254 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3577,18 +3577,6 @@
 				)
 			)
 			(symbol "874380343_0_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 1.905 0)
@@ -3613,15 +3601,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.635 2.2225)
-					(end 2.2225 2.8575)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.905 -5.08)
+					)
 					(stroke
-						(width 0.1)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
@@ -3646,8 +3635,19 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start 0.635 -5.3975)
+					(end 2.2225 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -3665,7 +3665,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 5.08)
 					(hide yes)
 					(name "1"
@@ -3684,7 +3684,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -3702,7 +3702,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(hide yes)
 					(name "2"
@@ -3721,7 +3721,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -3739,7 +3739,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
 					(hide yes)
 					(name "3"
@@ -3761,8 +3761,8 @@
 			(symbol "874380343_1_1"
 				(polyline
 					(pts
-						(xy 7.874 5.08) (xy 1.27 5.08) (xy 0.254 4.064) (xy 0.254 -4.064) (xy 1.27 -5.08) (xy 7.874 -5.08)
-						(xy 7.874 5.08)
+						(xy 7.874 2.54) (xy 1.27 2.54) (xy 0.254 1.524) (xy 0.254 -6.604) (xy 1.27 -7.62) (xy 7.874 -7.62)
+						(xy 7.874 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4249,7 +4249,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PESD3V3U1UA_115_1"
+		(symbol "PESD3V3U1UA_115:PESD3V3U1UA_115"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4342,7 +4342,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PESD3V3U1UA_115_1_0_0"
+			(symbol "PESD3V3U1UA_115_0_0"
 				(polyline
 					(pts
 						(xy 0 1.27) (xy 0 0)
@@ -8601,18 +8601,6 @@
 		)
 		(uuid "4567f9b1-f870-4255-930b-c3cb4f4742e5")
 	)
-	(label "HALL2_OUT"
-		(at 184.15 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "462d61c0-fa04-4f6a-926f-64b8e9da5df2")
-	)
 	(label "L2"
 		(at 184.15 133.35 0)
 		(effects
@@ -8661,7 +8649,7 @@
 		)
 		(uuid "4f518e83-fa2c-42aa-bffd-ca2509cfd3fe")
 	)
-	(label "BR_SD2"
+	(label "BR_SO2"
 		(at 184.15 97.79 0)
 		(effects
 			(font
@@ -8685,7 +8673,7 @@
 		)
 		(uuid "54aab2ff-5202-4695-b53d-abd8c816b945")
 	)
-	(label "BR_SD2"
+	(label "BR_SO2"
 		(at 248.92 74.93 0)
 		(effects
 			(font
@@ -8708,6 +8696,18 @@
 			(justify left bottom)
 		)
 		(uuid "5865774b-2006-49bf-84a7-50096e938d94")
+	)
+	(label "HALL_2_OUT"
+		(at 184.15 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ef569d5-c852-4a90-8ff3-9f6ab7e402b9")
 	)
 	(label "CAN_TX"
 		(at 248.92 35.56 0)
@@ -8733,7 +8733,7 @@
 		)
 		(uuid "61fbfdf5-b310-4e4f-879b-bf2dc7553225")
 	)
-	(label "HALL3_OUT"
+	(label "HALL_3_OUT"
 		(at 130.81 105.41 0)
 		(effects
 			(font
@@ -8757,7 +8757,7 @@
 		)
 		(uuid "684d0468-a156-4c4d-9442-6e3ed1e492b1")
 	)
-	(label "BR_SD1"
+	(label "BR_SO1"
 		(at 248.92 77.47 0)
 		(effects
 			(font
@@ -8768,18 +8768,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e7368b0-bf17-4928-9bb9-206cf789f3d3")
-	)
-	(label "HALL1_OUT"
-		(at 184.15 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7035feeb-9c98-4a7a-b50b-2037504f4bcd")
 	)
 	(label "USB_N"
 		(at 184.15 82.55 0)
@@ -9049,7 +9037,7 @@
 		)
 		(uuid "c5ab0a25-86ee-479d-b60b-314e657d62f6")
 	)
-	(label "BR_SD1"
+	(label "BR_SO1"
 		(at 184.15 100.33 0)
 		(effects
 			(font
@@ -9269,6 +9257,18 @@
 		)
 		(uuid "ef206bba-bb7b-493d-aa01-e4b87a5c3452")
 	)
+	(label "HALL_1_OUT"
+		(at 184.15 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2c48a82-5d48-4a11-b629-0b987309f3df")
+	)
 	(label "H3"
 		(at 248.92 67.31 0)
 		(effects
@@ -9383,7 +9383,7 @@
 			)
 		)
 	)
-	(global_label "BR_SD2"
+	(global_label "BR_SO2"
 		(shape output)
 		(at 261.62 74.93 0)
 		(fields_autoplaced yes)
@@ -9395,7 +9395,7 @@
 		)
 		(uuid "30f8e366-e190-4729-ad8a-68a275181874")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.8969 74.93 0)
+			(at 271.9574 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9538,7 @@
 			)
 		)
 	)
-	(global_label "BR_SD1"
+	(global_label "BR_SO1"
 		(shape output)
 		(at 261.62 77.47 0)
 		(fields_autoplaced yes)
@@ -9550,7 +9550,7 @@
 		)
 		(uuid "85adcc77-5dcd-49de-a360-c94b4ffe6cda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.8969 77.47 0)
+			(at 271.9574 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +9979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED RED CLEAR 1206 SMD"
+		(property "Description" "Light emitting diode"
 			(at 118.11 107.95 0)
 			(effects
 				(font
@@ -10796,7 +10796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -11072,7 +11072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 48.26 0)
 			(effects
 				(font
@@ -11211,7 +11211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -11686,7 +11686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -11850,7 +11850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 22.86 142.24 0)
 			(effects
 				(font
@@ -11983,7 +11983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "THERMISTOR NTC 10KOHM 3380K 0603"
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
 			(at 35.56 106.68 0)
 			(effects
 				(font
@@ -12533,7 +12533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -12742,7 +12742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 125.73 128.27 0)
 			(effects
 				(font
@@ -13026,7 +13026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 194.31 38.1 0)
 			(effects
 				(font
@@ -13165,7 +13165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -13638,7 +13638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 107.95 96.52 0)
 			(effects
 				(font
@@ -13771,7 +13771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -13980,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -14123,7 +14123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 73.66 48.26 0)
 			(effects
 				(font
@@ -14438,7 +14438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 35.56 88.9 0)
 			(effects
 				(font
@@ -14637,7 +14637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 22.86 152.4 0)
 			(effects
 				(font
@@ -14770,7 +14770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 86.36 90.17 0)
 			(effects
 				(font
@@ -14909,7 +14909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -15042,7 +15042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 118.11 96.52 0)
 			(effects
 				(font
@@ -15175,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 116.84 57.15 0)
 			(effects
 				(font
@@ -15338,7 +15338,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD3V3U1UA_115_1")
 		(lib_id "PESD3V3U1UA_115:PESD3V3U1UA_115")
 		(at 66.04 185.42 90)
 		(unit 1)
@@ -15570,7 +15569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -15712,7 +15711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 243.84 152.4 0)
 			(effects
 				(font
@@ -15942,7 +15941,7 @@
 	)
 	(symbol
 		(lib_id "Molex_87438:874380343")
-		(at 269.24 135.89 0)
+		(at 269.24 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15950,7 +15949,7 @@
 		(dnp no)
 		(uuid "d26976d8-d4ad-40d4-93d7-1378f9a2790a")
 		(property "Reference" "J5"
-			(at 272.034 129.032 0)
+			(at 272.034 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15958,7 @@
 			)
 		)
 		(property "Value" "874380343"
-			(at 266.192 142.494 0)
+			(at 266.192 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +15967,7 @@
 			)
 		)
 		(property "Footprint" "874380843:MOLEX_874380343"
-			(at 269.494 136.652 0)
+			(at 269.494 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15978,7 +15977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 135.89 0)
+			(at 269.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15987,7 +15986,7 @@
 			)
 		)
 		(property "Description" "Conn Shrouded Header HDR 3 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
-			(at 269.494 136.652 0)
+			(at 269.494 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15996,7 +15995,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 269.494 136.652 0)
+			(at 269.494 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16006,7 +16005,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 269.494 136.398 0)
+			(at 269.494 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16016,7 +16015,7 @@
 			)
 		)
 		(property "Package" "SMT"
-			(at 269.24 136.652 0)
+			(at 269.24 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16025,7 @@
 			)
 		)
 		(property "MPN" "874380343"
-			(at 269.494 136.398 0)
+			(at 269.494 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16036,7 +16035,7 @@
 			)
 		)
 		(property "MNP" ""
-			(at 269.24 135.89 0)
+			(at 269.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16045,7 +16044,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 269.24 135.89 0)
+			(at 269.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16072,7 +16071,7 @@
 			(uuid "e70205e7-8623-4a94-abb4-f158134fb3be")
 		)
 		(instances
-			(project ""
+			(project "DesingCourse_Project"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c582aa5b-bceb-43c7-823e-4bc027bffba3"
 					(reference "J5")
 					(unit 1)
@@ -16260,7 +16259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR 1206 SMD"
+		(property "Description" "Light emitting diode"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -16905,7 +16904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 48.26 0)
 			(effects
 				(font
@@ -17047,7 +17046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -17189,7 +17188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2k2 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -17320,7 +17319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
+		(property "Description" "Ferrite bead"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -17435,7 +17434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 54.61 48.26 0)
 			(effects
 				(font

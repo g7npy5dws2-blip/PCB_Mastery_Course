@@ -590,7 +590,7 @@
 				)
 			)
 			(property "Description" "Conn Shrouded Header HDR 4 POS 1.5mm Solder RA Side Entry SMD Pico-SPOX™ T/R"
-				(at 0 -7.62 0)
+				(at 0 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 224.79 97.79 0)
 			(effects
 				(font
@@ -3711,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -3911,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 120R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 51pF 50V NP0 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 6.3V X5R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 187.96 71.12 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 51pF 50V NP0 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -4585,7 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 132.08 77.47 0)
 			(effects
 				(font

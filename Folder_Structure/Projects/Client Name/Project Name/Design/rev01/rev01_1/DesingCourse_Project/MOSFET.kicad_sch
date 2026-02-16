@@ -1097,369 +1097,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HSBA15810C_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "HSBA15810C"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:HSBA15810C"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 100V 100A 208W PRPAK5x6-8L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HSBA15810C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HUASHUO Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "8pin-PRPAK5x6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS Huashou"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PowerPAK*SO*Single*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HSBA15810C_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HSBA15810C_1_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WSLP27261L000FEA:WSLP27261L000FEA"
 			(pin_names
 				(offset 1.016)
@@ -6132,7 +5769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 185.42 69.85 0)
 			(effects
 				(font
@@ -6265,7 +5902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 190.5 97.79 0)
 			(effects
 				(font
@@ -6667,7 +6304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 67.31 132.08 0)
 			(effects
 				(font
@@ -7003,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 128.27 97.79 0)
 			(effects
 				(font
@@ -7220,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 185.42 91.44 0)
 			(effects
 				(font
@@ -7730,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -7818,7 +7455,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HSBA15810C_1")
 		(lib_id "HSBA15810C:HSBA15810C")
 		(at 86.36 69.85 0)
 		(unit 1)
@@ -8180,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 129.54 132.08 0)
 			(effects
 				(font
@@ -8312,7 +7948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -8614,7 +8250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -8746,7 +8382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100R OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -8878,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -9011,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2nF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 121.92 125.73 0)
 			(effects
 				(font
@@ -9153,7 +8789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2nF 100V X7R 0603"
+		(property "Description" "Unpolarized capacitor"
 			(at 59.69 125.73 0)
 			(effects
 				(font
@@ -9294,7 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4R7 OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -9427,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39k OHM 0603 ±1% 1/10W"
+		(property "Description" "Resistor"
 			(at 66.04 97.79 0)
 			(effects
 				(font
