@@ -1708,6 +1708,17 @@
 		)
 		(uuid "7c092d93-f5ae-4598-9f67-788310d84348")
 	)
+	(text "CAN_TX = CAN_TXRX_P\nCAN_RX = CAN_TXRX_N\n"
+		(exclude_from_sim no)
+		(at 259.08 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95258844-dbec-41b7-893a-190b07c30453")
+	)
 	(text "ROUTE AS\nDIFF PAIR\n"
 		(exclude_from_sim no)
 		(at 162.56 107.95 0)
@@ -1751,6 +1762,12 @@
 		(uuid "49480cc4-8e5d-41ee-92f6-b45ce87bbd3a")
 	)
 	(junction
+		(at 220.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa3ce6e-a89f-4e9d-b44a-58dd6d434b90")
+	)
+	(junction
 		(at 121.92 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1761,6 +1778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f04a13-7883-4e43-ba20-1012a848a114")
+	)
+	(junction
+		(at 220.98 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfebdbce-eda5-4723-a808-87175a6c14ab")
 	)
 	(no_connect
 		(at 220.98 97.79)
@@ -1826,6 +1849,46 @@
 			(color 132 0 0 1)
 		)
 		(uuid "1320102a-cde9-4a6d-a4dc-67b50c3d60b6")
+	)
+	(polyline
+		(pts
+			(xy 258.191 78.613) (xy 258.191 85.598)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1ca18c17-4a40-4285-b06c-3a2f89cce64b")
+	)
+	(polyline
+		(pts
+			(xy 282.321 78.613) (xy 258.191 78.613)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1e9514a2-4ccc-4e3d-95e0-9696cc053bb0")
+	)
+	(polyline
+		(pts
+			(xy 256.286 85.598) (xy 282.321 85.598)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1ef58a56-1d2e-4666-8070-d97b09c9b5c7")
+	)
+	(polyline
+		(pts
+			(xy 282.321 85.598) (xy 282.321 78.613)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2295d8bc-a9f3-40bd-a948-1afa4d1ad1b8")
 	)
 	(wire
 		(pts
@@ -2020,6 +2083,16 @@
 		)
 		(uuid "632fbf02-e065-4c38-a54e-34bddc3e80ce")
 	)
+	(wire
+		(pts
+			(xy 219.71 87.63) (xy 220.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65003252-0e07-4f43-8b14-267a60af8ec4")
+	)
 	(polyline
 		(pts
 			(xy 86.995 85.725) (xy 86.995 57.15)
@@ -2157,13 +2230,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 87.63) (xy 236.22 87.63)
+			(xy 219.71 85.09) (xy 220.98 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2ee2fe-062c-47ba-9550-b5d38410356e")
+		(uuid "97cb3378-ec09-4a19-ba94-5ae1fe8ee4df")
 	)
 	(wire
 		(pts
@@ -2255,6 +2328,16 @@
 		)
 		(uuid "b1773162-87a5-4e57-b10f-f2c34b189519")
 	)
+	(wire
+		(pts
+			(xy 220.98 87.63) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bc690f-9f51-47ff-a5af-0653050d8c22")
+	)
 	(polyline
 		(pts
 			(xy 86.995 57.15) (xy 175.26 57.15)
@@ -2265,16 +2348,6 @@
 			(color 132 0 0 1)
 		)
 		(uuid "b4f1312e-f5cf-4be1-b955-45639bf1a387")
-	)
-	(wire
-		(pts
-			(xy 220.98 85.09) (xy 236.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53fa340-a9d5-4a23-a535-08110f055417")
 	)
 	(wire
 		(pts
@@ -2365,6 +2438,16 @@
 			(type default)
 		)
 		(uuid "d21b2e81-8fbd-44a4-ae8b-4c48bc06e006")
+	)
+	(wire
+		(pts
+			(xy 220.98 85.09) (xy 242.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9284351-20e8-44d5-b9a5-8f01a45b91aa")
 	)
 	(wire
 		(pts
@@ -2530,8 +2613,8 @@
 		)
 		(uuid "91424be8-1606-47de-9764-9db9f27692b4")
 	)
-	(label "CAN_RX"
-		(at 223.52 87.63 0)
+	(label "CAN_TXRX_N"
+		(at 220.98 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,8 +2625,8 @@
 		)
 		(uuid "9d68d530-476e-4718-a232-5e43f296ba32")
 	)
-	(label "CAN_TX"
-		(at 223.52 85.09 0)
+	(label "CAN_TXRX_P"
+		(at 220.98 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,9 +2637,9 @@
 		)
 		(uuid "c065d293-0de8-4ff8-974b-314192527ee6")
 	)
-	(global_label "CAN_RX"
+	(global_label "CAN_TXRX_N"
 		(shape output)
-		(at 236.22 87.63 0)
+		(at 242.57 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2567,7 +2650,7 @@
 		)
 		(uuid "7fbca283-2daa-48a8-8016-4651588d9ec1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4365 87.63 0)
+			(at 257.2617 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,9 +2660,9 @@
 			)
 		)
 	)
-	(global_label "CAN_TX"
+	(global_label "CAN_TXRX_P"
 		(shape input)
-		(at 236.22 85.09 0)
+		(at 242.57 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2590,13 +2673,292 @@
 		)
 		(uuid "c6b0a52a-1123-4c26-b44b-13e174a9d51e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.1341 85.09 0)
+			(at 257.2012 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 189.23 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12aa7ab1-378f-4ab6-a22f-deadc08a29bc")
+		(property "Netclass" "CAN"
+			(at 190.627 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 27.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 189.214 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22337f80-d62f-486a-b67e-f1a716079f2e")
+		(property "Netclass" "CAN"
+			(at 190.611 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 27.924 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 237.49 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f04fa67-5bf7-4c6a-bd62-c52b7efef990")
+		(property "Netclass" "CAN"
+			(at 238.887 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 224.79 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af25bc7a-9e3b-4182-80ee-08b8f1780436")
+		(property "Netclass" "GND"
+			(at 222.25 101.473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -35.56 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 237.49 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf7961f1-ac14-4b06-bff7-b2233d85d94e")
+		(property "Netclass" "CAN"
+			(at 238.887 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 152.4 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb6bff4b-bcbf-4998-b852-02bb783e3cd2")
+		(property "Netclass" "CAN"
+			(at 153.797 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -8.89 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 100.33 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d76600cd-22fb-4a19-9022-7b49050836cc")
+		(property "Netclass" "CAN"
+			(at 101.727 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 152.3994 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dec50a53-b56d-460f-b780-a03ab9221e5c")
+		(property "Netclass" "CAN"
+			(at 153.7964 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -8.8906 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 100.33 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc997611-4fee-4f19-ae88-c15dc6e8c55f")
+		(property "Netclass" "CAN"
+			(at 101.727 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -60.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

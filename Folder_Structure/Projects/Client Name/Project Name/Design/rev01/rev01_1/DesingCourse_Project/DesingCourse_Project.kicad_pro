@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "height": 0.3,
+          "width": 0.63
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.12
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.28
         },
         {
           "gap": 0.3,
@@ -146,7 +156,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.12,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -198,6 +208,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5
       ],
@@ -505,21 +516,31 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.9,
-        "via_drill": 0.6,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.12,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.12,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -533,22 +554,22 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.0,
-        "via_drill": 0.7,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.28,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
         "via_diameter": 0.6,
@@ -559,8 +580,112 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+VDC": [
+        "Power"
+      ],
+      "/CAN/CAN_N": [
+        "CAN"
+      ],
+      "/CAN/CAN_P": [
+        "CAN"
+      ],
+      "/CAN/CONN_CAN_N": [
+        "CAN"
+      ],
+      "/CAN/CONN_CAN_P": [
+        "CAN"
+      ],
+      "/CAN/R_CAN_N": [
+        "CAN"
+      ],
+      "/CAN/R_CAN_P": [
+        "CAN"
+      ],
+      "/USB-C/USB-C_N": [
+        "USB"
+      ],
+      "/USB-C/USB-C_P": [
+        "USB"
+      ],
+      "CAN_TXRX_N": [
+        "CAN"
+      ],
+      "CAN_TXRX_P": [
+        "CAN"
+      ],
+      "GND": [
+        "GND"
+      ],
+      "USB_N": [
+        "USB"
+      ],
+      "USB_P": [
+        "USB"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "USB-C_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB-C_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CONN_CAN_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CONN_CAN_N"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "R_CAN_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "R_CAN_N"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_N"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_TX"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_RX"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+VDC"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "USB_N"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

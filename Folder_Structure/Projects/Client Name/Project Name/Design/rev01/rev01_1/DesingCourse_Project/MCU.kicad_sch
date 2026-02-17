@@ -5507,6 +5507,17 @@
 		)
 		(uuid "5ed5e149-62f4-4eea-870a-f0112536156b")
 	)
+	(text "CAN_TX = CAN_TXRX_P\nCAN_RX = CAN_TXRX_N\n"
+		(exclude_from_sim no)
+		(at 245.999 20.447 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ec0cfde-9d20-4541-b764-a4949c3cfc44")
+	)
 	(text "WHEN:\nVDC = 60V =>\nAN_IN = 3V204"
 		(exclude_from_sim no)
 		(at 31.242 130.302 0)
@@ -6711,16 +6722,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 35.56) (xy 261.62 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3c3aad-91cf-42ae-b377-be0e69b39cac")
-	)
-	(wire
-		(pts
 			(xy 88.9 171.45) (xy 88.9 177.8)
 		)
 		(stroke
@@ -7279,6 +7280,16 @@
 		)
 		(uuid "927ac4e6-a597-4fa1-a8b5-d92f5b30f864")
 	)
+	(polyline
+		(pts
+			(xy 245.11 16.51) (xy 245.11 23.495)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "92c2975b-94bb-40a6-b416-737ef9802f12")
+	)
 	(wire
 		(pts
 			(xy 29.21 191.77) (xy 57.15 191.77)
@@ -7551,6 +7562,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 34.29) (xy 259.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b848bf11-6ce7-4a9d-b022-61689f810264")
+	)
+	(wire
+		(pts
 			(xy 30.48 39.37) (xy 44.45 39.37)
 		)
 		(stroke
@@ -7779,6 +7800,16 @@
 		)
 		(uuid "ce639a1a-8ce9-4170-ab8a-d66ed31b7bd9")
 	)
+	(polyline
+		(pts
+			(xy 269.24 16.51) (xy 245.11 16.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ce7e0efa-e2f5-449d-b1f4-e79e11bb1da1")
+	)
 	(wire
 		(pts
 			(xy 184.15 120.65) (xy 196.85 120.65)
@@ -7971,16 +8002,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 33.02) (xy 261.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "defae579-711a-4ba0-9c6b-fdd9c3adabc4")
-	)
-	(wire
-		(pts
 			(xy 29.21 186.69) (xy 57.15 186.69)
 		)
 		(stroke
@@ -7988,6 +8009,16 @@
 			(type default)
 		)
 		(uuid "df491b18-a0f4-4f3a-8682-483ea0ecebc2")
+	)
+	(wire
+		(pts
+			(xy 243.84 36.83) (xy 259.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24d13d2-41f0-44df-ae8c-8fdf8ba0927d")
 	)
 	(wire
 		(pts
@@ -8138,6 +8169,16 @@
 			(type default)
 		)
 		(uuid "ed52aafe-2b8c-43ac-9fcd-8ecf547c0567")
+	)
+	(polyline
+		(pts
+			(xy 243.205 23.495) (xy 269.24 23.495)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ef7680d5-7815-4b58-b057-0b700e98ab01")
 	)
 	(wire
 		(pts
@@ -8401,6 +8442,18 @@
 		)
 		(uuid "0efac68e-2665-453e-bdf8-e5a7ae1943af")
 	)
+	(label "CAN_TXRX_P"
+		(at 184.15 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "13334e9f-57a9-486c-94ee-7a12cd5be9bf")
+	)
 	(label "P5V_COM"
 		(at 41.91 171.45 0)
 		(effects
@@ -8569,18 +8622,6 @@
 		)
 		(uuid "425b7471-d7f3-4a09-9179-414f6331abca")
 	)
-	(label "CAN_TX"
-		(at 184.15 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4265a420-5c18-4d50-a2cf-f16e666e3ae9")
-	)
 	(label "USB_N"
 		(at 38.1 62.23 0)
 		(effects
@@ -8590,6 +8631,18 @@
 			(justify left bottom)
 		)
 		(uuid "44629f48-e7ac-40d8-8d22-4318a6b8bb16")
+	)
+	(label "CAN_TXRX_P"
+		(at 243.84 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "456536ee-40e5-4133-9e94-457ee1652a49")
 	)
 	(label "Node5"
 		(at 107.95 102.87 180)
@@ -8708,18 +8761,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ef569d5-c852-4a90-8ff3-9f6ab7e402b9")
-	)
-	(label "CAN_TX"
-		(at 248.92 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fca51f5-86dd-4966-9977-1de4fe1f6f5d")
 	)
 	(label "PH1_P"
 		(at 134.62 67.31 0)
@@ -8907,6 +8948,18 @@
 		)
 		(uuid "934e2e74-6ff1-42cc-bf0b-d16717801bb4")
 	)
+	(label "CAN_TXRX_N"
+		(at 243.84 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "947df87f-874c-47b5-a2ea-d42c5d73ac83")
+	)
 	(label "DC_CAL"
 		(at 248.92 41.91 0)
 		(effects
@@ -8930,6 +8983,18 @@
 			(justify left bottom)
 		)
 		(uuid "97ab8dcc-ef61-455b-8f17-18cea6c36263")
+	)
+	(label "CAN_TXRX_N"
+		(at 184.15 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "993ce725-1dc4-4d4f-ad22-9f5c4382fa24")
 	)
 	(label "H2"
 		(at 248.92 62.23 0)
@@ -8966,18 +9031,6 @@
 			(justify left bottom)
 		)
 		(uuid "a82331a8-9985-4c5d-b1c8-4d707f01b072")
-	)
-	(label "CAN_RX"
-		(at 184.15 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab771dd3-c358-4452-8788-4acdc1d9fa8b")
 	)
 	(label "H2"
 		(at 184.15 77.47 0)
@@ -9106,18 +9159,6 @@
 			(justify left bottom)
 		)
 		(uuid "d72fb884-e87a-419a-9fc6-01b4ee5ce65c")
-	)
-	(label "CAN_RX"
-		(at 248.92 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8baf4c0-1c06-47a4-a606-572713f75101")
 	)
 	(label "SENS2"
 		(at 30.48 50.8 0)
@@ -9471,6 +9512,29 @@
 			)
 		)
 	)
+	(global_label "CAN_TXRX_N"
+		(shape output)
+		(at 259.08 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "444838e4-39ae-488e-8b11-8c73de2e5f02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.7717 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_P"
 		(shape bidirectional)
 		(at 35.56 64.77 180)
@@ -9506,29 +9570,6 @@
 		(uuid "50fcf101-fe7f-42af-b36b-2fa080077e11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 266.9379 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TX"
-		(shape output)
-		(at 261.62 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "61f7cbeb-c9f3-42e3-aab3-34fd7f13ffdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.5341 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,29 +9799,6 @@
 			)
 		)
 	)
-	(global_label "CAN_RX"
-		(shape input)
-		(at 261.62 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "ea5d69aa-b71d-4770-9694-2e5144cedc7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.8365 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HALL_3_OUT"
 		(shape input)
 		(at 30.48 31.75 180)
@@ -9799,6 +9817,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TXRX_P"
+		(shape input)
+		(at 259.08 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "ff96f9a3-403d-4dbf-907f-8f82c68c1d51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.7112 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

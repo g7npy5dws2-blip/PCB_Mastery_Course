@@ -1416,6 +1416,37 @@
 		)
 		(uuid "b29b3790-c12b-4240-845c-42961aebc61c")
 	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 184.15 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ff0c9b5-4685-4d89-b93b-caa5bc9b6a65")
+		(property "Netclass" "Power"
+			(at 185.547 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 22.86 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 193.04 80.01 0)

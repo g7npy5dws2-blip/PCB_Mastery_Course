@@ -2075,6 +2075,130 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 154.94 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69920a2d-1b24-40af-8aad-67d181369c4f")
+		(property "Netclass" "USB"
+			(at 156.337 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 133.35 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a610e0c-86c4-4391-9ab2-3eb6dc3ca36b")
+		(property "Netclass" "USB"
+			(at 134.747 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 154.94 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "868fd644-3bd9-4c01-a514-3530d964f80b")
+		(property "Netclass" "USB"
+			(at 156.337 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -6.35 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 133.35 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbd7c38b-3393-4d0a-9226-c9ba83ff7018")
+		(property "Netclass" "USB"
+			(at 134.747 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "TYPE-C-31-M-12:TYPE-C-31-M-12")
 		(at 96.52 78.74 0)
