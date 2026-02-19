@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -74,7 +74,20 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|128375000|177450000|341cbce5-4772-4492-b615-eb462cb42ac2|a2a0e99d-3d4e-45aa-bdfa-860eab9bf978",
+          "Short on the layer indicator, so it is no issue."
+        ],
+        [
+          "shorting_items|128375000|182950000|33b9a2ce-e1b9-4c4c-bb90-d08144b6cf0c|a2a0e99d-3d4e-45aa-bdfa-860eab9bf978",
+          "Short on the layer indicator, so it is no issue."
+        ],
+        [
+          "shorting_items|128475000|180250000|a2a0e99d-3d4e-45aa-bdfa-860eab9bf978|d97c237c-91ff-431c-8ef9-2890a1fb695d",
+          "Short on the layer indicator, so it is no issue."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -145,7 +158,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.12,
-        "min_copper_edge_clearance": 0.05,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
